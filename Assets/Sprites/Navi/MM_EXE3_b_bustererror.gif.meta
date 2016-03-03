@@ -1,9 +1,38 @@
 fileFormatVersion: 2
 guid: b8e937b80eade4c41a9914f9a5cb8344
-timeCreated: 1456964068
+timeCreated: 1456965265
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MM_EXE3_b_bustererror_0
+    21300002: MM_EXE3_b_bustererror_1
+    21300004: MM_EXE3_b_bustererror_2
+    21300006: MM_EXE3_b_bustererror_3
+    21300008: MM_EXE3_b_bustererror_4
+    21300010: MM_EXE3_b_bustererror_5
+    21300012: MM_EXE3_b_bustererror_6
+    21300014: MM_EXE3_b_bustererror_8
+    21300016: MM_EXE3_b_bustererror_10
+    21300018: MM_EXE3_b_bustererror_11
+    21300020: MM_EXE3_b_bustererror_12
+    21300022: MM_EXE3_b_bustererror_13
+    21300024: MM_EXE3_b_bustererror_14
+    21300026: MM_EXE3_b_bustererror_15
+    21300028: MM_EXE3_b_bustererror_16
+    21300030: MM_EXE3_b_bustererror_17
+    21300032: MM_EXE3_b_bustererror_21
+    21300034: MM_EXE3_b_bustererror_22
+    21300036: MM_EXE3_b_bustererror_28
+    21300038: MM_EXE3_b_bustererror_29
+    21300040: MM_EXE3_b_bustererror_30
+    21300042: MM_EXE3_b_bustererror_31
+    21300044: MM_EXE3_b_bustererror_32
+    21300046: MM_EXE3_b_bustererror_33
+    21300048: MM_EXE3_b_bustererror_34
+    21300050: MM_EXE3_b_bustererror_35
+    21300052: MM_EXE3_b_bustererror_36
+    21300054: MM_EXE3_b_bustererror_37
+    21300056: MM_EXE3_b_bustererror_7
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +59,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +67,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +78,587 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: MM_EXE3_b_bustererror_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 299
+        width: 60
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13, y: 22}
+        - {x: -19, y: 22}
+        - {x: -30, y: 3}
+        - {x: -30, y: -22}
+        - {x: 5, y: -22}
+        - {x: 30, y: 6}
+        - {x: 30, y: 12}
+    - name: MM_EXE3_b_bustererror_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 299
+        width: 70
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -25, y: 22}
+        - {x: -35, y: 3}
+        - {x: -35, y: -22}
+        - {x: 7, y: -22}
+        - {x: 35, y: -11}
+        - {x: 35, y: 11}
+        - {x: 12, y: 22}
+    - name: MM_EXE3_b_bustererror_2
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 299
+        width: 77
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -24.5, y: 22}
+        - {x: -28.5, y: 19}
+        - {x: -38.5, y: -11}
+        - {x: -38.5, y: -22}
+        - {x: 21.5, y: -22}
+        - {x: 38.5, y: -17}
+        - {x: 38.5, y: 13}
+        - {x: 20.5, y: 22}
+    - name: MM_EXE3_b_bustererror_3
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 299
+        width: 81
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1.5, y: 22}
+        - {x: -31.5, y: 22}
+        - {x: -40.5, y: 4}
+        - {x: -40.5, y: -22}
+        - {x: -5.5, y: -22}
+        - {x: 7.5, y: -3}
+        - {x: 7.5, y: 16}
+      - - {x: 35.5, y: 9}
+        - {x: 30.5, y: 10}
+        - {x: 28.5, y: 9}
+        - {x: 28.5, y: 7}
+        - {x: 37.5, y: -6}
+        - {x: 40.5, y: -6}
+        - {x: 40.5, y: 3}
+        - {x: 37.5, y: 6}
+      - - {x: 8.5, y: 12}
+        - {x: 8.5, y: 8}
+        - {x: 9.5, y: 7}
+        - {x: 24.5, y: 7}
+        - {x: 26.5, y: 9}
+        - {x: 25.5, y: 12}
+    - name: MM_EXE3_b_bustererror_4
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 299
+        width: 83
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -2.5, y: 22}
+        - {x: -32.5, y: 22}
+        - {x: -41.5, y: 4}
+        - {x: -41.5, y: -22}
+        - {x: -6.5, y: -22}
+        - {x: 6.5, y: -3}
+        - {x: 6.5, y: 16}
+      - - {x: 37.5, y: 1}
+        - {x: 37.5, y: -6}
+        - {x: 39.5, y: -8}
+        - {x: 41.5, y: -8}
+        - {x: 41.5, y: 1}
+    - name: MM_EXE3_b_bustererror_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 224
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 21.5}
+        - {x: -25.5, y: 16.5}
+        - {x: -36.5, y: -5.5}
+        - {x: -36.5, y: -24.5}
+        - {x: 8.5, y: -24.5}
+        - {x: 36.5, y: -9.5}
+        - {x: 36.5, y: 8.5}
+        - {x: -1.5, y: 21.5}
+    - name: MM_EXE3_b_bustererror_6
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 218
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: -9}
+        - {x: 1.5, y: -25}
+        - {x: 36.5, y: -25}
+        - {x: 36.5, y: -9}
+      - - {x: -24.5, y: 25}
+        - {x: -33.5, y: 18}
+        - {x: -36.5, y: -2}
+        - {x: -36.5, y: -21}
+        - {x: -12.5, y: -21}
+        - {x: 36.5, y: -2}
+        - {x: 36.5, y: 17}
+        - {x: 6.5, y: 25}
+    - name: MM_EXE3_b_bustererror_8
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 218
+        width: 73
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.5, y: -11}
+        - {x: 2.5, y: -24}
+        - {x: 3.5, y: -25}
+        - {x: 36.5, y: -25}
+        - {x: 36.5, y: -9}
+        - {x: 4.5, y: -9}
+      - - {x: 36.5, y: -7}
+        - {x: 36.5, y: 18}
+        - {x: 7.5, y: 25}
+        - {x: -21.5, y: 25}
+        - {x: -24.5, y: 22}
+        - {x: -36.5, y: -9}
+        - {x: -36.5, y: -21}
+        - {x: -18.5, y: -21}
+        - {x: -3.5, y: -17}
+        - {x: -0.5, y: -9}
+        - {x: 4.5, y: -10}
+    - name: MM_EXE3_b_bustererror_10
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 219
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 24.5}
+        - {x: -24.5, y: 21.5}
+        - {x: -36.5, y: -5.5}
+        - {x: -36.5, y: -24.5}
+        - {x: 36.5, y: -24.5}
+        - {x: 36.5, y: 17.5}
+        - {x: 7.5, y: 24.5}
+    - name: MM_EXE3_b_bustererror_11
+      rect:
+        serializedVersion: 2
+        x: 427
+        y: 218
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21.5, y: 24.5}
+        - {x: -24.5, y: 21.5}
+        - {x: -36.5, y: -5.5}
+        - {x: -36.5, y: -24.5}
+        - {x: 36.5, y: -24.5}
+        - {x: 36.5, y: 17.5}
+        - {x: 7.5, y: 24.5}
+    - name: MM_EXE3_b_bustererror_12
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 218
+        width: 73
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 3.5, y: 24.5}
+        - {x: -20.5, y: 24.5}
+        - {x: -24.5, y: 21.5}
+        - {x: -36.5, y: -5.5}
+        - {x: -36.5, y: -24.5}
+        - {x: 36.5, y: -24.5}
+        - {x: 36.5, y: 15.5}
+        - {x: 34.5, y: 17.5}
+    - name: MM_EXE3_b_bustererror_13
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 174
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MM_EXE3_b_bustererror_14
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 170
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MM_EXE3_b_bustererror_15
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 168
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MM_EXE3_b_bustererror_16
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 168
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MM_EXE3_b_bustererror_17
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 165
+        width: 32
+        height: 32
+      alignment: 9
+      pivot: {x: 0.5, y: 0.49999952}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16.000015}
+        - {x: -16, y: 2.0000153}
+        - {x: -16, y: -6.9999847}
+        - {x: -5, y: -15.999985}
+        - {x: 8, y: -15.999985}
+        - {x: 16, y: -9.999985}
+        - {x: 16, y: 5.0000153}
+        - {x: 10, y: 16.000015}
+    - name: MM_EXE3_b_bustererror_21
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 167
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 1}
+        - {x: -16, y: 0}
+        - {x: -16, y: -11}
+        - {x: -11, y: -16}
+        - {x: -4, y: -16}
+        - {x: -4, y: -10}
+        - {x: -10, y: 1}
+      - - {x: 16, y: -2}
+        - {x: 13, y: 3}
+        - {x: 10, y: 3}
+        - {x: 8, y: 2}
+        - {x: 2, y: -15}
+        - {x: 3, y: -16}
+        - {x: 9, y: -16}
+        - {x: 15, y: -10}
+        - {x: 16, y: -7}
+      - - {x: -2, y: -6}
+        - {x: -2, y: -9}
+        - {x: -1, y: -11}
+        - {x: 1, y: -11}
+        - {x: 4, y: -8}
+        - {x: 3, y: -5}
+        - {x: 0, y: -5}
+      - - {x: 6, y: -5}
+        - {x: 9, y: -4}
+        - {x: 9, y: -1}
+        - {x: 6, y: 0}
+        - {x: 4, y: -2}
+      - - {x: -3, y: -2}
+        - {x: 0, y: -1}
+        - {x: 0, y: 2}
+        - {x: -3, y: 3}
+        - {x: -5, y: 1}
+      - - {x: -13, y: 1}
+        - {x: -10, y: 2}
+        - {x: -10, y: 5}
+        - {x: -13, y: 6}
+        - {x: -15, y: 4}
+      - - {x: -1, y: 15}
+        - {x: -4, y: 12}
+        - {x: -3, y: 9}
+        - {x: 4, y: 9}
+        - {x: 0, y: 4}
+        - {x: 0, y: 3}
+        - {x: 2, y: 1}
+        - {x: 7, y: 1}
+        - {x: 11, y: 4}
+        - {x: 11, y: 12}
+        - {x: 7, y: 15}
+      - - {x: -12, y: 14}
+        - {x: -12, y: 10}
+        - {x: -11, y: 8}
+        - {x: -8, y: 8}
+        - {x: -4, y: 12}
+        - {x: -5, y: 15}
+        - {x: -9, y: 15}
+    - name: MM_EXE3_b_bustererror_22
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 178
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MM_EXE3_b_bustererror_28
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 103
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 23}
+        - {x: -24.5, y: 15}
+        - {x: -24.5, y: -23}
+        - {x: 22.5, y: -23}
+        - {x: 24.5, y: -21}
+        - {x: 24.5, y: 17}
+        - {x: 22.5, y: 23}
+    - name: MM_EXE3_b_bustererror_29
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 103
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 23}
+        - {x: -24.5, y: 3}
+        - {x: -24.5, y: -23}
+        - {x: 20.5, y: -23}
+        - {x: 24.5, y: -19}
+        - {x: 24.5, y: 17}
+        - {x: 22.5, y: 23}
+    - name: MM_EXE3_b_bustererror_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 103
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 23}
+        - {x: -24.5, y: 3}
+        - {x: -24.5, y: -23}
+        - {x: 20.5, y: -23}
+        - {x: 24.5, y: -19}
+        - {x: 24.5, y: 17}
+        - {x: 22.5, y: 23}
+    - name: MM_EXE3_b_bustererror_31
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 102
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14.5, y: 23}
+        - {x: -24.5, y: 3}
+        - {x: -24.5, y: -23}
+        - {x: 20.5, y: -23}
+        - {x: 24.5, y: -19}
+        - {x: 24.5, y: 17}
+        - {x: 22.5, y: 23}
+    - name: MM_EXE3_b_bustererror_32
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 102
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 23}
+        - {x: -16.5, y: 23}
+        - {x: -24.5, y: 15}
+        - {x: -24.5, y: -23}
+        - {x: 18.5, y: -23}
+        - {x: 24.5, y: -14}
+        - {x: 24.5, y: 22}
+    - name: MM_EXE3_b_bustererror_33
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 102
+        width: 49
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: 23}
+        - {x: -16.5, y: 23}
+        - {x: -24.5, y: 15}
+        - {x: -24.5, y: -23}
+        - {x: 18.5, y: -23}
+        - {x: 24.5, y: -14}
+        - {x: 24.5, y: 22}
+    - name: MM_EXE3_b_bustererror_34
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 30
+        width: 69
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -22.5, y: 22}
+        - {x: -26.5, y: 13}
+        - {x: -34.5, y: -11}
+        - {x: -34.5, y: -22}
+        - {x: 1.5, y: -22}
+        - {x: 34.5, y: 0}
+        - {x: 34.5, y: 21}
+        - {x: 28.5, y: 22}
+    - name: MM_EXE3_b_bustererror_35
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 30
+        width: 72
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 22}
+        - {x: -36, y: 5}
+        - {x: -36, y: -22}
+        - {x: 8, y: -22}
+        - {x: 36, y: -11}
+        - {x: 36, y: 17}
+        - {x: 23, y: 22}
+    - name: MM_EXE3_b_bustererror_36
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 11
+        width: 26
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MM_EXE3_b_bustererror_37
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 7
+        width: 26
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MM_EXE3_b_bustererror_7
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 165
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 16}
+        - {x: -11, y: 14}
+        - {x: -11, y: 11}
+        - {x: -8, y: 7}
+        - {x: -7, y: 7}
+        - {x: -3, y: -1}
+        - {x: -12, y: 12}
+        - {x: -16, y: 4}
+        - {x: -16, y: -9}
+        - {x: -8, y: -16}
+        - {x: 12, y: -16}
+        - {x: 16, y: -9}
+        - {x: 16, y: 9}
+        - {x: 9, y: 16}
+      - - {x: -2, y: -3}
+        - {x: -2, y: -8}
+        - {x: 0, y: -9}
+        - {x: 4, y: -9}
+        - {x: 5, y: -7}
+        - {x: 5, y: -4}
+        - {x: 3, y: -3}
+      - - {x: -2, y: -1}
+        - {x: 1, y: 0}
+        - {x: 1, y: 3}
+        - {x: -2, y: 4}
+        - {x: -4, y: 2}
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: c1c996602b9581849b078aa5e33d96e3
-timeCreated: 1456964068
+timeCreated: 1456965286
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MM_EXE3_b_kick_0
+    21300002: MM_EXE3_b_kick_1
+    21300004: MM_EXE3_b_kick_2
+    21300006: MM_EXE3_b_kick_3
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +42,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +53,91 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: MM_EXE3_b_kick_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2
+        width: 42
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19, y: 17.5}
+        - {x: -21, y: 14.5}
+        - {x: -21, y: -15.5}
+        - {x: -20, y: -17.5}
+        - {x: 14, y: -17.5}
+        - {x: 21, y: -15.5}
+        - {x: 21, y: 11.5}
+        - {x: 6, y: 17.5}
+    - name: MM_EXE3_b_kick_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 2
+        width: 44
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3, y: 16}
+        - {x: -18, y: 16}
+        - {x: -22, y: 11}
+        - {x: -22, y: -4}
+        - {x: -15, y: -16}
+        - {x: 17, y: -16}
+        - {x: 22, y: -15}
+        - {x: 22, y: 8}
+        - {x: 15, y: 11}
+    - name: MM_EXE3_b_kick_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 2
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 27, y: -4}
+        - {x: 27, y: 19}
+        - {x: -27, y: 19}
+        - {x: -27, y: -6}
+        - {x: -22, y: -19}
+        - {x: -1, y: -19}
+        - {x: 11, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: -11}
+        - {x: 13, y: -7}
+    - name: MM_EXE3_b_kick_3
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 2
+        width: 54
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12, y: -8}
+        - {x: 26, y: -2}
+        - {x: 27, y: -1}
+        - {x: 27, y: 14}
+        - {x: 20, y: 19}
+        - {x: -25, y: 19}
+        - {x: -27, y: 12}
+        - {x: -27, y: -10}
+        - {x: -20, y: -19}
+        - {x: -2, y: -19}
+        - {x: 11, y: -16}
+        - {x: 15, y: -13}
+        - {x: 15, y: -11}
     outline: []
   spritePackingTag: 
   userData: 

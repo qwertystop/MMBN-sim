@@ -1,9 +1,12 @@
 fileFormatVersion: 2
 guid: aa930ccddee8ef54aa50a4a44b466c1a
-timeCreated: 1456964068
+timeCreated: 1456964729
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MM_EXE2_b_antidmg_0
+    21300002: MM_EXE2_b_antidmg_1
+    21300004: MM_EXE2_b_antidmg_2
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +33,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +41,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +52,69 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: MM_EXE2_b_antidmg_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 13.5, y: 0}
+        - {x: 17.5, y: 0}
+        - {x: 17.5, y: 22}
+        - {x: 0.5, y: 22}
+        - {x: -11.5, y: 15}
+        - {x: -17.5, y: -4}
+        - {x: -17.5, y: -22}
+        - {x: 6.5, y: -22}
+        - {x: 17.5, y: -5}
+        - {x: 17.5, y: -4}
+    - name: MM_EXE2_b_antidmg_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 4
+        width: 54
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -7, y: 22}
+        - {x: -11, y: 20}
+        - {x: -27, y: -10}
+        - {x: -27, y: -22}
+        - {x: 2, y: -22}
+        - {x: 27, y: -8}
+        - {x: 27, y: 11}
+        - {x: 19, y: 22}
+    - name: MM_EXE2_b_antidmg_2
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 4
+        width: 57
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.5, y: 22}
+        - {x: -16.5, y: 9}
+        - {x: -17.5, y: 6}
+        - {x: -16.5, y: 3}
+        - {x: -23.5, y: -5}
+        - {x: -28.5, y: -12}
+        - {x: -28.5, y: -22}
+        - {x: 4.5, y: -22}
+        - {x: 28.5, y: 0}
+        - {x: 28.5, y: 12}
+        - {x: 11.5, y: 22}
     outline: []
   spritePackingTag: 
   userData: 

@@ -1,9 +1,14 @@
 fileFormatVersion: 2
 guid: d1c79c75823c0e34cb02e508f27a2bab
-timeCreated: 1456964068
+timeCreated: 1456964823
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MM_EXE3_b_bugged_0
+    21300002: MM_EXE3_b_bugged_1
+    21300004: MM_EXE3_b_bugged_2
+    21300006: MM_EXE3_b_bugged_3
+    21300008: MM_EXE3_b_bugged_4
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +35,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +43,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +54,97 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: MM_EXE3_b_bugged_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 3
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13, y: 22.5}
+        - {x: -17, y: -7.5}
+        - {x: -17, y: -22.5}
+        - {x: 3, y: -22.5}
+        - {x: 17, y: -18.5}
+        - {x: 17, y: 16.5}
+        - {x: 14, y: 22.5}
+    - name: MM_EXE3_b_bugged_1
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 3
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 22.5}
+        - {x: -12, y: 21.5}
+        - {x: -17, y: -9.5}
+        - {x: -17, y: -22.5}
+        - {x: 0, y: -22.5}
+        - {x: 17, y: -19.5}
+        - {x: 17, y: 22.5}
+    - name: MM_EXE3_b_bugged_2
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 3
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 22.5}
+        - {x: -12, y: 21.5}
+        - {x: -17, y: -6.5}
+        - {x: -17, y: -22.5}
+        - {x: 0, y: -22.5}
+        - {x: 17, y: -19.5}
+        - {x: 17, y: 22.5}
+    - name: MM_EXE3_b_bugged_3
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 3
+        width: 34
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 22.5}
+        - {x: -17, y: 4.5}
+        - {x: -17, y: -22.5}
+        - {x: 0, y: -22.5}
+        - {x: 17, y: -19.5}
+        - {x: 17, y: 18.5}
+        - {x: 14, y: 22.5}
+    - name: MM_EXE3_b_bugged_4
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 3
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.5, y: 22.5}
+        - {x: -17.5, y: -7.5}
+        - {x: -17.5, y: -22.5}
+        - {x: 3.5, y: -22.5}
+        - {x: 17.5, y: -20.5}
+        - {x: 17.5, y: 20.5}
+        - {x: 15.5, y: 22.5}
     outline: []
   spritePackingTag: 
   userData: 

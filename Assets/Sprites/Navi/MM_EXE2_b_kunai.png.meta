@@ -1,9 +1,18 @@
 fileFormatVersion: 2
 guid: 15d7146774b11e8419771f8fc09c47c2
-timeCreated: 1456964067
+timeCreated: 1456964806
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: MM_EXE2_b_kunai_0
+    21300002: MM_EXE2_b_kunai_1
+    21300004: MM_EXE2_b_kunai_2
+    21300006: MM_EXE2_b_kunai_3
+    21300008: MM_EXE2_b_kunai_4
+    21300010: MM_EXE2_b_kunai_5
+    21300012: MM_EXE2_b_kunai_6
+    21300014: MM_EXE2_b_kunai_7
+    21300016: MM_EXE2_b_kunai_8
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +39,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +47,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +58,166 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: MM_EXE2_b_kunai_0
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 10
+        width: 37
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18.5, y: 22}
+        - {x: -18.5, y: -22}
+        - {x: 18.5, y: -22}
+        - {x: 18.5, y: 22}
+    - name: MM_EXE2_b_kunai_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 10
+        width: 60
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 21, y: 21.5}
+        - {x: -30, y: 21.5}
+        - {x: -30, y: -21.5}
+        - {x: -4, y: -21.5}
+        - {x: 13, y: -16.5}
+        - {x: 30, y: 1.5}
+        - {x: 30, y: 15.5}
+    - name: MM_EXE2_b_kunai_2
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 10
+        width: 61
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -17.5, y: 21}
+        - {x: -30.5, y: -3}
+        - {x: -30.5, y: -21}
+        - {x: -1.5, y: -21}
+        - {x: 10.5, y: -20}
+        - {x: 30.5, y: 6}
+        - {x: 30.5, y: 17}
+        - {x: 20.5, y: 21}
+    - name: MM_EXE2_b_kunai_3
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 10
+        width: 60
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -18, y: 21}
+        - {x: -30, y: -2}
+        - {x: -30, y: -19}
+        - {x: -28, y: -21}
+        - {x: 16, y: -21}
+        - {x: 30, y: -2}
+        - {x: 30, y: 21}
+    - name: MM_EXE2_b_kunai_4
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 10
+        width: 56
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 21}
+        - {x: -28, y: 5}
+        - {x: -28, y: -19}
+        - {x: -26, y: -21}
+        - {x: 19, y: -21}
+        - {x: 28, y: -3}
+        - {x: 28, y: 21}
+    - name: MM_EXE2_b_kunai_5
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 10
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 21.5}
+        - {x: -10, y: 20.5}
+        - {x: -18, y: -10.5}
+        - {x: -18, y: -21.5}
+        - {x: 5, y: -21.5}
+        - {x: 18, y: -18.5}
+        - {x: 18, y: 21.5}
+    - name: MM_EXE2_b_kunai_6
+      rect:
+        serializedVersion: 2
+        x: 345
+        y: 10
+        width: 36
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 21}
+        - {x: -7, y: 20}
+        - {x: -18, y: -12}
+        - {x: -18, y: -21}
+        - {x: 17, y: -21}
+        - {x: 18, y: -20}
+        - {x: 18, y: 21}
+    - name: MM_EXE2_b_kunai_7
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 10
+        width: 36
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -8, y: 21.5}
+        - {x: -10, y: 20.5}
+        - {x: -18, y: -10.5}
+        - {x: -18, y: -21.5}
+        - {x: 5, y: -21.5}
+        - {x: 18, y: -18.5}
+        - {x: 18, y: 21.5}
+    - name: MM_EXE2_b_kunai_8
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 10
+        width: 34
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -6, y: 22}
+        - {x: -17, y: 1}
+        - {x: -17, y: -22}
+        - {x: 3, y: -22}
+        - {x: 17, y: -18}
+        - {x: 17, y: 22}
     outline: []
   spritePackingTag: 
   userData: 
