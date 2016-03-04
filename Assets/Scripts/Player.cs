@@ -6,6 +6,7 @@ class Player : MonoBehaviour {
 
     public int playerNo = 0;
     public int currentPanelIndex = 7;
+    public bool redToMove = true;// ie can only move to red squares, the default
     int nextMove = 0; // 0 = none; 1 = up; 2 = down; 3 = left; 4 = right.
     public int moveTimer = -1;
     public int moveCoolDownTime = 9;
@@ -37,38 +38,42 @@ class Player : MonoBehaviour {
 
     // actually move
     private void Move() {
+        // all the stuff to do to move is exactly the same except for the edge-of-area check and the int
+        Utilities.intVoid mover = x =>
+        {
+            GameObject target = Controller.gameCore.panels[currentPanelIndex + x];
+            if (target.GetComponent<Panel>().isRed == redToMove)
+            {
+                MovingNow(true);
+                currentPanelIndex = currentPanelIndex + x;
+                GetComponentInParent<Transform>().transform.position = target.transform.position;
+            }
+        };
+
         switch (nextMove)
         {
             case 1: // up
                 if (currentPanelIndex > 6)
                 {
-                    MovingNow(true);
-                    currentPanelIndex = currentPanelIndex - 6;
-                    GetComponentInParent<Transform>().transform.position = Controller.gameCore.panels[currentPanelIndex].transform.position;
+                    mover(-6);
                 }
                 break;
             case 2: // down
                 if (currentPanelIndex < 12)
                 {
-                    MovingNow(true);
-                    currentPanelIndex = currentPanelIndex + 6;
-                    GetComponentInParent<Transform>().transform.position = Controller.gameCore.panels[currentPanelIndex].transform.position;
+                    mover(6);
                 }
                 break;
             case 3: // left
                 if ((currentPanelIndex % 6) > 0)
                 {
-                    MovingNow(true);
-                    currentPanelIndex = currentPanelIndex - 1;
-                    GetComponentInParent<Transform>().transform.position = Controller.gameCore.panels[currentPanelIndex].transform.position;
+                    mover(-1);
                 }
                 break;
             case 4: // right
                 if ((currentPanelIndex % 6) < 5)
                 {
-                    MovingNow(true);
-                    currentPanelIndex = currentPanelIndex + 1;
-                    GetComponentInParent<Transform>().transform.position = Controller.gameCore.panels[currentPanelIndex].transform.position;
+                    mover(1);
                 }
                 break;
         }// default is do nothing
