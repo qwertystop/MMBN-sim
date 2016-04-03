@@ -1,5 +1,4 @@
 ﻿using UnityEngine;
-using System.Collections;
 using System;
 
 class Player : MonoBehaviour {
@@ -92,5 +91,14 @@ class Player : MonoBehaviour {
             justMoved = true;
         }
         nextMove = 0;
+    }
+
+    // animates this player across the given list of sprites at a rate of one per frame
+    System.Collections.IEnumerator animate(System.Collections.Generic.IList<Sprite> sprites) {
+        SpriteRenderer spriteRenderer = GetComponentInParent<SpriteRenderer>();
+        foreach (Sprite s in sprites) {
+            spriteRenderer.sprite = s;
+            yield return 0;
+        }
     }
 }
