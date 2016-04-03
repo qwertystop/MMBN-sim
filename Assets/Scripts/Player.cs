@@ -11,6 +11,11 @@ class Player : MonoBehaviour {
     public int moveCoolDownTime = 9;
     bool justMoved = false;
 
+    // a list of sprites to loop through, at one per frame
+    public System.Collections.Generic.LinkedList<Sprite> sprites;
+    // the idle animation
+    public System.Collections.Generic.LinkedList<Sprite> idleAnim;
+
     void Start() {
       //  transform.position = Controller.gameCore.panels[currentPanelIndex].transform.position;
     }
@@ -94,11 +99,17 @@ class Player : MonoBehaviour {
     }
 
     // animates this player across the given list of sprites at a rate of one per frame
-    System.Collections.IEnumerator animate(System.Collections.Generic.IList<Sprite> sprites) {
+    System.Collections.IEnumerator animate() {
         SpriteRenderer spriteRenderer = GetComponentInParent<SpriteRenderer>();
-        foreach (Sprite s in sprites) {
-            spriteRenderer.sprite = s;
-            yield return 0;
+        while(true)
+        {
+            foreach (Sprite s in sprites)
+            {
+                spriteRenderer.sprite = s;
+                yield return 0;
+            }
+            // now sprites is empty, reset it to idle animation
+            sprites = new System.Collections.Generic.LinkedList<Sprite>(idleAnim);
         }
     }
 }
