@@ -12,9 +12,10 @@ class Player : MonoBehaviour {
     bool justMoved = false;
 
     // a list of sprites to loop through, at one per frame
-    public System.Collections.Generic.LinkedList<Sprite> sprites;
+    // set it to a different animation to immediately switch, append to the end to queue something up.
+    public System.Collections.Generic.Queue<Sprite> sprites;
     // the idle animation
-    public System.Collections.Generic.LinkedList<Sprite> idleAnim;
+    public System.Collections.Generic.Queue<Sprite> idleAnim;
 
     void Start() {
       //  transform.position = Controller.gameCore.panels[currentPanelIndex].transform.position;
@@ -103,13 +104,13 @@ class Player : MonoBehaviour {
         SpriteRenderer spriteRenderer = GetComponentInParent<SpriteRenderer>();
         while(true)
         {
-            foreach (Sprite s in sprites)
+            while (sprites.Count != 0)
             {
-                spriteRenderer.sprite = s;
+                spriteRenderer.sprite = sprites.Dequeue();
                 yield return 0;
             }
             // now sprites is empty, reset it to idle animation
-            sprites = new System.Collections.Generic.LinkedList<Sprite>(idleAnim);
+            sprites = new System.Collections.Generic.Queue<Sprite>(idleAnim);
         }
     }
 }
