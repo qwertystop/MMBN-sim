@@ -1,19 +1,20 @@
 ﻿using UnityEngine;
 using System.Collections.Generic;
+using pairLists;
 
 // class for chips and other attacks
 public class Chip : MonoBehaviour {
     // chip element
     public Controller.Element element;
     // animation for the player, one per frame
-    public Queue<Sprite> playerAnimation = new Queue<Sprite>();
-    // for each frame, all of the extra sprites to place, keyed by the locations in which to place them
-    // locations are relative to location of player
-    public Queue<List<KeyValuePair<int, Sprite>>> decorationAnimation = new Queue<List<KeyValuePair<int, Sprite>>>();
+    public List<Sprite> playerAnimation = new List<Sprite>(1);
+    // for each frame, all of the extra sprites to place, matched to the locations in which to place them
+    // locations are relative to location of player: +/- 1 horiz, +/-6 vert
+    public intsAndSprites[] decorations;
     // for each frame, damage keyed by panel
     // 0 damage for yellowing
     // locations are relative to location of player
-    public Queue<List<KeyValuePair<int, int>>> hits = new Queue<List<KeyValuePair<int, int>>>();
+    public intsAndInts[] damages;
 
     public int damageMultiplier = 1;
     public int damagePlus = 0;

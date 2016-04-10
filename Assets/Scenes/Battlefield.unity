@@ -375,6 +375,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1428152928}
     m_Modifications:
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: idleAnim.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 443442, guid: f32fc57114aea914984210468fed9e96, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4

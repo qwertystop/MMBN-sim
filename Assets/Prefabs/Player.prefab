@@ -42,8 +42,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerNo: 0
   currentPanelIndex: 7
+  redToMove: 1
   moveTimer: -1
   moveCoolDownTime: 9
+  sprites: []
+  idleAnim:
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
 --- !u!212 &21263662
 SpriteRenderer:
   m_ObjectHideFlags: 1
