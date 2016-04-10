@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System;
+using System.Collections.Generic;
 
 class Player : MonoBehaviour {
 
@@ -13,9 +14,9 @@ class Player : MonoBehaviour {
 
     // a list of sprites to loop through, at one per frame
     // set it to a different animation to immediately switch, append to the end to queue something up.
-    public System.Collections.Generic.Queue<Sprite> sprites;
+    public Queue<Sprite> sprites;
     // the idle animation
-    public System.Collections.Generic.Queue<Sprite> idleAnim;
+    public Queue<Sprite> idleAnim;
 
     void Start() {
       //  transform.position = Controller.gameCore.panels[currentPanelIndex].transform.position;
@@ -44,7 +45,7 @@ class Player : MonoBehaviour {
     // actually move
     private void Move() {
         // all the stuff to do to move is exactly the same except for the edge-of-area check and the int
-        Utilities.intVoid mover = x =>
+        Delegates.intVoid mover = x =>
         {
             GameObject target = Controller.gameCore.panels[currentPanelIndex + x];
             if (target.GetComponent<Panel>().isRed == redToMove)
@@ -110,7 +111,7 @@ class Player : MonoBehaviour {
                 yield return 0;
             }
             // now sprites is empty, reset it to idle animation
-            sprites = new System.Collections.Generic.Queue<Sprite>(idleAnim);
+            sprites = new Queue<Sprite>(idleAnim);
         }
     }
 }
