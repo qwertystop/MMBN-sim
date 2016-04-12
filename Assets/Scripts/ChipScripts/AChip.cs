@@ -1,9 +1,11 @@
 ﻿using UnityEngine;
+using System.Collections;
 using System.Collections.Generic;
 using pairLists;
 
-// class for chips and other attacks
-public class Chip : MonoBehaviour {
+// abstract class for chips and other attacks
+// allows delay before and after acting
+public abstract class AChip : MonoBehaviour {
     // chip element
     public Controller.Element element;
     // animation for the player, one per frame
@@ -11,29 +13,27 @@ public class Chip : MonoBehaviour {
     // for each frame, all of the extra sprites to place, matched to the locations in which to place them
     // locations are relative to location of player: +/- 1 horiz, +/-6 vert
     public intsAndSprites[] decorations;
-    // for each frame, damage keyed by panel
-    // 0 damage for yellowing
-    // locations are relative to location of player
-    public intsAndInts[] damages;
 
     public int damageMultiplier = 1;
+    public int damageBase = 0;
     public int damagePlus = 0;
-    public Type chipType;
-    public string chipName;
-
+    public Type chipType = Type.Standard;
+    public string chipName = "NULL";
     public Sprite icon;
     public Sprite largeImg;
 
+    // delay before and after acting
+    public int windup = 0;
+    public int winddown = 0;
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
-	}
+
+    // coroutine to run when using this chip
+    public abstract IEnumerator use(Player user);
+
+    // Use this for initialization
+    void Start() {
+
+    }
 
     public enum Type {
         Standard,

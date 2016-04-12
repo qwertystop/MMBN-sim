@@ -40,11 +40,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3e267bb97d1c464d9603ed153e1ff2a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  hp: 1000
+  element: 0
   playerNo: 0
   currentPanelIndex: 7
-  redToMove: 1
   moveTimer: -1
   moveCoolDownTime: 9
+  busterUncharged: {fileID: 122784, guid: af9c65ec14600894b9a7e41a20b96e8d, type: 2}
+  busterCharged: {fileID: 0}
   sprites: []
   idleAnim:
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
