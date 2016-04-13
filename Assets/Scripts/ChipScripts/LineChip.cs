@@ -8,13 +8,14 @@ public class LineChip : AChip {
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
+        print("used by " + (user.isRed ? "red" : "blue"));
         // calculate misc values ahead of time to avoid delaying the complicated bit
         // determine direction
         bool isRed = user.isRed;
         // determine row - int is the end condition for off the red end, math to convert to blue end is simple
-        int row = user.currentPanelIndex < 6 ? -1 :
-                                               user.currentPanelIndex < 12 ? 5 : 11;
-        int end = isRed ? row : row + 7;// -1 becomes 6, 5 becomes 12, 11 becomes 18; 1 past the end of the line
+        int row = user.currentPanelIndex < 6 ? 6 :
+                                               user.currentPanelIndex < 12 ? 12 : 18;
+        int end = isRed ? row : row - 7;// 6 -> -1, 12 -> 5, 18 -> 11; 1 past the end of the line in the other direction
         int target = isRed ? user.currentPanelIndex + 1 : user.currentPanelIndex - 1;
 
         // prevent movement in mid-shot

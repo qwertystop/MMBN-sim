@@ -36,8 +36,9 @@ public class Player : MonoBehaviour {
         Movement();
         Move();
         //TODO refine this - should be a sep. method or multiple like movement is
-        if (InputHandler.buttonUp(5, playerNo))
+        if (InputHandler.buttonUp(playerNo, InputHandler.button.B))
         {
+            Debug.Log("true for player " + playerNo);
             StartCoroutine(b_nocharge.use(this));
         }
     }
