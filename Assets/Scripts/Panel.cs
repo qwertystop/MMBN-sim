@@ -4,8 +4,8 @@ using System.Collections;
 public class Panel : MonoBehaviour {
     public int index;
     public bool isRed = true;
-    public bool isOccupied = false;
     public Player occupant = null;
+    public bool isOccupied { get { return occupant != null; } }
     public Sprite normalRed;
     public Sprite crackedRed;
     public Sprite normalBlue;

@@ -38,7 +38,6 @@ public class Player : MonoBehaviour {
         //TODO refine this - should be a sep. method or multiple like movement is
         if (InputHandler.buttonUp(playerNo, InputHandler.button.B))
         {
-            Debug.Log("true for player " + playerNo);
             StartCoroutine(b_nocharge.use(this));
         }
     }
@@ -70,8 +69,12 @@ public class Player : MonoBehaviour {
             && !target.GetComponent<Panel>().isOccupied) // can't move onto occupied panel
             {
                 MovingNow(true);
+                // remove this from current panel
+                Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = null;
+                // move to new panel
                 currentPanelIndex = currentPanelIndex + x;
                 GetComponentInParent<Transform>().transform.position = target.transform.position;
+                target.GetComponent<Panel>().occupant = this;
             }
         };
 
@@ -123,8 +126,8 @@ public class Player : MonoBehaviour {
     public void hit(AChip chip) {
         // calculate damage
         int damage = Controller.isSuper(chip.element, element) ?
-            (chip.damageBase + chip.damagePlus) * chip.damageMultiplier :
-            (chip.damageBase + chip.damagePlus) * (chip.damageMultiplier + 1); // +1 to multiplier - stacking doublers is +100%, not x2
+            (chip.damageBase + chip.damagePlus) * (chip.damageMultiplier + 1) : // +1 to multiplier - stacking doublers is +100%, not x2
+            (chip.damageBase + chip.damagePlus) * chip.damageMultiplier;
         // deduct from HP
         hp -= damage;
     }

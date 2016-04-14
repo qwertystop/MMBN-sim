@@ -20,12 +20,13 @@ public class LineChip : AChip {
 
         // prevent movement in mid-shot
         // TODO update this when status beyond can/can't move is implemented - don't want to be able to cancel one chip with another
-        user.moveTimer = -(windup + winddown);
-        while (windup > 0)
-        {// count the frames until the hit
-            windup -= 1;
-            yield return 1;
+        user.moveTimer = windup + winddown;
+        // wait through windup
+        for (int i = 0; i <= windup; i++)
+        {
+            yield return 0;
         }
+        print("checking");
         // now check each panel until a hit, starting directly in front of the player
         while (target != end)
         { // do this all in one frame, no yield until end
@@ -42,14 +43,5 @@ public class LineChip : AChip {
     }
 
     // Use this for initialization
-    void Start() {
-
-    }
-
-    public enum Type {
-        Standard,
-        Mega,
-        Giga,
-        ProgramAdvance,
-    };
+    void Start() { }
 }
