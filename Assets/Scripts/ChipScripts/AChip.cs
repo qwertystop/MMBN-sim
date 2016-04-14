@@ -9,7 +9,7 @@ public abstract class AChip : MonoBehaviour {
     // chip element
     public Controller.Element element;
     // animation for the player, one per frame
-    public List<Sprite> playerAnimation = new List<Sprite>(1);
+    public List<Sprite> playerAnimation;
     // for each frame, all of the extra sprites to place, matched to the locations in which to place them
     // locations are relative to location of player: +/- 1 horiz, +/-6 vert
     public intsAndSprites[] decorations;

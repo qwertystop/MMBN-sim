@@ -42,8 +42,12 @@ MonoBehaviour:
   element: 0
   playerAnimation:
   - {fileID: 21300016, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300016, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300018, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300018, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300020, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300020, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300022, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300022, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   decorations: []
   damageMultiplier: 1

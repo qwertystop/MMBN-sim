@@ -22,14 +22,16 @@ public class Player : MonoBehaviour {
 
     // a list of sprites to loop through, at one per frame
     // set it to a different animation to immediately switch, append to the end to queue something up.
-    public Sprite[] sprites;
+    public List<Sprite> sprites;
+    private int animationCount;
     // the idle animation
-    public Sprite[] idleAnim;
+    public List<Sprite> idleAnim;
 
     void Start() {
         b_nocharge = Instantiate(busterUncharged).GetComponent<LineChip>();
         //b_charge = Instantiate(busterCharged).GetComponent<AChip>();
         StartCoroutine(animate());
+        Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
     }
 
     void Update() {
@@ -38,6 +40,8 @@ public class Player : MonoBehaviour {
         //TODO refine this - should be a sep. method or multiple like movement is
         if (InputHandler.buttonUp(playerNo, InputHandler.button.B))
         {
+            sprites = new List<Sprite>(b_nocharge.playerAnimation);
+            animationCount = 0;
             StartCoroutine(b_nocharge.use(this));
         }
     }
@@ -137,13 +141,15 @@ public class Player : MonoBehaviour {
         SpriteRenderer spriteRenderer = GetComponentInParent<SpriteRenderer>();
         while(true)
         {
-            foreach (Sprite s in sprites)
+            while (animationCount < sprites.Count)
             {
-                spriteRenderer.sprite = s;
+                spriteRenderer.sprite = sprites[animationCount];
+                ++animationCount;
                 yield return 0;
             }
             // now sprites is empty, reset it to idle animation
             sprites = idleAnim;
+            animationCount = 0;
         }
     }
 }

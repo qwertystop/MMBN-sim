@@ -8,7 +8,7 @@ using System.Collections.Generic;
 namespace pairLists {
     [Serializable]
     public class intsAndSprites {
-        public int[] locations;
+        public int[] ints;
         public Sprite[] sprites;
     }
 
