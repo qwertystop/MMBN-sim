@@ -3,12 +3,13 @@ using System.Collections;
 using System.Collections.Generic;
 using pairLists;
 
-// class for chips and other attacks that damage the first thing in a line ahead of the player
+// class for non-piercing linear hitscan chips
+// Example: Cannon, the default MegaBuster
+// Close-but-not-quite nonexample: Shockwave, ZapRing, DollThunder, Spreader
 public class LineChip : AChip {
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
-        print("used by " + (user.isRed ? "red" : "blue"));
         // calculate misc values ahead of time to avoid delaying the complicated bit
         // determine direction
         bool isRed = user.isRed;
@@ -26,7 +27,6 @@ public class LineChip : AChip {
         {
             yield return 0;
         }
-        print("checking");
         // now check each panel until a hit, starting directly in front of the player
         while (target != end)
         { // do this all in one frame, no yield until end
