@@ -35,6 +35,7 @@ public class Player : MonoBehaviour {
     // buster charging animations
     public List<Sprite> chargingAnim;
     public List<Sprite> chargedAnim;
+    public List<Sprite> chargeReleaseAnim;
 
     void Start() {
         b_nocharge = Instantiate(busterUncharged).GetComponent<LineChip>();
@@ -111,18 +112,21 @@ public class Player : MonoBehaviour {
             {
                 MovingNow(true);
                 // remove this from current panel
+                int prevPanelIndex = int.Parse(currentPanelIndex.ToString());
                 Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = null;
                 // move to new panel
                 currentPanelIndex = currentPanelIndex + x;
                 GetComponentInParent<Transform>().transform.position = target.transform.position;
-                target.GetComponent<Panel>().occupant = this;
+                //target.GetComponent<Panel>().occupant = this;
+                Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
+                Controller.gameCore.panels[prevPanelIndex].GetComponent<Panel>().occupant = null;
             }
         };
 
         switch (nextMove)
         {
             case 1: // up
-                if (currentPanelIndex > 6)
+                if (currentPanelIndex > 5)
                 {
                     mover(-6);
                 }

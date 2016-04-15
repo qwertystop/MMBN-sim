@@ -1,0 +1,448 @@
+fileFormatVersion: 2
+guid: 14a60364bc14aae44b96a9fe74d7df6c
+timeCreated: 1460722454
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Swords_swoosh_0
+    21300002: Swords_swoosh_1
+    21300004: Swords_swoosh_2
+    21300006: Swords_swoosh_3
+    21300008: Swords_swoosh_4
+    21300010: Swords_swoosh_5
+    21300012: Swords_swoosh_6
+    21300014: Swords_swoosh_7
+    21300016: Swords_swoosh_8
+    21300018: Swords_swoosh_9
+    21300020: Swords_swoosh_10
+    21300022: Swords_swoosh_11
+    21300024: Swords_swoosh_12
+    21300026: Swords_swoosh_13
+    21300028: Swords_swoosh_14
+    21300030: Swords_swoosh_15
+    21300032: Swords_swoosh_16
+    21300034: Swords_swoosh_17
+    21300036: Swords_swoosh_18
+    21300038: Swords_swoosh_19
+    21300040: Swords_swoosh_20
+    21300042: Swords_swoosh_21
+    21300044: Swords_swoosh_22
+    21300046: Swords_swoosh_23
+    21300048: Swords_swoosh_24
+    21300050: Swords_swoosh_25
+    21300052: Swords_swoosh_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Swords_swoosh_0
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 375
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_1
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 381
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_2
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 389
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_3
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 393
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_4
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 320
+        width: 70
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -26, y: 18.5}
+        - {x: -35, y: -7.5}
+        - {x: -35, y: -18.5}
+        - {x: 1, y: -18.5}
+        - {x: 18, y: -16.5}
+        - {x: 35, y: -0.5}
+        - {x: 35, y: 13.5}
+        - {x: 30, y: 18.5}
+    - name: Swords_swoosh_5
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 330
+        width: 51
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_6
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 343
+        width: 85
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_7
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 231
+        width: 37
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7.5, y: 35}
+        - {x: -11.5, y: 35}
+        - {x: -18.5, y: -19}
+        - {x: -18.5, y: -35}
+        - {x: -7.5, y: -35}
+        - {x: -1.5, y: -34}
+        - {x: 16.5, y: -22}
+        - {x: 18.5, y: -14}
+        - {x: 18.5, y: 24}
+    - name: Swords_swoosh_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 250
+        width: 25
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_9
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 278
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_10
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 292
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_11
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 195
+        width: 37
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_12
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 201
+        width: 30
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_13
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 209
+        width: 31
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_14
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 213
+        width: 26
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_15
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 136
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 35.5, y: 22.5}
+        - {x: -29.5, y: 22.5}
+        - {x: -58.5, y: -15.5}
+        - {x: -58.5, y: -22.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 55.5, y: -7.5}
+        - {x: 58.5, y: -0.5}
+        - {x: 58.5, y: 14.5}
+    - name: Swords_swoosh_16
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 149
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 16}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: 12}
+        - {x: 3.5, y: -16}
+        - {x: 27.5, y: -16}
+        - {x: 40.5, y: -12}
+        - {x: 41.5, y: -10}
+        - {x: 41.5, y: 10}
+    - name: Swords_swoosh_17
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 159
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_18
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 169
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_19
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 72
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: 21.5}
+        - {x: 34.5, y: 22.5}
+        - {x: -37.5, y: 22.5}
+        - {x: -58.5, y: -16.5}
+        - {x: -58.5, y: -22.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 55.5, y: -7.5}
+        - {x: 58.5, y: -0.5}
+        - {x: 58.5, y: 16.5}
+    - name: Swords_swoosh_20
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 85
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 16}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: 12}
+        - {x: 3.5, y: -16}
+        - {x: 27.5, y: -16}
+        - {x: 40.5, y: -12}
+        - {x: 41.5, y: -10}
+        - {x: 41.5, y: 10}
+    - name: Swords_swoosh_21
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 95
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_22
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 105
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_23
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 12
+        width: 117
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 52.5, y: 21.5}
+        - {x: 34.5, y: 22.5}
+        - {x: -37.5, y: 22.5}
+        - {x: -58.5, y: -16.5}
+        - {x: -58.5, y: -22.5}
+        - {x: 27.5, y: -22.5}
+        - {x: 55.5, y: -7.5}
+        - {x: 58.5, y: -0.5}
+        - {x: 58.5, y: 16.5}
+    - name: Swords_swoosh_24
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 21
+        width: 83
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 1.5, y: 16}
+        - {x: -41.5, y: 16}
+        - {x: -41.5, y: 12}
+        - {x: 3.5, y: -16}
+        - {x: 27.5, y: -16}
+        - {x: 40.5, y: -12}
+        - {x: 41.5, y: -10}
+        - {x: 41.5, y: 10}
+    - name: Swords_swoosh_25
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 31
+        width: 83
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_26
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 41
+        width: 80
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

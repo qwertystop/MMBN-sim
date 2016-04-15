@@ -1,0 +1,474 @@
+fileFormatVersion: 2
+guid: f541d2d390db1e9459a4336ae40e04c8
+timeCreated: 1460722770
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Swords_blade_0
+    21300002: Swords_blade_1
+    21300004: Swords_blade_2
+    21300006: Swords_blade_3
+    21300008: Swords_blade_4
+    21300010: Swords_blade_5
+    21300012: Swords_blade_6
+    21300014: Swords_blade_7
+    21300016: Swords_blade_8
+    21300018: Swords_blade_11
+    21300020: Swords_blade_15
+    21300022: Swords_blade_17
+    21300024: Swords_blade_18
+    21300026: Swords_blade_20
+    21300028: Swords_blade_21
+    21300030: Swords_blade_22
+    21300032: Swords_blade_25
+    21300034: Swords_blade_27
+    21300036: Swords_blade_28
+    21300038: Swords_blade_29
+    21300040: Swords_blade_30
+    21300042: Swords_blade_31
+    21300044: Swords_blade_32
+    21300046: Swords_blade_33
+    21300048: Swords_blade_34
+    21300050: Swords_blade_35
+    21300052: Swords_blade_36
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Swords_blade_0
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 183
+        width: 32
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_1
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 191
+        width: 64
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_2
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 197
+        width: 47
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_3
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 199
+        width: 37
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 201
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_5
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 179
+        width: 24
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 123
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_7
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 130
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -31.5, y: 16}
+        - {x: -31.5, y: -3}
+        - {x: -24.5, y: -12}
+        - {x: 11.5, y: -16}
+        - {x: 31.5, y: -16}
+        - {x: 31.5, y: -7}
+        - {x: -0.5, y: 16}
+    - name: Swords_blade_8
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 130
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: -10}
+        - {x: 26.5, y: -13}
+        - {x: 26.5, y: -14}
+        - {x: 28.5, y: -16}
+        - {x: 31.5, y: -16}
+        - {x: 31.5, y: -11}
+        - {x: 30.5, y: -10}
+      - - {x: 3.5, y: 16}
+        - {x: -31.5, y: 16}
+        - {x: -31.5, y: 4}
+        - {x: -20.5, y: -7}
+        - {x: -14.5, y: -10}
+        - {x: 21.5, y: -15}
+        - {x: 25.5, y: -15}
+        - {x: 29.5, y: -12}
+        - {x: 29.5, y: -6}
+        - {x: 22.5, y: 2}
+    - name: Swords_blade_11
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 130
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 22.5, y: -14}
+        - {x: 25.5, y: -13}
+        - {x: 25.5, y: -10}
+        - {x: 22.5, y: -9}
+        - {x: 20.5, y: -11}
+      - - {x: -23.5, y: -10}
+        - {x: -10.5, y: -12}
+        - {x: 25.5, y: -12}
+        - {x: 28.5, y: -10}
+        - {x: 28.5, y: -1}
+        - {x: 6.5, y: 16}
+        - {x: -31.5, y: 16}
+        - {x: -31.5, y: 5}
+    - name: Swords_blade_15
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 135
+        width: 56
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: -5}
+        - {x: 13, y: -6}
+        - {x: 11, y: 3}
+        - {x: 7, y: 3}
+        - {x: 3, y: -9}
+        - {x: 3, y: -14}
+        - {x: 14, y: -16}
+        - {x: 21, y: -16}
+        - {x: 23, y: -11}
+        - {x: 23, y: -6}
+        - {x: 21, y: -4}
+      - - {x: 24, y: -13}
+        - {x: 27, y: -12}
+        - {x: 27, y: -9}
+        - {x: 24, y: -8}
+        - {x: 22, y: -10}
+      - - {x: -24, y: 12}
+        - {x: -28, y: 11}
+        - {x: -28, y: 2}
+        - {x: -15, y: -12}
+        - {x: 5, y: -12}
+        - {x: 6, y: -10}
+        - {x: 6, y: 5}
+        - {x: -5, y: 12}
+      - - {x: 15, y: -5}
+        - {x: 18, y: -4}
+        - {x: 18, y: -1}
+        - {x: 15, y: 0}
+        - {x: 13, y: -2}
+      - - {x: 2, y: 7}
+        - {x: 5, y: 8}
+        - {x: 5, y: 11}
+        - {x: 2, y: 12}
+        - {x: 0, y: 10}
+      - - {x: -2, y: 10}
+        - {x: 1, y: 11}
+        - {x: 1, y: 14}
+        - {x: -2, y: 15}
+        - {x: -4, y: 13}
+      - - {x: -16, y: 11}
+        - {x: -13, y: 12}
+        - {x: -13, y: 15}
+        - {x: -16, y: 16}
+        - {x: -18, y: 14}
+      - - {x: -11, y: 12}
+        - {x: -8, y: 13}
+        - {x: -8, y: 16}
+        - {x: -12, y: 16}
+        - {x: -13, y: 15}
+    - name: Swords_blade_17
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 141
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 122
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_20
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 69
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_21
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 80
+        width: 62
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_22
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 84
+        width: 52
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_25
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 85
+        width: 40
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_27
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 85
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_28
+      rect:
+        serializedVersion: 2
+        x: 251
+        y: 85
+        width: 32
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_29
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 66
+        width: 23
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_30
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 11
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_31
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 22
+        width: 64
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 16}
+        - {x: -32, y: 2}
+        - {x: -20, y: -8}
+        - {x: 18, y: -16}
+        - {x: 32, y: -16}
+        - {x: 32, y: -4}
+        - {x: 9, y: 16}
+    - name: Swords_blade_32
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 31
+        width: 45
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_33
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 33
+        width: 39
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_34
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 34
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_35
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 33
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_blade_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 12
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
