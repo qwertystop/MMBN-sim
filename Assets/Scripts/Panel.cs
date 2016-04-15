@@ -16,15 +16,14 @@ public class Panel : MonoBehaviour {
     public Sprite crackedBlue;
     public Sprite missing;
 
-    // object pool for decorations on this panel
-    private List<GameObject> decorations = new List<GameObject>();
+    // object pool for decorations on panels
+    private static List<GameObject> decorations = new List<GameObject>();
     // should be set in editor to a GameObject with an empty SpriteRenderer and nothing else
     public GameObject blankRenderer;
 
     // Use this for initialization
     void Start () {
-        decorations.Add((GameObject)Instantiate(blankRenderer, transform.position, transform.rotation));
-        decorations[0].transform.parent = gameObject.transform;
+        decorations.Add(Instantiate(blankRenderer));
 	}
 	
 	// Update is called once per frame
@@ -34,7 +33,8 @@ public class Panel : MonoBehaviour {
 
     // Displays the given sprite at this panel for one frame
     // Uses object-pooling to reduce instantiation
-    public void Decorate(Sprite sprite) {
+    // if boolean is true, reverse left-right of sprite
+    public void Decorate(Sprite sprite, bool flip) {
         int i = 0;
         while (i < decorations.Count)
         {// look until the end of the list or until finding an empty spot
@@ -46,14 +46,14 @@ public class Panel : MonoBehaviour {
             i += 1;
         }
         // getting here means no empty spot was found and i is one past the last index
-        decorations.Add((GameObject)Instantiate(blankRenderer, transform.position, transform.rotation));
-        decorations[0].transform.parent = gameObject.transform;
+        decorations.Add(Instantiate(blankRenderer));
         StartCoroutine(Decorator(sprite, i));
     }
 
     // Helper for Decorate, handles delayed disappearance
     // int is index in decorations to hold sprite
     private IEnumerator Decorator(Sprite sprite, int i) {
+        decorations[i].transform.position = transform.position;
         decorations[i].GetComponent<SpriteRenderer>().sprite = sprite;
         yield return 0; // the next frame
         decorations[i].GetComponent<SpriteRenderer>().sprite = null;

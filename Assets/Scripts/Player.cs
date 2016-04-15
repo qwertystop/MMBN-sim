@@ -11,6 +11,7 @@ public class Player : MonoBehaviour {
     public int moveTimer = -1;
     public int moveCoolDownTime = 9;
     bool justMoved = false;
+    public Status status = Status.FREE;
 
     // Customizable properties
     public int hp = 1000;
@@ -25,10 +26,20 @@ public class Player : MonoBehaviour {
     private int chargeCounter = 0;
     private int chargeTime = 60;
 
+    // Chips
+    public List<GameObject> chipsSelected;// for editor access - will probably not be necessary once chip selection is implemented
+    private Queue<AChip> chips = new Queue<AChip>(5);
+
     // Animation
     // a list of sprites to loop through, at one per frame
     // set it to a different animation to immediately switch, append to the end to queue something up.
-    List<Sprite> sprites = new List<Sprite>();
+    private List<Sprite> sprites = new List<Sprite>();
+    // access for sprites - resets count on setting new animation
+    public List<Sprite> curAnimation
+    {
+        get { return sprites; }
+        set { sprites = value; animationCount = 0; }
+    }
     private int animationCount;
     // the idle animation
     public List<Sprite> idleAnim;
@@ -38,50 +49,26 @@ public class Player : MonoBehaviour {
     public List<Sprite> chargeReleaseAnim;
 
     void Start() {
+        // instantiate buster
         b_nocharge = Instantiate(busterUncharged).GetComponent<LineChip>();
         b_charge = Instantiate(busterCharged).GetComponent<AChip>();
+        // ready animation
         StartCoroutine(animate());
+        // panel is occupied
         Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
+        // instantiate starting chips
+        // TODO when chip selection is implemented move this bit to there
+        foreach(GameObject chip in chipsSelected)
+        {
+            chips.Enqueue(Instantiate(chip).GetComponent<AChip>());
+        }
     }
 
     void Update() {
         Movement();
         Move();
         Buster();
-    }
-
-    private void Buster() {
-        // on holding button, charge
-        if (InputHandler.buttonHeld(playerNo, InputHandler.button.B))
-        {
-            chargeCounter += 1;
-            if (chargeCounter >= chargeTime)
-            {// charged
-                // display the charging sprite on this panel
-                Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargedAnim[chargeCounter % chargedAnim.Count]);
-            } else
-            {// charging
-                // display the charged sprite on this panel
-                Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargingAnim[chargeCounter % chargingAnim.Count]);
-            }
-        }
-
-        // on releasing button, shoot (depending on charge level), reset charge
-        if (InputHandler.buttonUp(playerNo, InputHandler.button.B))
-        {
-            if (chargeCounter >= chargeTime)
-            {// if charged
-                sprites = new List<Sprite>(b_charge.playerAnimation);
-                animationCount = 0;
-                StartCoroutine(b_charge.use(this));
-            } else
-            {
-                sprites = new List<Sprite>(b_nocharge.playerAnimation);
-                animationCount = 0;
-                StartCoroutine(b_nocharge.use(this));
-            }
-            chargeCounter = 0;
-        }
+        Chip();
     }
 
     // determine direction of movement if moving is possible
@@ -152,9 +139,62 @@ public class Player : MonoBehaviour {
         }// default is do nothing
     }
 
-    // true unless stunned, currently moving, or in the middle of an action
+    // Handles Buster use
+    private void Buster() {
+        if (canAct())
+        {
+            // on holding button, charge
+            if (InputHandler.buttonHeld(playerNo, InputHandler.button.B))
+            {
+                chargeCounter += 1;
+                if (chargeCounter >= chargeTime)
+                {// charged
+                 // display the charging sprite on this panel
+                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargedAnim[chargeCounter % chargedAnim.Count]);
+                } else
+                {// charging
+                 // display the charged sprite on this panel
+                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargingAnim[chargeCounter % chargingAnim.Count]);
+                }
+            }
+
+            // on releasing button, shoot (depending on charge level), reset charge
+            // TODO when non-basic busters are added, will need to add decorating to charge shot code
+            if (InputHandler.buttonUp(playerNo, InputHandler.button.B))
+            {
+                if (chargeCounter >= chargeTime)
+                {// if charged
+                   // sprites = new List<Sprite>(b_charge.playerAnimation);
+                    //animationCount = 0;
+                    StartCoroutine(b_charge.use(this));
+                } else
+                {
+                //    sprites = new List<Sprite>(b_nocharge.playerAnimation);
+                  //  animationCount = 0;
+                    StartCoroutine(b_nocharge.use(this));
+                }
+                chargeCounter = 0;
+            }
+        }
+    }
+
+    // Handles Chip use
+    // TODO will need to be modified when chip-charging abilities are added
+    private void Chip() {
+        if (canAct() && InputHandler.buttonDown(playerNo, InputHandler.button.A))
+        {
+            if (chips.Count != 0)
+            {
+                sprites = new List<Sprite>(chips.Peek().playerAnimation);
+                animationCount = 0;
+                StartCoroutine(chips.Dequeue().use(this));
+            }
+        }
+    }
+
+    // true unless stunned, in the middle of an action, etc
     private bool canAct() {
-        return true;//TODO STUB
+        return status == Status.FREE;
     }
 
     // resets movement timer if given is true, resets next move either way
@@ -192,5 +232,12 @@ public class Player : MonoBehaviour {
             sprites = idleAnim;
             animationCount = 0;
         }
+    }
+
+    // status conditions
+    // will add more as causes are implemented
+    public enum Status {
+        FREE,
+        ACTING
     }
 }

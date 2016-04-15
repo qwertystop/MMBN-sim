@@ -1,13 +1,85 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &134174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 416196}
+  - 114: {fileID: 11492628}
+  m_Layer: 0
+  m_Name: Longsword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &416196
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11492628
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9d60fc85357414f99e0dddfbe08ab8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 0
+  playerAnimation:
+  - {fileID: 21300032, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300034, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300036, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  decorations:
+  - ints: 01000000
+    sprites:
+    - {fileID: 21300014, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - ints: 01000000
+    sprites:
+    - {fileID: 21300016, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - ints: 
+    sprites:
+    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - ints: 01000000
+    sprites:
+    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - ints: 01000000
+    sprites:
+    - {fileID: 21300020, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  damageMultiplier: 1
+  damageBase: 80
+  damagePlus: 0
+  chipType: 0
+  chipName: NULL
+  icon: {fileID: 0}
+  largeImg: {fileID: 0}
+  windup: 0
+  winddown: 5
+  length: 1
+  width: 3
 --- !u!1001 &100100000
 Prefab:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 1
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 0}
+  m_RootGameObject: {fileID: 134174}
   m_IsPrefabParent: 1

@@ -4,7 +4,8 @@ using System.Collections.Generic;
 using pairLists;
 
 // class for chips and other attacks that damage fixed positions on the battlefield (user location irrelevant)
-// Example: ZeusHammer, Lance
+// TODO flip according to player's team - nothing ignores the player completely 
+// Example: Lance
 // does not hurt user or user-allies
 public class FixedAOEChip : AChip {
     // all locations and how much damage to do to them
@@ -12,14 +13,8 @@ public class FixedAOEChip : AChip {
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
-        // prevent movement in mid-shot
-        // TODO update this when status beyond can/can't move is implemented - don't want to be able to cancel one chip with another
-        user.moveTimer = windup + winddown;
-        // wait through windup
-        for (int i = 0; i <= windup; i++)
-        {
-            yield return 0;
-        }
+        StartCoroutine(decorateFixed(user));
+        yield return StartCoroutine(base.use(user));
 
         // now damage each panel on the list with the given amount of damage
         for (int i = 0; i < locationsAndDamages.locations.Length; ++i)

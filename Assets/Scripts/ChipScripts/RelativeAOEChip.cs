@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using pairLists;
 
 // class for chips and other attacks that damage fixed positions on the battlefield (relative to the user)
-// Example: Sword, Quake
+// Example: Quake
 // does not hurt user or user-allies
 public class RelativeAOEChip : AChip {
     // all locations and how much damage to do to them
@@ -13,37 +13,18 @@ public class RelativeAOEChip : AChip {
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
+        StartCoroutine(decorateRelative(user));
+        // prevent acting, animate user, wait through windup
+        yield return StartCoroutine(base.use(user));
 
-        // calculate misc values ahead of time to avoid delaying the complicated bit
+
         bool isRed = user.isRed;
         for (int i = 0; i < locationsAndDamages.locations.Length; ++i)
         {// modify each location to be relative to player
-            int loc = locationsAndDamages.locations[i];
-            // vertical and horizontal displacement
-            int vert = (loc / 6) * 6;
-            int horiz = loc % 6; // % is actually remainder, not mod, even if it's called mod - negatives are kept properly
-            int final;
-            if (isRed)
-            {
-                final = vert + horiz + user.currentPanelIndex;
-            } else
-            {
-                final = vert - horiz + user.currentPanelIndex;
-            }
-            locationsAndDamages.locations[i] = final;
-        }
-
-        // prevent movement in mid-shot
-        // TODO update this when status beyond can/can't move is implemented - don't want to be able to cancel one chip with another
-        user.moveTimer = windup + winddown;
-        // wait through windup
-        for (int i = 0; i <= windup; i++)
-        {
-            yield return 0;
+            locationsAndDamages.locations[i] = makeRelative(user, locationsAndDamages.locations[i]);
         }
 
         // now damage each panel on the list with the given amount of damage
-        //TODO prevent checking off-board locations
         for (int i = 0; i < locationsAndDamages.locations.Length; ++i)
         {
             if (locationsAndDamages.locations[i] > -1 && locationsAndDamages.locations[i] < 18 && // panel is on the battlefield

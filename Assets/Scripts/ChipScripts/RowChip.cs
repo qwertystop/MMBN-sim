@@ -9,11 +9,11 @@ public class RowChip : AChip {
     // coroutine to run when using this chip
     public override IEnumerator use(Player user)
     {
+        StartCoroutine(decorateRelative(user));
+        yield return StartCoroutine(base.use(user));
         // calculate misc values ahead of time to avoid delaying the complicated bit
         // determine direction
         bool isRed = user.isRed;
-        
-  
         // determine row - int is the end condition for off the red end, math to convert to blue end is simple
         int row = user.currentPanelIndex < 6 ? 6 :
                                                user.currentPanelIndex < 12 ? 12 : 18;
@@ -21,15 +21,6 @@ public class RowChip : AChip {
         int end = isRed ? target + (length % 4) : target - (length % 4);//calculate the end based on the inputted depth
        
         int increment = isRed ? 1 : -1;
-
-        // prevent movement in mid-shot
-        // TODO update this when status beyond can/can't move is implemented - don't want to be able to cancel one chip with another
-        user.moveTimer = windup + winddown;
-        // wait through windup
-        for (int i = 0; i <= windup; i++)
-        {
-            yield return 0;
-        }
 
         for (int i = 0; i < width; i++)
         {

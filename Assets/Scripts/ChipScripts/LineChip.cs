@@ -10,6 +10,8 @@ public class LineChip : AChip {
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
+        StartCoroutine(decorateRelative(user));
+        yield return StartCoroutine(base.use(user));
         // calculate misc values ahead of time to avoid delaying the complicated bit
         // determine direction
         bool isRed = user.isRed;
