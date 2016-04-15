@@ -9,8 +9,8 @@ public class Controller : MonoBehaviour {
     public GameObject[] panels = new GameObject[18];
     public Text[] playerHP = new Text[2];
 
-	// Use this for initialization
-	void Start () {
+    // all Awake methods are called on scene load for extant objects, before any Start methods (which are called before the first frame).
+    void Awake() {
         gameCore = this;
         // set framerate to 60fps cap
         // technically the GBA ran at 59.8621 Hz, but A: can you really tell? and B: Unity only takes integer framerates
@@ -19,6 +19,11 @@ public class Controller : MonoBehaviour {
         {
             panels[i].GetComponent<Panel>().index = i;
         }
+    }
+
+	// Use this for initialization
+	void Start () {
+
 	}
 	
 	// Update is called once per frame

@@ -3,9 +3,7 @@ using System;
 using System.Collections.Generic;
 
 public class Player : MonoBehaviour {
-
-    public int hp = 1000;
-    public Controller.Element element = Controller.Element.Null;
+    // Basic system fields
     public int playerNo = 0;
     public int currentPanelIndex = 7;
     public bool isRed { get { return playerNo == 0; } } // left player is red, right is blue
@@ -13,23 +11,34 @@ public class Player : MonoBehaviour {
     public int moveTimer = -1;
     public int moveCoolDownTime = 9;
     bool justMoved = false;
-    // GameObjects containing the data for busters
+
+    // Customizable properties
+    public int hp = 1000;
+    public Controller.Element element = Controller.Element.Null;
+
+    // Buster
     public GameObject busterUncharged;
     public GameObject busterCharged;
-    // private references directly to that data
+    // private references to the scripts for the buster - GameObject usage is just for editor handles
     private LineChip b_nocharge;
     private AChip b_charge;
+    private int chargeCounter = 0;
+    private int chargeTime = 60;
 
+    // Animation
     // a list of sprites to loop through, at one per frame
     // set it to a different animation to immediately switch, append to the end to queue something up.
-    public List<Sprite> sprites;
+    List<Sprite> sprites = new List<Sprite>();
     private int animationCount;
     // the idle animation
     public List<Sprite> idleAnim;
+    // buster charging animations
+    public List<Sprite> chargingAnim;
+    public List<Sprite> chargedAnim;
 
     void Start() {
         b_nocharge = Instantiate(busterUncharged).GetComponent<LineChip>();
-        //b_charge = Instantiate(busterCharged).GetComponent<AChip>();
+        b_charge = Instantiate(busterCharged).GetComponent<AChip>();
         StartCoroutine(animate());
         Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
     }
@@ -37,12 +46,40 @@ public class Player : MonoBehaviour {
     void Update() {
         Movement();
         Move();
-        //TODO refine this - should be a sep. method or multiple like movement is
+        Buster();
+    }
+
+    private void Buster() {
+        // on holding button, charge
+        if (InputHandler.buttonHeld(playerNo, InputHandler.button.B))
+        {
+            chargeCounter += 1;
+            if (chargeCounter >= chargeTime)
+            {// charged
+                // display the charging sprite on this panel
+                Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargedAnim[chargeCounter % chargedAnim.Count]);
+            } else
+            {// charging
+                // display the charged sprite on this panel
+                Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargingAnim[chargeCounter % chargingAnim.Count]);
+            }
+        }
+
+        // on releasing button, shoot (depending on charge level), reset charge
         if (InputHandler.buttonUp(playerNo, InputHandler.button.B))
         {
-            sprites = new List<Sprite>(b_nocharge.playerAnimation);
-            animationCount = 0;
-            StartCoroutine(b_nocharge.use(this));
+            if (chargeCounter >= chargeTime)
+            {// if charged
+                sprites = new List<Sprite>(b_charge.playerAnimation);
+                animationCount = 0;
+                StartCoroutine(b_charge.use(this));
+            } else
+            {
+                sprites = new List<Sprite>(b_nocharge.playerAnimation);
+                animationCount = 0;
+                StartCoroutine(b_nocharge.use(this));
+            }
+            chargeCounter = 0;
         }
     }
 
