@@ -536,6 +536,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1428152928}
     m_Modifications:
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 443442, guid: f32fc57114aea914984210468fed9e96, type: 2}
       propertyPath: m_LocalPosition.x
       value: -4
@@ -573,7 +577,23 @@ Prefab:
       value: Player0
       objectReference: {fileID: 0}
     - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
-      propertyPath: busterCharged
+      propertyPath: chipsSelected.Array.data[0]
+      value: 
+      objectReference: {fileID: 122784, guid: c9581eb486f71ff4a946b866e8fefd34, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[1]
+      value: 
+      objectReference: {fileID: 122784, guid: c9581eb486f71ff4a946b866e8fefd34, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[2]
+      value: 
+      objectReference: {fileID: 122784, guid: c9581eb486f71ff4a946b866e8fefd34, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[3]
+      value: 
+      objectReference: {fileID: 122784, guid: c9581eb486f71ff4a946b866e8fefd34, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[4]
       value: 
       objectReference: {fileID: 122784, guid: c9581eb486f71ff4a946b866e8fefd34, type: 2}
     m_RemovedComponents: []
@@ -1533,6 +1553,7 @@ Canvas:
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
@@ -1753,6 +1774,10 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 1428152928}
     m_Modifications:
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.size
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 443442, guid: f32fc57114aea914984210468fed9e96, type: 2}
       propertyPath: m_LocalPosition.x
       value: 2
@@ -1805,6 +1830,26 @@ Prefab:
       propertyPath: redToMove
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[0]
+      value: 
+      objectReference: {fileID: 134174, guid: 787bb20bb983b2a439b2aac5a5d447d6, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[1]
+      value: 
+      objectReference: {fileID: 134174, guid: 787bb20bb983b2a439b2aac5a5d447d6, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[2]
+      value: 
+      objectReference: {fileID: 134174, guid: 787bb20bb983b2a439b2aac5a5d447d6, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[4]
+      value: 
+      objectReference: {fileID: 134174, guid: 787bb20bb983b2a439b2aac5a5d447d6, type: 2}
+    - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
+      propertyPath: chipsSelected.Array.data[3]
+      value: 
+      objectReference: {fileID: 134174, guid: 787bb20bb983b2a439b2aac5a5d447d6, type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f32fc57114aea914984210468fed9e96, type: 2}
   m_IsPrefabParent: 0

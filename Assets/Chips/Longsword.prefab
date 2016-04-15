@@ -48,19 +48,13 @@ MonoBehaviour:
   decorations:
   - ints: 01000000
     sprites:
-    - {fileID: 21300014, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+    - {fileID: 21300008, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
   - ints: 01000000
     sprites:
-    - {fileID: 21300016, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+    - {fileID: 21300010, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
   - ints: 
     sprites:
-    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 01000000
-    sprites:
-    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 01000000
-    sprites:
-    - {fileID: 21300020, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+    - {fileID: 21300012, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
   damageMultiplier: 1
   damageBase: 80
   damagePlus: 0
@@ -69,9 +63,9 @@ MonoBehaviour:
   icon: {fileID: 0}
   largeImg: {fileID: 0}
   windup: 0
-  winddown: 5
-  length: 1
-  width: 3
+  winddown: 4
+  length: 2
+  width: 1
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

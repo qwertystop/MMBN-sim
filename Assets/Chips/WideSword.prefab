@@ -41,27 +41,26 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   element: 0
   playerAnimation:
-  - {fileID: 21300000, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
-  - {fileID: 21300000, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
-  - {fileID: 21300002, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
-  - {fileID: 21300002, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
-  - {fileID: 21300004, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
-  - {fileID: 21300004, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
-  - {fileID: 21300006, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
-  - {fileID: 21300006, guid: e51f6c46d8b64e2458e42cbcf668efd3, type: 3}
+  - {fileID: 21300032, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300034, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300036, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   decorations:
+  - ints: 01000000
+    sprites:
+    - {fileID: 21300014, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - ints: 01000000
+    sprites:
+    - {fileID: 21300016, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
   - ints: 
     sprites:
-    - {fileID: 21300000, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 
+    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - ints: 01000000
     sprites:
-    - {fileID: 21300002, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 
+    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - ints: 01000000
     sprites:
-    - {fileID: 21300004, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 
-    sprites:
-    - {fileID: 21300006, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+    - {fileID: 21300020, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
   damageMultiplier: 1
   damageBase: 80
   damagePlus: 0
@@ -70,7 +69,7 @@ MonoBehaviour:
   icon: {fileID: 0}
   largeImg: {fileID: 0}
   windup: 0
-  winddown: 0
+  winddown: 5
   length: 1
   width: 3
 --- !u!1001 &100100000
