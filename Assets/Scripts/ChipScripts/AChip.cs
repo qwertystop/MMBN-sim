@@ -77,7 +77,7 @@ public abstract class AChip : MonoBehaviour {
                 int rel = makeRelative(user, frame.ints[i]);
                 if (rel > -1 && rel < 18)
                 {// if panel exists, decorate it
-                    Controller.gameCore.panels[rel].GetComponent<Panel>().Decorate(frame.sprites[i]);
+                    Controller.gameCore.panels[rel].GetComponent<Panel>().Decorate(frame.sprites[i], user);
                 }
             }
             // wait a frame

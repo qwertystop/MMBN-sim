@@ -150,11 +150,11 @@ public class Player : MonoBehaviour {
                 if (chargeCounter >= chargeTime)
                 {// charged
                  // display the charging sprite on this panel
-                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargedAnim[chargeCounter % chargedAnim.Count]);
+                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargedAnim[chargeCounter % chargedAnim.Count], this);
                 } else
                 {// charging
                  // display the charged sprite on this panel
-                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargingAnim[chargeCounter % chargingAnim.Count]);
+                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargingAnim[chargeCounter % chargingAnim.Count], this);
                 }
             }
 
