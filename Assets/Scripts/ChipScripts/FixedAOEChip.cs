@@ -31,7 +31,4 @@ public class FixedAOEChip : AChip {
             }
         }
     }
-
-    // Use this for initialization
-    void Start() { }
 }

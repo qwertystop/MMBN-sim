@@ -40,7 +40,4 @@ public class RelativeAOEChip : AChip {
             }
         }
     }
-
-    // Use this for initialization
-    void Start() { }
 }

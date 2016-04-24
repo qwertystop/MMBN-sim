@@ -31,29 +31,20 @@ public class Player : MonoBehaviour {
     private Queue<AChip> chips = new Queue<AChip>(5);
 
     // Animation
-    // a list of sprites to loop through, at one per frame
-    // set it to a different animation to immediately switch, append to the end to queue something up.
-    private List<Sprite> sprites = new List<Sprite>();
-    // access for sprites - resets count on setting new animation
-    public List<Sprite> curAnimation
-    {
-        get { return sprites; }
-        set { sprites = value; animationCount = 0; }
-    }
-    private int animationCount;
+    private Animation2D curAnimation;
     // the idle animation
-    public List<Sprite> idleAnim;
+    private Animation2D idleAnim;
     // buster charging animations
-    public List<Sprite> chargingAnim;
-    public List<Sprite> chargedAnim;
-    public List<Sprite> chargeReleaseAnim;
+    private Animation2D chargingAnim;
+    private Animation2D chargedAnim;
 
     void Start() {
         // instantiate buster
         b_nocharge = Instantiate(busterUncharged).GetComponent<LineChip>();
         b_charge = Instantiate(busterCharged).GetComponent<AChip>();
-        // ready animation
-        StartCoroutine(animate());
+        // animation
+        animationSetup();
+        StartCoroutine(animateReset());
         // panel is occupied
         Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
         // instantiate starting chips
@@ -61,6 +52,32 @@ public class Player : MonoBehaviour {
         foreach(GameObject chip in chipsSelected)
         {
             chips.Enqueue(Instantiate(chip).GetComponent<AChip>());
+        }
+    }
+
+    // fills fields with appropriate Animation2D objects for later reference
+    private void animationSetup() {
+        // ready animations
+        Animation2D[] allAnimations = GetComponentsInChildren<Animation2D>();
+        foreach (Animation2D a in allAnimations)
+        {
+            if (a.gameObject == this.gameObject)
+            {// animations on this
+                if (a.name.Equals("Idle"))
+                {
+                    idleAnim = a;
+                    curAnimation = a;
+                }
+            } else
+            {// animations on children of this
+                if (a.name.Equals("BusterCharging"))
+                {
+                    chargingAnim = a;
+                } else if (a.name.Equals("BusterCharged"))
+                {
+                    chargedAnim = a;
+                }
+            }
         }
     }
 
@@ -143,18 +160,30 @@ public class Player : MonoBehaviour {
     private void Buster() {
         if (canAct())
         {
+            // on button down, fire and begin charging
+            if (InputHandler.buttonDown(playerNo, InputHandler.button.B))
+            {
+                chargeCounter = -6;// delayed to ensure button is actually held before animating
+                StartCoroutine(b_nocharge.use(this));
+            }
+
             // on holding button, charge
             if (InputHandler.buttonHeld(playerNo, InputHandler.button.B))
             {
+                // if just started charging, start charge animation
+                if (chargeCounter == 1)
+                {
+                    chargingAnim.Play(true);
+                }
+
+                // increment charge counter
                 chargeCounter += 1;
-                if (chargeCounter >= chargeTime)
-                {// charged
-                 // display the charging sprite on this panel
-                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargedAnim[chargeCounter % chargedAnim.Count], this);
-                } else
-                {// charging
-                 // display the charged sprite on this panel
-                    Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().Decorate(chargingAnim[chargeCounter % chargingAnim.Count], this);
+                
+                // if just became charged, stop charging animation and start charged animation
+                if (chargeCounter == chargeTime)
+                {
+                    chargingAnim.Stop();
+                    chargedAnim.Play();
                 }
             }
 
@@ -164,13 +193,11 @@ public class Player : MonoBehaviour {
             {
                 if (chargeCounter >= chargeTime)
                 {// if charged
-                   // sprites = new List<Sprite>(b_charge.playerAnimation);
-                    //animationCount = 0;
+                    chargedAnim.Stop();
                     StartCoroutine(b_charge.use(this));
                 } else
-                {
-                //    sprites = new List<Sprite>(b_nocharge.playerAnimation);
-                  //  animationCount = 0;
+                {// not charged
+                    chargingAnim.Stop();
                     StartCoroutine(b_nocharge.use(this));
                 }
                 chargeCounter = 0;
@@ -185,8 +212,8 @@ public class Player : MonoBehaviour {
         {
             if (chips.Count != 0)
             {
-                sprites = new List<Sprite>(chips.Peek().playerAnimation);
-                animationCount = 0;
+      //          sprites = new List<Sprite>(chips.Peek().playerAnimation);
+       //         animationCount = 0;
                 StartCoroutine(chips.Dequeue().use(this));
             }
         }
@@ -198,7 +225,7 @@ public class Player : MonoBehaviour {
     }
 
     // resets movement timer if given is true, resets next move either way
-    void MovingNow(bool possible) {
+    private void MovingNow(bool possible) {
         if (possible)
         {
             moveTimer = moveCoolDownTime;
@@ -217,20 +244,25 @@ public class Player : MonoBehaviour {
         hp -= damage;
     }
 
-    // animates this player across the given list of sprites at a rate of one per frame
-    System.Collections.IEnumerator animate() {
-        SpriteRenderer spriteRenderer = GetComponentInParent<SpriteRenderer>();
+    // This player plays the given animation
+    public void Animate(Animation2D a) {
+        curAnimation.Stop();
+        curAnimation = a;
+        a.outputRenderer = GetComponent<SpriteRenderer>();
+        curAnimation.Play(true);
+    }
+
+    // resets animation to idle whenever no other animation is playing
+    // main purpose is to ensure that the animation is always set to something, so stopping it doesn't null-pointer
+    private System.Collections.IEnumerator animateReset() {
         while(true)
         {
-            while (animationCount < sprites.Count)
-            {
-                spriteRenderer.sprite = sprites[animationCount];
-                ++animationCount;
-                yield return 0;
+            if (curAnimation == null || curAnimation.isStopped)
+            {// whenever it stops or isn't set, reset to idle
+                curAnimation = idleAnim;
+                curAnimation.Play(true);
             }
-            // now sprites is empty, reset it to idle animation
-            sprites = idleAnim;
-            animationCount = 0;
+            yield return 0;
         }
     }
 

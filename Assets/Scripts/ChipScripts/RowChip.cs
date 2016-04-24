@@ -48,7 +48,4 @@ public class RowChip : AChip {
         }
         yield return 1;
     }
-
-    // Use this for initialization
-    void Start() { }
 }

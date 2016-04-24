@@ -9,6 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 416196}
   - 114: {fileID: 11492628}
+  - 114: {fileID: 11446742}
   m_Layer: 0
   m_Name: Longsword
   m_TagString: Untagged
@@ -28,6 +29,25 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11446742
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 134174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: SwordSwing
+  FPS: 15
+  isLooping: 0
+  frames:
+  - {fileID: 21300032, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300034, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300036, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
 --- !u!114 &11492628
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -40,11 +60,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
-  playerAnimation:
-  - {fileID: 21300032, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
-  - {fileID: 21300034, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
-  - {fileID: 21300036, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
-  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  playerAnimation: {fileID: 11446742}
   decorations:
   - ints: 01000000
     sprites:
@@ -59,7 +75,7 @@ MonoBehaviour:
   damageBase: 80
   damagePlus: 0
   chipType: 0
-  chipName: NULL
+  chipName: WideSwrd
   icon: {fileID: 0}
   largeImg: {fileID: 0}
   windup: 0

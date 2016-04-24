@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &136806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 447350}
+  - 212: {fileID: 21239936}
+  - 114: {fileID: 11456134}
+  - 114: {fileID: 11484522}
+  m_Layer: 0
+  m_Name: ChargeDisplay
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
 --- !u!1 &166526
 GameObject:
   m_ObjectHideFlags: 0
@@ -10,6 +28,7 @@ GameObject:
   - 4: {fileID: 443442}
   - 212: {fileID: 21263662}
   - 114: {fileID: 11412844}
+  - 114: {fileID: 11409688}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -24,11 +43,47 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 166526}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4, y: -1.8, z: 0}
+  m_LocalPosition: {x: -8.3, y: 1.02, z: 0}
   m_LocalScale: {x: 5, y: 5, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 447350}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!4 &447350
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136806}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.029, y: 0.246, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 443442}
+  m_RootOrder: 0
+--- !u!114 &11409688
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 166526}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Idle
+  FPS: 0.33
+  isLooping: 1
+  frames:
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300002, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300004, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300006, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  playOnStartup: 0
 --- !u!114 &11412844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -44,13 +99,27 @@ MonoBehaviour:
   currentPanelIndex: 7
   moveTimer: -1
   moveCoolDownTime: 9
+  status: 0
   hp: 1000
   element: 0
   busterUncharged: {fileID: 122784, guid: af9c65ec14600894b9a7e41a20b96e8d, type: 2}
   busterCharged: {fileID: 155280, guid: c2f11f7e2dec97c44b5f25f0b8ec1bb0, type: 2}
-  idleAnim:
-  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
-  chargingAnim:
+  chipsSelected: []
+--- !u!114 &11456134
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: BusterCharging
+  FPS: 20
+  isLooping: 1
+  frames:
   - {fileID: 21300000, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300002, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300004, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
@@ -59,7 +128,22 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300012, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300014, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
-  chargedAnim:
+  playOnStartup: 0
+--- !u!114 &11484522
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: BusterCharged
+  FPS: 20
+  isLooping: 1
+  frames:
   - {fileID: 21300016, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300018, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300020, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
@@ -72,6 +156,37 @@ MonoBehaviour:
   - {fileID: 21300034, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300036, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300040, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
+  playOnStartup: 0
+--- !u!212 &21239936
+SpriteRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 136806}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000e000000000000000, type: 0}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_ReflectionProbeUsage: 0
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: -1171826575
+  m_SortingOrder: 0
+  m_Sprite: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
 --- !u!212 &21263662
 SpriteRenderer:
   m_ObjectHideFlags: 1
@@ -96,8 +211,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingOrder: 3
+  m_SortingLayerID: -1622136427
+  m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0

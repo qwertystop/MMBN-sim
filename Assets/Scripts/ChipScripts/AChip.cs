@@ -9,7 +9,7 @@ public abstract class AChip : MonoBehaviour {
     // chip element
     public Controller.Element element;
     // animation for the player, one per frame
-    public List<Sprite> playerAnimation;
+    public Animation2D playerAnimation;
     // for each frame, all of the extra sprites to place, matched to the locations in which to place them
     // locations may be relative to location of player, depending on chip type: +/- 1 horiz, +/-6 vert
     public intsAndSprites[] decorations;
@@ -33,7 +33,7 @@ public abstract class AChip : MonoBehaviour {
         // prevent overlapping actions
         StartCoroutine(haltUser(user));
         // animate user
-        user.curAnimation = playerAnimation;
+        user.Animate(playerAnimation);
         // wait through windup
         for (int i = 0; i <= windup; i++)
         {
@@ -93,11 +93,6 @@ public abstract class AChip : MonoBehaviour {
         int horiz = index % 6; // % is actually remainder, not mod, even if it's called mod - negatives are kept properly
 
         return user.isRed ? vert + horiz + user.currentPanelIndex : vert - horiz + user.currentPanelIndex;
-    }
-
-    // Use this for initialization
-    void Start() {
-
     }
 
     public enum Type {
