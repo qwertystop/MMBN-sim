@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f8c0b342cf3314d459f8b24f858c7bf9
-timeCreated: 1457054987
+timeCreated: 1461524199
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -297,28 +297,24 @@ TextureImporter:
         - {x: 17, y: 0}
         - {x: 17, y: 34}
         - {x: 13, y: 42}
-    - name: MM_EXE1_b_4
+    - name: MM_EXE1_b_5
       rect:
         serializedVersion: 2
         x: 176
         y: 909
-        width: 8
-        height: 20
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        width: 34
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-    - name: MM_EXE1_b_5
-      rect:
-        serializedVersion: 2
-        x: 185
-        y: 911
-        width: 25
-        height: 46
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
+      outline:
+      - - {x: -4, y: 48}
+        - {x: -17, y: 20}
+        - {x: -17, y: 0}
+        - {x: 13, y: 0}
+        - {x: 17, y: 2}
+        - {x: 17, y: 38}
+        - {x: 14, y: 48}
     - name: MM_EXE1_b_6
       rect:
         serializedVersion: 2
@@ -362,21 +358,21 @@ TextureImporter:
         y: 859
         width: 45
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.4, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 22.5, y: 0}
-        - {x: 22.5, y: 17}
-        - {x: 11.5, y: 21}
-        - {x: -12.5, y: 21}
-        - {x: -14.5, y: 20}
-        - {x: -22.5, y: -10}
-        - {x: -22.5, y: -21}
-        - {x: -12.5, y: -21}
-        - {x: -11.5, y: -20}
-        - {x: -6.5, y: -21}
-        - {x: 12.5, y: -21}
+      - - {x: 27, y: 21}
+        - {x: 27, y: 38}
+        - {x: 16, y: 42}
+        - {x: -8, y: 42}
+        - {x: -10, y: 41}
+        - {x: -18, y: 11}
+        - {x: -18, y: 0}
+        - {x: -8, y: 0}
+        - {x: -7, y: 1}
+        - {x: -2, y: 0}
+        - {x: 17, y: 0}
     - name: MM_EXE1_b_9
       rect:
         serializedVersion: 2
@@ -384,21 +380,21 @@ TextureImporter:
         y: 859
         width: 68
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.2714727, y: 0.000001453218}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: -21}
-        - {x: 15, y: -21}
-        - {x: 34, y: 1}
-        - {x: 34, y: 21}
-        - {x: -27, y: 21}
-        - {x: -34, y: 11}
-        - {x: -34, y: -21}
-        - {x: -22, y: -21}
-        - {x: -17, y: -13}
-        - {x: -17, y: -16}
-        - {x: -10, y: -20}
+      - - {x: 9.539856, y: -0.000061035156}
+        - {x: 30.539856, y: -0.000061035156}
+        - {x: 49.539856, y: 21.999939}
+        - {x: 49.539856, y: 41.99994}
+        - {x: -11.460144, y: 41.99994}
+        - {x: -18.460144, y: 31.999939}
+        - {x: -18.460144, y: -0.000061035156}
+        - {x: -6.460144, y: -0.000061035156}
+        - {x: -1.460144, y: 7.999939}
+        - {x: -1.460144, y: 4.999939}
+        - {x: 5.539856, y: 0.99993896}
     - name: MM_EXE1_b_10
       rect:
         serializedVersion: 2
@@ -406,21 +402,21 @@ TextureImporter:
         y: 859
         width: 68
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.27, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -6, y: -21}
-        - {x: 15, y: -21}
-        - {x: 34, y: 1}
-        - {x: 34, y: 21}
-        - {x: -27, y: 21}
-        - {x: -34, y: 11}
-        - {x: -34, y: -21}
-        - {x: -22, y: -21}
-        - {x: -17, y: -13}
-        - {x: -17, y: -16}
-        - {x: -10, y: -20}
+      - - {x: 9.640015, y: 0}
+        - {x: 30.640015, y: 0}
+        - {x: 49.640015, y: 22}
+        - {x: 49.640015, y: 42}
+        - {x: -11.359985, y: 42}
+        - {x: -18.359985, y: 32}
+        - {x: -18.359985, y: 0}
+        - {x: -6.3599854, y: 0}
+        - {x: -1.3599854, y: 8}
+        - {x: -1.3599854, y: 5}
+        - {x: 5.6400146, y: 1}
     - name: MM_EXE1_b_11
       rect:
         serializedVersion: 2
@@ -428,24 +424,24 @@ TextureImporter:
         y: 859
         width: 63
         height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.28386095, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: -20.5, y: 21}
-        - {x: -24.5, y: 20}
-        - {x: -31.5, y: -9}
-        - {x: -31.5, y: -21}
-        - {x: 3.5, y: -21}
-        - {x: 15.5, y: 7}
-        - {x: 15.5, y: 13}
-        - {x: 4.5, y: 21}
-      - - {x: 17.5, y: 11}
-        - {x: 15.5, y: 9}
-        - {x: 16.5, y: 5}
-        - {x: 31.5, y: 5}
-        - {x: 31.5, y: 11}
-        - {x: 21.5, y: 12}
+      - - {x: -6.8832397, y: 42}
+        - {x: -10.88324, y: 41}
+        - {x: -17.88324, y: 12}
+        - {x: -17.88324, y: 0}
+        - {x: 17.11676, y: 0}
+        - {x: 29.11676, y: 28}
+        - {x: 29.11676, y: 34}
+        - {x: 18.11676, y: 42}
+      - - {x: 31.11676, y: 32}
+        - {x: 29.11676, y: 30}
+        - {x: 30.11676, y: 26}
+        - {x: 45.11676, y: 26}
+        - {x: 45.11676, y: 32}
+        - {x: 35.11676, y: 33}
     - name: MM_EXE1_b_12
       rect:
         serializedVersion: 2
