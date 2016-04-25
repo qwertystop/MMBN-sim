@@ -19,7 +19,7 @@ public class FixedAOEChip : AChip {
         // now damage each panel on the list with the given amount of damage
         for (int i = 0; i < locationsAndDamages.Length; ++i)
         {
-            int adjustedIndex = mirrorIfRed(user, locationsAndDamages[i].index);
+            int adjustedIndex = mirrorIfBlue(user, locationsAndDamages[i].index);
 
             if (Controller.gameCore.panels[adjustedIndex].GetComponent<Panel>().isOccupied)
             {// someone in the panel
