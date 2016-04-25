@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
-using pairLists;
+using mDimLists;
 
 // abstract class for chips and other attacks
 // allows delay before and after acting
@@ -10,12 +10,12 @@ public abstract class AChip : MonoBehaviour {
     public Controller.Element element;
     // animation for the player, one per frame
     public Animation2D playerAnimation;
-    // for each frame, all of the extra sprites to place, matched to the locations in which to place them
-    // locations may be relative to location of player, depending on chip type: +/- 1 horiz, +/-6 vert
-    public intsAndSprites[] decorations;
+    // All of the animations to place at other panels, paired with the panel indices at which to place them
+    // indices may be relative to location of player, depending on chip type: +/- 1 horiz, +/-6 vert
+    public indexedAnimation2D[] decorations;
 
     public int damageMultiplier = 1;
-    public int damageBase = 0;
+    public int damageBase = 0;// if the chip does different damage with different hitboxes, this is the one displayed
     public int damagePlus = 0;
     public Type chipType = Type.Standard;
     public string chipName = "NULL";
@@ -51,37 +51,27 @@ public abstract class AChip : MonoBehaviour {
         user.status = Player.Status.FREE;
     }
 
-    // Decorates panels with sprites in this.decorations, flipped by the player's side but otherwise not relative
-    // TODO flip according to player's side
-    public virtual IEnumerator decorateFixed(Player user) {
-        foreach (intsAndSprites frame in decorations)
-        {// each frame
-            for (int i = 0; i < frame.ints.Length; ++i)
-            {// draw all sprites for this frame
-                if (frame.ints[i] > -1 && frame.ints[i] < 18)
-                {// if panel exists, decorate it
-                    Controller.gameCore.panels[frame.ints[i]].GetComponent<Panel>().Decorate(frame.sprites[i], !user.isRed);
-                }
+    // Decorates panels with animations in this.decorations, flipped by the player's side but otherwise not relative
+    public virtual void decorateFixed(Player user) {
+        foreach (indexed<Animation2D> anim in decorations)
+        {// for each animation
+            // if the panel it's for exists, decorate that panel with it
+            if (anim.index > -1 && anim.index < 18)
+            {
+                Controller.gameCore.panels[anim.index].GetComponent<Panel>().Decorate(anim.value, !user.isRed);
             }
-            // wait a frame
-            yield return 0;
         }
     }
 
     // Decorates panels with sprites in this.decorations, position relative to the player
-    public virtual IEnumerator decorateRelative(Player user) {
-        foreach (intsAndSprites frame in decorations)
-        {// each frame
-            for (int i = 0; i < frame.ints.Length; ++i)
-            {// draw all sprites for this frame
-                int rel = makeRelative(user, frame.ints[i]);
-                if (rel > -1 && rel < 18)
-                {// if panel exists, decorate it
-                    Controller.gameCore.panels[rel].GetComponent<Panel>().Decorate(frame.sprites[i], user);
-                }
+    public virtual void decorateRelative(Player user) {
+        foreach (indexed<Animation2D> anim in decorations)
+        {// make each one relative
+            int rel = makeRelative(user, anim.index);
+            if (rel > -1 && rel < 18)
+            {// then, if panel exists, decorate it
+                Controller.gameCore.panels[rel].GetComponent<Panel>().Decorate(anim.value, !user.isRed);
             }
-            // wait a frame
-            yield return 0;
         }
     }
 

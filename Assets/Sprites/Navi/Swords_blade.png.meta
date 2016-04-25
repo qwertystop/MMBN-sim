@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f541d2d390db1e9459a4336ae40e04c8
-timeCreated: 1460722770
+timeCreated: 1461543299
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -84,8 +84,8 @@ TextureImporter:
         y: 183
         width: 32
         height: 23
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0.5, y: -0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_1
@@ -95,8 +95,8 @@ TextureImporter:
         y: 191
         width: 64
         height: 26
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0.5, y: -0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_2
@@ -106,8 +106,8 @@ TextureImporter:
         y: 197
         width: 47
         height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0.5, y: -0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_3
@@ -117,8 +117,8 @@ TextureImporter:
         y: 199
         width: 37
         height: 18
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0.5, y: -0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_4
@@ -128,8 +128,8 @@ TextureImporter:
         y: 201
         width: 16
         height: 16
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0.5, y: -0.8}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_5
@@ -139,8 +139,8 @@ TextureImporter:
         y: 179
         width: 24
         height: 17
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: -0.5, y: -0.7}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_6
@@ -151,7 +151,7 @@ TextureImporter:
         width: 29
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_7
@@ -303,7 +303,7 @@ TextureImporter:
         width: 23
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_20
@@ -314,7 +314,7 @@ TextureImporter:
         width: 25
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_21
@@ -369,7 +369,7 @@ TextureImporter:
         width: 32
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_29
@@ -380,7 +380,7 @@ TextureImporter:
         width: 23
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_30
@@ -391,7 +391,7 @@ TextureImporter:
         width: 31
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_31
@@ -402,7 +402,7 @@ TextureImporter:
         width: 64
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -32, y: 16}
@@ -420,7 +420,7 @@ TextureImporter:
         width: 45
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_33
@@ -431,7 +431,7 @@ TextureImporter:
         width: 39
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_34
@@ -442,7 +442,7 @@ TextureImporter:
         width: 24
         height: 18
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_35
@@ -453,7 +453,7 @@ TextureImporter:
         width: 15
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_blade_36
@@ -464,7 +464,7 @@ TextureImporter:
         width: 23
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

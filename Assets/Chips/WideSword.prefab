@@ -10,6 +10,8 @@ GameObject:
   - 4: {fileID: 450370}
   - 114: {fileID: 11499182}
   - 114: {fileID: 11445114}
+  - 114: {fileID: 11488646}
+  - 114: {fileID: 11413548}
   m_Layer: 0
   m_Name: WideSword
   m_TagString: Untagged
@@ -29,6 +31,26 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11413548
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: SwordSlash
+  FPS: 15
+  isLooping: 0
+  frames:
+  - {fileID: 0}
+  - {fileID: 21300014, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - {fileID: 21300016, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - {fileID: 21300020, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
 --- !u!114 &11445114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -48,6 +70,31 @@ MonoBehaviour:
   - {fileID: 21300034, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300036, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+--- !u!114 &11488646
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 122784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: SwordBlade
+  FPS: 15
+  isLooping: 0
+  frames:
+  - {fileID: 0}
+  - {fileID: 21300010, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300000, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300002, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300004, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300006, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300008, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
 --- !u!114 &11499182
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -62,21 +109,10 @@ MonoBehaviour:
   element: 0
   playerAnimation: {fileID: 11445114}
   decorations:
-  - ints: 01000000
-    sprites:
-    - {fileID: 21300014, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 01000000
-    sprites:
-    - {fileID: 21300016, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 
-    sprites:
-    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 01000000
-    sprites:
-    - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
-  - ints: 01000000
-    sprites:
-    - {fileID: 21300020, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - index: 0
+    value: {fileID: 11488646}
+  - index: 1
+    value: {fileID: 11413548}
   damageMultiplier: 1
   damageBase: 80
   damagePlus: 0
@@ -84,8 +120,8 @@ MonoBehaviour:
   chipName: LongSwrd
   icon: {fileID: 0}
   largeImg: {fileID: 0}
-  windup: 0
-  winddown: 5
+  windup: 4
+  winddown: 24
   length: 1
   width: 3
 --- !u!1001 &100100000

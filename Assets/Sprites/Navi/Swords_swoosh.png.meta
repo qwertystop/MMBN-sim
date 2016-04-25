@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: 14a60364bc14aae44b96a9fe74d7df6c
-timeCreated: 1460722454
+timeCreated: 1461546528
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -31,6 +31,7 @@ TextureImporter:
     21300048: Swords_swoosh_24
     21300050: Swords_swoosh_25
     21300052: Swords_swoosh_26
+    21300054: Swords_swoosh_27
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -85,7 +86,7 @@ TextureImporter:
         width: 37
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_1
@@ -96,7 +97,7 @@ TextureImporter:
         width: 30
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_2
@@ -107,7 +108,7 @@ TextureImporter:
         width: 31
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_3
@@ -118,7 +119,7 @@ TextureImporter:
         width: 26
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_4
@@ -129,7 +130,7 @@ TextureImporter:
         width: 70
         height: 37
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: -26, y: 18.5}
@@ -148,7 +149,7 @@ TextureImporter:
         width: 51
         height: 27
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_6
@@ -156,10 +157,10 @@ TextureImporter:
         serializedVersion: 2
         x: 150
         y: 343
-        width: 85
+        width: 52
         height: 14
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_7
@@ -170,7 +171,7 @@ TextureImporter:
         width: 37
         height: 70
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 7.5, y: 35}
@@ -190,7 +191,7 @@ TextureImporter:
         width: 25
         height: 51
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_9
@@ -201,7 +202,7 @@ TextureImporter:
         width: 26
         height: 23
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_10
@@ -212,7 +213,7 @@ TextureImporter:
         width: 15
         height: 9
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_11
@@ -223,7 +224,7 @@ TextureImporter:
         width: 37
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_12
@@ -234,7 +235,7 @@ TextureImporter:
         width: 30
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_13
@@ -245,7 +246,7 @@ TextureImporter:
         width: 31
         height: 8
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_14
@@ -256,7 +257,7 @@ TextureImporter:
         width: 26
         height: 4
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_15
@@ -267,7 +268,7 @@ TextureImporter:
         width: 117
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 35.5, y: 22.5}
@@ -286,7 +287,7 @@ TextureImporter:
         width: 83
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 1.5, y: 16}
@@ -305,7 +306,7 @@ TextureImporter:
         width: 83
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_18
@@ -316,7 +317,7 @@ TextureImporter:
         width: 80
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_19
@@ -327,7 +328,7 @@ TextureImporter:
         width: 117
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 52.5, y: 21.5}
@@ -347,7 +348,7 @@ TextureImporter:
         width: 83
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 1.5, y: 16}
@@ -366,7 +367,7 @@ TextureImporter:
         width: 83
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_22
@@ -377,7 +378,7 @@ TextureImporter:
         width: 80
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_23
@@ -388,7 +389,7 @@ TextureImporter:
         width: 117
         height: 45
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 52.5, y: 21.5}
@@ -408,7 +409,7 @@ TextureImporter:
         width: 83
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 1.5, y: 16}
@@ -427,7 +428,7 @@ TextureImporter:
         width: 83
         height: 22
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     - name: Swords_swoosh_26
@@ -438,7 +439,18 @@ TextureImporter:
         width: 80
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Swords_swoosh_27
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 354
+        width: 29
+        height: 3
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
     outline: []

@@ -20,43 +20,55 @@ public class Panel : MonoBehaviour {
     private static List<GameObject> decorations = new List<GameObject>();
     // should be set in editor to a GameObject with an empty SpriteRenderer and nothing else
     public GameObject blankRenderer;
+    // should be set to an empty GameObject, for in-editor organizational purposes
+    public GameObject decorationParent;
 
     // Use this for initialization
     void Start () {
-        decorations.Add(Instantiate(blankRenderer));
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+        // each panel starts off creating one blank decoration, which ought to be plenty
+        addDecoration();
 	}
 
-    // Displays the given sprite at this panel for one frame
+    // Displays the given animation at this panel
     // Uses object-pooling to reduce instantiation
     // if boolean is true, reverse left-right of sprite
-    public void Decorate(Sprite sprite, bool flip) {
-        int i = 0;
-        while (i < decorations.Count)
+    public void Decorate(Animation2D anim, bool flip) {
+        for (int i = 0; i < decorations.Count; ++i)
         {// look until the end of the list or until finding an empty spot
-            if (decorations[i].GetComponent<SpriteRenderer>().sprite == null)
+            if (decorations[i].GetComponent<SpriteRenderer>().enabled == false)
             {// if this is an empty spot
-                StartCoroutine(Decorator(sprite, i)); // put the decoration in it
-                return;// stop looking
+                Decorator(anim, i, flip); // put the decoration in it
+                return;// and stop looking
             }// else keep looking
-            i += 1;
         }
-        // getting here means no empty spot was found and i is one past the last index
-        decorations.Add(Instantiate(blankRenderer));
-        StartCoroutine(Decorator(sprite, i));
+        // getting here means no empty spot was found, so add a new decoration
+        // very unlikely to be used, but it's better to be safe
+        addDecoration();
+        Decorator(anim, decorations.Count - 1, flip);
     }
 
-    // Helper for Decorate, handles delayed disappearance
-    // int is index in decorations to hold sprite
-    private IEnumerator Decorator(Sprite sprite, int i) {
-        decorations[i].transform.position = transform.position;
-        decorations[i].GetComponent<SpriteRenderer>().sprite = sprite;
-        yield return 0; // the next frame
-        decorations[i].GetComponent<SpriteRenderer>().sprite = null;
+    // adds a new decoration to the end of decorations
+    private void addDecoration() {
+        GameObject dec = Instantiate(blankRenderer);
+        dec.transform.parent = decorationParent.transform;
+        dec.GetComponent<SpriteRenderer>().enabled = false;
+        decorations.Add(dec);
+    }
+
+    // Helper for Decorate
+    // starts the given animation at this panel using the decorator at the given index
+    private void Decorator(Animation2D anim, int i, bool flip) {
+        GameObject dec = decorations[i];
+        dec.transform.position = this.transform.position;
+        anim.outputRenderer = dec.GetComponent<SpriteRenderer>();
+        if (flip)
+        {
+            dec.transform.localScale = new Vector3(-5, 5, 1);
+        } else
+        {
+            dec.transform.localScale = new Vector3(5, 5, 1);
+        }
+        anim.Play(true);
     }
     
 }
