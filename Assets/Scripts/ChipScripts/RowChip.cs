@@ -31,16 +31,7 @@ public class RowChip : AChip {
                 if (Controller.gameCore.panels[target].GetComponent<Panel>().isOccupied)
                 {
                     Controller.gameCore.panels[target].GetComponent<Panel>().occupant.hit(this);
-                    didBreak = true;
-                    break; // stop after hit
                 }
-                else
-                {// if no hit keep looking
-                    target = isRed ? target + 1 : target - 1;
-                }
-            }
-            if (didBreak) {
-                break;
             }
             target -= (increment * length);
             target = (target + 6) % 18;

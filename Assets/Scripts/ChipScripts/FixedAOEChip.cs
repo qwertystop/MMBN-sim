@@ -19,9 +19,11 @@ public class FixedAOEChip : AChip {
         // now damage each panel on the list with the given amount of damage
         for (int i = 0; i < locationsAndDamages.Length; ++i)
         {
-            if (Controller.gameCore.panels[locationsAndDamages[i].index].GetComponent<Panel>().isOccupied)
+            int adjustedIndex = mirrorIfRed(user, locationsAndDamages[i].index);
+
+            if (Controller.gameCore.panels[adjustedIndex].GetComponent<Panel>().isOccupied)
             {// someone in the panel
-                Player p = Controller.gameCore.panels[locationsAndDamages[i].index].GetComponent<Panel>().occupant;
+                Player p = Controller.gameCore.panels[adjustedIndex].GetComponent<Panel>().occupant;
                 // don't hurt the user
                 // TODO when summons are implemented make sure this doesn't hit allies
                 if (user != p)

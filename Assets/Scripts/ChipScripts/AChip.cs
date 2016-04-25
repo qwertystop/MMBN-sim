@@ -75,6 +75,16 @@ public abstract class AChip : MonoBehaviour {
         }
     }
 
+    // given an int for a panel index and a player, mirror the index to the opposite side if the player is the red one
+    // but otherwise do not shift: Position remains relative to battlefield.
+    protected int mirrorIfRed(Player user, int index) {
+        // vertical and horizontal displacement
+        int vert = (index / 6) * 6;
+        int horiz = index % 6; // % is actually remainder, not mod, even if it's called mod - negatives are kept properly
+
+        return user.isRed ? vert + horiz : vert - horiz;
+    }
+
     // given an int for a panel index and a player, treat the index as a modifier on the player's location
     // and return the modified location
     protected int makeRelative(Player user, int index) {

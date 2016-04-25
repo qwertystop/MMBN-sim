@@ -8,12 +8,12 @@ using System.Collections.Generic;
 namespace mDimLists {
     // this one needs to exist to get around the multidimensional list prohibition
     [Serializable]
-    public class indexed<T> {
+    public abstract class indexed<T> {
         public int index;
         public T value;
     }
 
-    // all below need to exist because Unity does not support generics in the editor other than List<T>
+    // all below need to exist because Unity does not support serializing generics in the editor other than List<T>
     [Serializable]
     public class indexedInt : indexed<int> { }
 
