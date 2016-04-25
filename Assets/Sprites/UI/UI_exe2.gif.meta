@@ -1,9 +1,83 @@
 fileFormatVersion: 2
 guid: 1718c1a3cc7381c4c840dd944d61f9b2
-timeCreated: 1461608172
+timeCreated: 1461623379
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: UI_exe2_0
+    21300002: UI_exe2_heat
+    21300004: UI_exe2_aqua
+    21300006: UI_exe2_star
+    21300008: UI_exe2_elec
+    21300010: UI_exe2_wood
+    21300012: UI_exe2_custEmpty
+    21300014: UI_exe2_fill
+    21300016: UI_exe2_HPbox
+    21300018: UI_exe2_null
+    21300020: UI_exe2_custFull0
+    21300022: UI_exe2_n1
+    21300024: UI_exe2_12
+    21300026: UI_exe2_13
+    21300028: UI_exe2_custFull1
+    21300030: UI_exe2_r1
+    21300032: UI_exe2_custFull2
+    21300034: UI_exe2_g1
+    21300036: UI_exe2_18
+    21300038: UI_exe2_add
+    21300040: UI_exe2_custFull3
+    21300042: UI_exe2_n2
+    21300044: UI_exe2_n3
+    21300046: UI_exe2_n4
+    21300048: UI_exe2_n5
+    21300050: UI_exe2_n6
+    21300052: UI_exe2_n7
+    21300054: UI_exe2_n8
+    21300056: UI_exe2_n9
+    21300058: UI_exe2_n0
+    21300060: UI_exe2_r2
+    21300062: UI_exe2_r3
+    21300064: UI_exe2_r4
+    21300066: UI_exe2_r5
+    21300068: UI_exe2_r6
+    21300070: UI_exe2_r7
+    21300072: UI_exe2_r8
+    21300074: UI_exe2_r9
+    21300076: UI_exe2_r0
+    21300078: UI_exe2_g2
+    21300080: UI_exe2_g3
+    21300082: UI_exe2_g4
+    21300084: UI_exe2_g5
+    21300086: UI_exe2_g6
+    21300088: UI_exe2_g7
+    21300090: UI_exe2_g8
+    21300092: UI_exe2_g9
+    21300094: UI_exe2_g0
+    21300096: UI_exe2_a
+    21300098: UI_exe2_b
+    21300100: UI_exe2_c
+    21300102: UI_exe2_d
+    21300104: UI_exe2_e
+    21300106: UI_exe2_f
+    21300108: UI_exe2_g
+    21300110: UI_exe2_h
+    21300112: UI_exe2_i
+    21300114: UI_exe2_j
+    21300116: UI_exe2_k
+    21300118: UI_exe2_l
+    21300120: UI_exe2_m
+    21300122: UI_exe2_n
+    21300124: UI_exe2_o
+    21300126: UI_exe2_p
+    21300128: UI_exe2_q
+    21300130: UI_exe2_r
+    21300132: UI_exe2_s
+    21300134: UI_exe2_t
+    21300136: UI_exe2_u
+    21300138: UI_exe2_v
+    21300140: UI_exe2_w
+    21300142: UI_exe2_x
+    21300144: UI_exe2_y
+    21300146: UI_exe2_z
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +104,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +112,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +123,796 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: UI_exe2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 120
+        height: 156
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: -7}
+        - {x: 115, y: 0}
+        - {x: 0, y: 0}
+        - {x: 0, y: -156}
+        - {x: 118, y: -156}
+        - {x: 118, y: -112}
+        - {x: 120, y: -110}
+        - {x: 120, y: -15}
+    - name: UI_exe2_heat
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 88
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_aqua
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 88
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_star
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 106
+        width: 7
+        height: 11
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_elec
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 70
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_wood
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 70
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_custEmpty
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 73
+        width: 144
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_fill
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 75
+        width: 25
+        height: 6
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 1, y: 2, z: 1, w: 2}
+      outline: []
+    - name: UI_exe2_HPbox
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 65
+        width: 46
+        height: 15
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_null
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 52
+        width: 14
+        height: 14
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_custFull0
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 55
+        width: 144
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 48
+        width: 8
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_custFull1
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 37
+        width: 144
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 29
+        width: 8
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_custFull2
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 19
+        width: 144
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g1
+      rect:
+        serializedVersion: 2
+        x: 373
+        y: 9
+        width: 8
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_add
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 4
+        width: 22
+        height: 13
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_custFull3
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1
+        width: 144
+        height: 16
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n6
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n0
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 48
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r6
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r0
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 29
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g2
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g3
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g4
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g5
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g6
+      rect:
+        serializedVersion: 2
+        x: 413
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g7
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g8
+      rect:
+        serializedVersion: 2
+        x: 429
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g9
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g0
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 9
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_a
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_b
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_c
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_d
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_e
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_f
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_g
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_h
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_i
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 106
+        width: 2
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_j
+      rect:
+        serializedVersion: 2
+        x: 294
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_k
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_l
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 106
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_m
+      rect:
+        serializedVersion: 2
+        x: 189
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_n
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_o
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_p
+      rect:
+        serializedVersion: 2
+        x: 222
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_q
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_r
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_s
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_t
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_u
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_v
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_w
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_x
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_y
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_z
+      rect:
+        serializedVersion: 2
+        x: 332
+        y: 93
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
