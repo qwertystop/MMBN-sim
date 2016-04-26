@@ -3,6 +3,7 @@ using System.Collections;
 using UnityEngine.UI;
 using Util;
 
+// The UI for one player: Both their HP box and their CustomWindow
 public class HUD : MonoBehaviour {
     private HPBox hpbox;
     private CustomWindow customwindow;
@@ -21,12 +22,12 @@ public class HUD : MonoBehaviour {
     // Initialization that depends on specific external things having initialized
     // this cannot be run until UIManager.Start() has been run, so that calls this method
     public void Init() {
-        hpbox.Init(player.hp);
+        hpbox.Init(player.maxHP);
     }
 	
 	// Update is called once per frame
 	void Update () {
         // every frame, update HP box to player's HP
-        hpbox.curHP = player.hp;
+        hpbox.curHP = player.curHP;
 	}
 }
