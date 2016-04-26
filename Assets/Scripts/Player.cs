@@ -14,7 +14,8 @@ public class Player : MonoBehaviour {
     public Status status = Status.FREE;
 
     // Customizable properties
-    public int hp = 1000;
+    public int maxHP = 1000;
+    public int curHP;
     public Controller.Element element = Controller.Element.Null;
 
     // Buster
@@ -40,6 +41,8 @@ public class Player : MonoBehaviour {
 
     // Initialization not requiring other objects (except those set in editor)
     void Awake() {
+        // HP
+        curHP = maxHP;
         // instantiate buster
         b_nocharge = Instantiate(busterUncharged).GetComponent<LineChip>();
         b_charge = Instantiate(busterCharged).GetComponent<AChip>();
@@ -239,13 +242,16 @@ public class Player : MonoBehaviour {
     }
 
     // hit this player with the given Chip
-    public void hit(AChip chip) {
+    public void hit(int damage, int multiplier, Controller.Element atkElement) {
         // calculate damage
-        int damage = Controller.isSuper(chip.element, element) ?
-            (chip.damageBase + chip.damagePlus) * (chip.damageMultiplier + 1) : // +1 to multiplier - stacking doublers is +100%, not x2
-            (chip.damageBase + chip.damagePlus) * chip.damageMultiplier;
-        // deduct from HP
-        hp -= damage;
+        int totalDamage = Controller.isSuper(atkElement, element) ?
+            damage * (multiplier + 1) :// +1 to multiplier - stacking doublers is +100%, not x2
+            damage * multiplier;
+
+        // deduct from HP, but don't go below 0
+        // healing is negative damage - don't go above max either
+        curHP -= totalDamage;
+        curHP = curHP < 0 ? 0 : (curHP > maxHP ? maxHP : curHP);
     }
 
     // This player plays the given animation
