@@ -108,7 +108,7 @@ public class Player : MonoBehaviour {
     // actually move
     private void Move() {
         // all the stuff to do to move is exactly the same except for the edge-of-area check and the int
-        Delegates.intVoid mover = x =>
+        Util.intVoid mover = x =>
         {
             GameObject target = Controller.gameCore.panels[currentPanelIndex + x];
             if (target.GetComponent<Panel>().isRed == this.isRed // only move onto proper color
