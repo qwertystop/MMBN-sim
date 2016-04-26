@@ -78,6 +78,7 @@ GameObject:
   - 224: {fileID: 22496940}
   - 222: {fileID: 22254832}
   - 114: {fileID: 11472292}
+  - 114: {fileID: 11467732}
   m_Layer: 5
   m_Name: HPBox
   m_TagString: Untagged
@@ -166,6 +167,17 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &11467732
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 152392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be5186ad8fa0a154ba3673a4f40469a1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &11472292
 MonoBehaviour:
   m_ObjectHideFlags: 1

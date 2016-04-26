@@ -4,13 +4,13 @@ using UnityEngine.UI;
 using Util;
 
 public class HUD : MonoBehaviour {
-    private GameObject HPBox;
-    private GameObject CustomWindow;
+    private HPBox hpbox;
+    private CustomWindow customwindow;
     public Player player;
 
     void Awake() {
-        HPBox = gameObject.FindChild("HPBox");
-        CustomWindow = gameObject.FindChild("CustomWindow");
+        hpbox = gameObject.FindChild("HPBox").GetComponent<HPBox>();
+        customwindow = gameObject.FindChild("CustomWindow").GetComponent<CustomWindow>();
     }
 
 	// Use this for initialization
@@ -20,6 +20,7 @@ public class HUD : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+        // every frame, update HP box to player's HP
+        hpbox.hp = player.hp;
 	}
 }
