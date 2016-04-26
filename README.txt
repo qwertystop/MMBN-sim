@@ -20,5 +20,9 @@ Gameplay:
 
 Outside Sources:
 Megaman Battle Network is owned by Capcom (more's the pity...)
+
 Original game's sprite-sheets taken from http://www.sprites-inc.co.uk/sprite.php?local=/EXE/
-Parts of framework based on code provided by HeatPhoenix (of mmbn3d.tumblr.com), who is making a similar game as a hobby. The original code which he provided to me for reference is contained in the folder MMBN3D.
+
+Parts of scripts based on code provided by HeatPhoenix (of mmbn3d.tumblr.com), who is making a similar game as a hobby. The original code which he provided to me for reference is contained in the folder MMBN3D.
+
+Custom-screens redesigned by my sister, Maya Heyman. Goal of redesign was to re-organize things to allow the HP box to overlap it without covering anything of note, since the original graphics were not designed for two players to share a screen.
