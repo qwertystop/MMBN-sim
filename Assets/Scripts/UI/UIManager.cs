@@ -11,18 +11,24 @@ public class UIManager : MonoBehaviour {
     public Sprite[] elements = new Sprite[5];// null, fire, aqua, wood, elec, same as order in Controller.Element enum.
     private HUD[] huds = new HUD[2];// left, then right
 
-
-    // pre-Start initialization
+    // Initialization not requiring other objects (except those set in editor)
     void Awake() {
         Controller.UI = this;
-        huds[0] = gameObject.FindChild("LeftHUD").GetComponent<HUD>();
-        huds[0].player = Controller.players[0];
-        huds[1] = gameObject.FindChild("RightHUD").GetComponent<HUD>();
-        huds[1].player = Controller.players[1];
     }
 
-    // Use this for initialization
+    // Initialization after all Awake() methods have run
     void Start() {
+    }
+
+    // Initialization that depends on specific external things having initialized
+    // requires Controller.players to contain non-null values, which cannot be guaranteed until after Controller.Start()
+    public void Init() {
+        huds[0] = gameObject.FindChild("LeftHUD").GetComponent<HUD>();
+        huds[0].player = Controller.players[0];
+        huds[0].Init();
+        huds[1] = gameObject.FindChild("RightHUD").GetComponent<HUD>();
+        huds[1].player = Controller.players[1];
+        huds[1].Init();
     }
 
     // Update is called once per frame
@@ -34,12 +40,14 @@ public class UIManager : MonoBehaviour {
     
     // For ints, three sets of sprites exist for different colors.
     // if which > 0, green. If which == 0, tan. If which < 0, red. Defaults to tan.
+    // increasing index is increasing significance of bit
     public Sprite[] getSprite(int target, int which = 0) {
         int count = (int)Mathf.Log10(target);// number of digits minus 1
         Sprite[] s = new Sprite[count+1];// array length equal to number of digits, count starts at highest index in array
         int ind;// index in array of all digits at which correct digit is placed
-        for (int i = 0; i < count; target /= 10, --i)// each iteration, decrement i and remove a digit from target
+        for (int i = 0; i < count; target /= 10, ++i)// each iteration, increment i and remove a digit from target
         {
+            print(i);
             ind = target % 10;
             // cases ordered by expected frequency of occurrence
             if (which == 0) { s[i] = numbersTan[ind]; }

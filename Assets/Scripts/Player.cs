@@ -38,21 +38,26 @@ public class Player : MonoBehaviour {
     private Animation2D chargingAnim;
     private Animation2D chargedAnim;
 
-    void Start() {
+    // Initialization not requiring other objects (except those set in editor)
+    void Awake() {
         // instantiate buster
         b_nocharge = Instantiate(busterUncharged).GetComponent<LineChip>();
         b_charge = Instantiate(busterCharged).GetComponent<AChip>();
         // animation
         animationSetup();
         StartCoroutine(animateReset());
-        // panel is occupied
-        Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
         // instantiate starting chips
         // TODO when chip selection is implemented move this bit to there
-        foreach(GameObject chip in chipsSelected)
+        foreach (GameObject chip in chipsSelected)
         {
             chips.Enqueue(Instantiate(chip).GetComponent<AChip>());
         }
+    }
+
+    // Initialization after all Awake() methods have run
+    void Start() {
+        // panel is occupied
+        Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
     }
 
     // fills fields with appropriate Animation2D objects for later reference

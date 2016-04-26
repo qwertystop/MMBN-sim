@@ -8,25 +8,30 @@ public class Controller : MonoBehaviour {
     public static Controller gameCore;
     public static Player[] players;// left, then right
     public GameObject[] panels = new GameObject[18];//starting from top-left, counting horizontal before vertical
-    public static UIManager UI;// set in UIManager's Awake()
+    public static UIManager UI;// Static reference to UI manager, set in UIManager's Awake()
 
-    // Initialize things that need to be done first-thing - system settings and object linking
+    // Initialization not requiring other objects (except those set in editor)
     void Awake() {
         // make this available statically
         gameCore = this;
         // set framerate to 60fps cap
-        // technically the GBA ran at 59.8621 Hz, but A: can you really tell? and B: Unity only takes integer framerates
+        // technically the GBA ran at 59.8621 Hz, but A: can you really tell? and B: Unity only takes integer framerates anyway
         Application.targetFrameRate = 60;
-        players[0] = gameObject.FindChild("LeftPlayer").GetComponent<Player>();
-        players[1] = gameObject.FindChild("RightPlayer").GetComponent<Player>();
     }
 
-	// Use this for initialization
-	void Start () {
+    // Initialization after all Awake() methods have run
+    void Start () {
+        // players
+        players = new Player[2];
+        players[0] = gameObject.FindChild("LeftPlayer").GetComponent<Player>();
+        players[1] = gameObject.FindChild("RightPlayer").GetComponent<Player>();
+        // panels
         for (int i = 0; i < panels.Length; i++)
         {
             panels[i].GetComponent<Panel>().index = i;
         }
+        // UI
+        UI.Init();
     }
 	
 	// Update is called once per frame

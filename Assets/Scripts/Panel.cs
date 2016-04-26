@@ -23,8 +23,8 @@ public class Panel : MonoBehaviour {
     // should be set to an empty GameObject, for in-editor organizational purposes
     public GameObject decorationParent;
 
-    // Use this for initialization
-    void Start () {
+    // Initialization not requiring other objects (except those set in editor)
+    void Awake () {
         // each panel starts off creating one blank decoration, which ought to be plenty
         addDecoration();
 	}
