@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 using System;
+using Util;
 
 public class UIManager : MonoBehaviour {
     public Sprite[] numbersTan = new Sprite[10]; // 0-9
@@ -8,12 +9,16 @@ public class UIManager : MonoBehaviour {
     public Sprite[] numbersRed = new Sprite[10]; // 0-9
     public Sprite[] codes = new Sprite[27]; // *, then A-Z
     public Sprite[] elements = new Sprite[5];// null, fire, aqua, wood, elec, same as order in Controller.Element enum.
-    public HUD[] huds = new HUD[2];// left, then right
+    private HUD[] huds = new HUD[2];// left, then right
 
 
     // pre-Start initialization
     void Awake() {
         Controller.UI = this;
+        huds[0] = gameObject.FindChild("LeftHUD").GetComponent<HUD>();
+        huds[0].player = Controller.players[0];
+        huds[1] = gameObject.FindChild("RightHUD").GetComponent<HUD>();
+        huds[1].player = Controller.players[1];
     }
 
     // Use this for initialization
