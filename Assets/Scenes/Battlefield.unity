@@ -1878,6 +1878,14 @@ Prefab:
       propertyPath: m_AnchoredPosition.x
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 22466718, guid: cffc7124e8eaca7428ad254e10d1988b, type: 2}
+      propertyPath: m_AnchoredPosition.x
+      value: -20.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 22466718, guid: cffc7124e8eaca7428ad254e10d1988b, type: 2}
+      propertyPath: m_AnchoredPosition.y
+      value: -34
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: cffc7124e8eaca7428ad254e10d1988b, type: 2}
   m_IsPrefabParent: 0
@@ -2091,6 +2099,7 @@ MonoBehaviour:
   name: 
   FPS: 15
   isLooping: 1
+  playOnStartup: 0
   frames:
   - {fileID: 21300020, guid: 1718c1a3cc7381c4c840dd944d61f9b2, type: 3}
   - {fileID: 21300028, guid: 1718c1a3cc7381c4c840dd944d61f9b2, type: 3}

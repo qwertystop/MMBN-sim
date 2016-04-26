@@ -7,6 +7,7 @@ public class Animation2D : MonoBehaviour {
     public new string name;
     public float FPS;
     public bool isLooping;
+    public bool playOnStartup = false;
     public Sprite[] frames;
     // output renderer accessed via property to make it public but not editor-modifiable
     private SpriteRenderer _or;
@@ -27,6 +28,10 @@ public class Animation2D : MonoBehaviour {
             secondsToWait = 1 / FPS;
         } else {
             secondsToWait = 0f;
+        }
+        if (playOnStartup)
+        {
+            Play(true);
         }
     }
 
