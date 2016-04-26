@@ -1,0 +1,4377 @@
+fileFormatVersion: 2
+guid: e190be20a8ed9c1428aae445da6c9270
+timeCreated: 1461714305
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: exe2_card_0
+    21300002: exe2_card_1
+    21300004: exe2_card_2
+    21300006: exe2_card_3
+    21300008: exe2_card_4
+    21300010: exe2_card_5
+    21300012: exe2_card_6
+    21300014: exe2_card_7
+    21300016: exe2_card_8
+    21300018: exe2_card_9
+    21300020: exe2_card_10
+    21300022: exe2_card_11
+    21300024: exe2_card_12
+    21300026: exe2_card_13
+    21300028: exe2_card_14
+    21300030: exe2_card_15
+    21300032: exe2_card_16
+    21300034: exe2_card_17
+    21300036: exe2_card_18
+    21300038: exe2_card_19
+    21300040: exe2_card_20
+    21300042: exe2_card_21
+    21300044: exe2_card_22
+    21300046: exe2_card_23
+    21300048: exe2_card_24
+    21300050: exe2_card_25
+    21300052: exe2_card_26
+    21300054: exe2_card_27
+    21300056: exe2_card_28
+    21300058: exe2_card_29
+    21300060: exe2_card_30
+    21300062: exe2_card_31
+    21300064: exe2_card_32
+    21300066: exe2_card_33
+    21300068: exe2_card_34
+    21300070: exe2_card_35
+    21300072: exe2_card_36
+    21300074: exe2_card_37
+    21300076: exe2_card_38
+    21300078: exe2_card_39
+    21300080: exe2_card_40
+    21300082: exe2_card_41
+    21300084: exe2_card_42
+    21300086: exe2_card_43
+    21300088: exe2_card_44
+    21300090: exe2_card_45
+    21300092: exe2_card_46
+    21300094: exe2_card_47
+    21300096: exe2_card_48
+    21300098: exe2_card_49
+    21300100: exe2_card_50
+    21300102: exe2_card_51
+    21300104: exe2_card_52
+    21300106: exe2_card_53
+    21300108: exe2_card_54
+    21300110: exe2_card_55
+    21300112: exe2_card_56
+    21300114: exe2_card_57
+    21300116: exe2_card_58
+    21300118: exe2_card_59
+    21300120: exe2_card_60
+    21300122: exe2_card_61
+    21300124: exe2_card_62
+    21300126: exe2_card_63
+    21300128: exe2_card_64
+    21300130: exe2_card_65
+    21300132: exe2_card_66
+    21300134: exe2_card_67
+    21300136: exe2_card_68
+    21300138: exe2_card_69
+    21300140: exe2_card_70
+    21300142: exe2_card_71
+    21300144: exe2_card_72
+    21300146: exe2_card_73
+    21300148: exe2_card_74
+    21300150: exe2_card_75
+    21300152: exe2_card_76
+    21300154: exe2_card_77
+    21300156: exe2_card_78
+    21300158: exe2_card_79
+    21300160: exe2_card_80
+    21300162: exe2_card_81
+    21300164: exe2_card_82
+    21300166: exe2_card_83
+    21300168: exe2_card_84
+    21300170: exe2_card_85
+    21300172: exe2_card_86
+    21300174: exe2_card_87
+    21300176: exe2_card_88
+    21300178: exe2_card_89
+    21300180: exe2_card_90
+    21300182: exe2_card_91
+    21300184: exe2_card_92
+    21300186: exe2_card_93
+    21300188: exe2_card_94
+    21300190: exe2_card_95
+    21300192: exe2_card_96
+    21300194: exe2_card_97
+    21300196: exe2_card_98
+    21300198: exe2_card_99
+    21300200: exe2_card_100
+    21300202: exe2_card_101
+    21300204: exe2_card_102
+    21300206: exe2_card_103
+    21300208: exe2_card_104
+    21300210: exe2_card_105
+    21300212: exe2_card_106
+    21300214: exe2_card_107
+    21300216: exe2_card_108
+    21300218: exe2_card_109
+    21300220: exe2_card_110
+    21300222: exe2_card_111
+    21300224: exe2_card_112
+    21300226: exe2_card_113
+    21300228: exe2_card_114
+    21300230: exe2_card_115
+    21300232: exe2_card_116
+    21300234: exe2_card_117
+    21300236: exe2_card_118
+    21300238: exe2_card_119
+    21300240: exe2_card_120
+    21300242: exe2_card_121
+    21300244: exe2_card_122
+    21300246: exe2_card_123
+    21300248: exe2_card_124
+    21300250: exe2_card_125
+    21300252: exe2_card_126
+    21300254: exe2_card_127
+    21300256: exe2_card_128
+    21300258: exe2_card_129
+    21300260: exe2_card_130
+    21300262: exe2_card_131
+    21300264: exe2_card_132
+    21300266: exe2_card_133
+    21300268: exe2_card_134
+    21300270: exe2_card_135
+    21300272: exe2_card_136
+    21300274: exe2_card_137
+    21300276: exe2_card_138
+    21300278: exe2_card_139
+    21300280: exe2_card_140
+    21300282: exe2_card_141
+    21300284: exe2_card_142
+    21300286: exe2_card_143
+    21300288: exe2_card_144
+    21300290: exe2_card_145
+    21300292: exe2_card_146
+    21300294: exe2_card_147
+    21300296: exe2_card_148
+    21300298: exe2_card_149
+    21300300: exe2_card_150
+    21300302: exe2_card_151
+    21300304: exe2_card_152
+    21300306: exe2_card_153
+    21300308: exe2_card_154
+    21300310: exe2_card_155
+    21300312: exe2_card_156
+    21300314: exe2_card_157
+    21300316: exe2_card_158
+    21300318: exe2_card_159
+    21300320: exe2_card_160
+    21300322: exe2_card_161
+    21300324: exe2_card_162
+    21300326: exe2_card_163
+    21300328: exe2_card_164
+    21300330: exe2_card_165
+    21300332: exe2_card_166
+    21300334: exe2_card_167
+    21300336: exe2_card_168
+    21300338: exe2_card_169
+    21300340: exe2_card_170
+    21300342: exe2_card_171
+    21300344: exe2_card_172
+    21300346: exe2_card_173
+    21300348: exe2_card_174
+    21300350: exe2_card_175
+    21300352: exe2_card_176
+    21300354: exe2_card_177
+    21300356: exe2_card_178
+    21300358: exe2_card_179
+    21300360: exe2_card_180
+    21300362: exe2_card_181
+    21300364: exe2_card_182
+    21300366: exe2_card_183
+    21300368: exe2_card_184
+    21300370: exe2_card_185
+    21300372: exe2_card_186
+    21300374: exe2_card_187
+    21300376: exe2_card_188
+    21300378: exe2_card_189
+    21300380: exe2_card_190
+    21300382: exe2_card_191
+    21300384: exe2_card_192
+    21300386: exe2_card_193
+    21300388: exe2_card_194
+    21300390: exe2_card_195
+    21300392: exe2_card_196
+    21300394: exe2_card_197
+    21300396: exe2_card_198
+    21300398: exe2_card_199
+    21300400: exe2_card_200
+    21300402: exe2_card_201
+    21300404: exe2_card_202
+    21300406: exe2_card_203
+    21300408: exe2_card_204
+    21300410: exe2_card_205
+    21300412: exe2_card_206
+    21300414: exe2_card_207
+    21300416: exe2_card_208
+    21300418: exe2_card_209
+    21300420: exe2_card_210
+    21300422: exe2_card_211
+    21300424: exe2_card_212
+    21300426: exe2_card_213
+    21300428: exe2_card_214
+    21300430: exe2_card_215
+    21300432: exe2_card_216
+    21300434: exe2_card_217
+    21300436: exe2_card_218
+    21300438: exe2_card_219
+    21300440: exe2_card_220
+    21300442: exe2_card_221
+    21300444: exe2_card_222
+    21300446: exe2_card_223
+    21300448: exe2_card_224
+    21300450: exe2_card_225
+    21300452: exe2_card_226
+    21300454: exe2_card_227
+    21300456: exe2_card_228
+    21300458: exe2_card_229
+    21300460: exe2_card_230
+    21300462: exe2_card_231
+    21300464: exe2_card_232
+    21300466: exe2_card_233
+    21300468: exe2_card_234
+    21300470: exe2_card_235
+    21300472: exe2_card_236
+    21300474: exe2_card_237
+    21300476: exe2_card_238
+    21300478: exe2_card_239
+    21300480: exe2_card_240
+    21300482: exe2_card_241
+    21300484: exe2_card_242
+    21300486: exe2_card_243
+    21300488: exe2_card_244
+    21300490: exe2_card_245
+    21300492: exe2_card_246
+    21300494: exe2_card_247
+    21300496: exe2_card_248
+    21300498: exe2_card_249
+    21300500: exe2_card_250
+    21300502: exe2_card_251
+    21300504: exe2_card_252
+    21300506: exe2_card_253
+    21300508: exe2_card_254
+    21300510: exe2_card_255
+    21300512: exe2_card_256
+    21300514: exe2_card_257
+    21300516: exe2_card_258
+    21300518: exe2_card_259
+    21300520: exe2_card_260
+    21300522: exe2_card_261
+    21300524: exe2_card_262
+    21300526: exe2_card_263
+    21300528: exe2_card_264
+    21300530: exe2_card_265
+    21300532: exe2_card_266
+    21300534: exe2_card_267
+    21300536: exe2_card_268
+    21300538: exe2_card_269
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: exe2_card_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_5
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_6
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_7
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_8
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_9
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_10
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_11
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_12
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_13
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_14
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 896
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_18
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_19
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_21
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_22
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_23
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_24
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_25
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_26
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_27
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_29
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_30
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_31
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 840
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_35
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_36
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_37
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_38
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_39
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_40
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_41
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_42
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_43
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_45
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_46
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_47
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 784
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_49
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_50
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_51
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_52
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_53
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_55
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_56
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_57
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_58
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_59
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_60
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_61
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_62
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_63
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 728
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_65
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_66
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_67
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_68
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_69
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_70
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_71
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_72
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_74
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_75
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_76
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_77
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_78
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_79
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 672
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_81
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_82
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_83
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_84
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_85
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_86
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_87
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_88
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_89
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_90
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_91
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_92
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_93
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_94
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_95
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 616
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_97
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_99
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_100
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_101
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_102
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_104
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_105
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_106
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_107
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_108
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_109
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_110
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_111
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 560
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_112
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_114
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_115
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_117
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_118
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_119
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_120
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_121
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_122
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_123
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_124
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_125
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_126
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_127
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 504
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_128
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_130
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_132
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_133
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_134
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_135
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_136
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_137
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_138
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_139
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_140
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_141
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_142
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_143
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 448
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_144
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_146
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_147
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_148
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_149
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_150
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_151
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_152
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_153
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_154
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_155
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_156
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_157
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_158
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_159
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 392
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_161
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_162
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_163
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_165
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_166
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_167
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_168
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_169
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_170
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_171
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_172
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_173
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_174
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_175
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 336
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_176
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_177
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_178
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_179
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_180
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_181
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_182
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_183
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_184
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_185
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_186
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_187
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_188
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_189
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_190
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_191
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 280
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_192
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_193
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_194
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_195
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_196
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_197
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_198
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_199
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_200
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_201
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_202
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_203
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_204
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_205
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_206
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_207
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 224
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_208
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_209
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_210
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_211
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_212
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_213
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_214
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_215
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_216
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_217
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_218
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_219
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_220
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_221
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_222
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_223
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 168
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_225
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_226
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_227
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_228
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_229
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_230
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_231
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_232
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_233
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_234
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_235
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_236
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_237
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_238
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_239
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 112
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_240
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_241
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_242
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_243
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_244
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_245
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_246
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_247
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_248
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_249
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_250
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_251
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_252
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_253
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_254
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_255
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 56
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_256
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_257
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_258
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_259
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_260
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_261
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_262
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_263
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_264
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_265
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_266
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_267
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_268
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    - name: exe2_card_269
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 0
+        width: 64
+        height: 56
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -32, y: 28}
+        - {x: -32, y: -28}
+        - {x: 32, y: -28}
+        - {x: 32, y: 28}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
