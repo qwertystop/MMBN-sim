@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 
+// the player character
 public class Player : MonoBehaviour {
     // Basic system fields
     public int playerNo = 0;
@@ -13,7 +14,7 @@ public class Player : MonoBehaviour {
     bool justMoved = false;
     public Status status = Status.FREE;
 
-    // Customizable properties
+    // Customizable properties of player character
     public int maxHP = 1000;
     public int curHP;
     public Controller.Element element = Controller.Element.Null;
@@ -27,9 +28,10 @@ public class Player : MonoBehaviour {
     private int chargeCounter = 0;
     private int chargeTime = 60;
 
-    // Chips
-    public List<GameObject> chipsSelected;// for editor access - will probably not be necessary once chip selection is implemented
-    private Queue<AChip> chips = new Queue<AChip>(5);
+    // Chips currently loaded
+    public Queue<AChip> chipsPicked = new Queue<AChip>(5);
+    // all actual chip-selection code is done in the CustomWindow class, with the results passed to here
+
 
     // Animation
     private Animation2D curAnimation;
@@ -50,11 +52,6 @@ public class Player : MonoBehaviour {
         animationSetup();
         StartCoroutine(animateReset());
         // instantiate starting chips
-        // TODO when chip selection is implemented move this bit to there
-        foreach (GameObject chip in chipsSelected)
-        {
-            chips.Enqueue(Instantiate(chip).GetComponent<AChip>());
-        }
     }
 
     // Initialization after all Awake() methods have run
@@ -217,11 +214,9 @@ public class Player : MonoBehaviour {
     private void Chip() {
         if (canAct() && InputHandler.buttonDown(playerNo, InputHandler.button.A))
         {
-            if (chips.Count != 0)
+            if (chipsPicked.Count != 0)
             {
-      //          sprites = new List<Sprite>(chips.Peek().playerAnimation);
-       //         animationCount = 0;
-                StartCoroutine(chips.Dequeue().use(this));
+                StartCoroutine(chipsPicked.Dequeue().use(this));
             }
         }
     }
