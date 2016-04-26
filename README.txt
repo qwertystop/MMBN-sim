@@ -25,4 +25,6 @@ Original game's sprite-sheets taken from http://www.sprites-inc.co.uk/sprite.php
 
 Parts of scripts based on code provided by HeatPhoenix (of mmbn3d.tumblr.com), who is making a similar game as a hobby. The original code which he provided to me for reference is contained in the folder MMBN3D.
 
+Sprite animation system originally from http://gamasutra.com/blogs/DonaldKooiker/20150821/251260/Luckslinger_tech_1__How_to_make_2D_Sprite_Animations_in_Unity.php
+
 Custom-screens redesigned by my sister, Maya Heyman. Goal of redesign was to re-organize things to allow the HP box to overlap it without covering anything of note, since the original graphics were not designed for two players to share a screen.
