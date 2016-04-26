@@ -165,11 +165,10 @@ public class Player : MonoBehaviour {
     private void Buster() {
         if (canAct())
         {
-            // on button down, fire and begin charging
+            // on button down, delay charge counter
             if (InputHandler.buttonDown(playerNo, InputHandler.button.B))
             {
-                chargeCounter = -6;// delayed to ensure button is actually held before animating
-                StartCoroutine(b_nocharge.use(this));
+                chargeCounter = -6;// delayed to ensure button is actually held rather than tapped before animating
             }
 
             // on holding button, charge
