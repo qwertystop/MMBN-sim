@@ -1,6 +1,6 @@
 fileFormatVersion: 2
 guid: f8c0b342cf3314d459f8b24f858c7bf9
-timeCreated: 1461524199
+timeCreated: 1461701339
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -283,20 +283,19 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 291
-        y: 966
+        y: 965
         width: 34
         height: 42
       alignment: 7
       pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
-      - - {x: 0, y: 42}
-        - {x: -7, y: 38}
-        - {x: -17, y: 9}
+      - - {x: -11, y: 42}
+        - {x: -17, y: 10}
         - {x: -17, y: 0}
         - {x: 17, y: 0}
-        - {x: 17, y: 34}
-        - {x: 13, y: 42}
+        - {x: 17, y: 41}
+        - {x: 16, y: 42}
     - name: MM_EXE1_b_5
       rect:
         serializedVersion: 2
