@@ -18,6 +18,13 @@ Gameplay:
 ~~~~~~~~~~~~~~~~~~   TODO
 
 
+Work split:
+"I" here refers to David Heyman.
+Game produced by David Heyman and Dorian Franklin.
+~~~~~~~~~~~~~~~~~ TODO
+One script made by Dorian, RowChip.cs, is not used in the final product. In attempting to fix one potential bug (it would only hit one thing in the target area, which will be relevant when chips that add  obstacles or other summons are added), I accidentally introduced an infinite loop. Looking at the code and trying to figure out how that had happened and how to fix it, I decided that, since the class only provided a small increase in efficiency of setting up chips in the editor, and only for a very specific case, it would be easier to just rewrite the chips that used it to use RelativeAOEChip.cs instead. The file remains in the project for logging purposes.
+
+
 Outside Sources:
 Megaman Battle Network is owned by Capcom (more's the pity...)
 
