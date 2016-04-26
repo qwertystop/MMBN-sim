@@ -699,7 +699,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 166526, guid: f32fc57114aea914984210468fed9e96, type: 2}
       propertyPath: m_Name
-      value: Player0
+      value: LeftPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 11412844, guid: f32fc57114aea914984210468fed9e96, type: 2}
       propertyPath: chipsSelected.Array.data[0]
@@ -2445,9 +2445,6 @@ MonoBehaviour:
   - {fileID: 21300004, guid: 1718c1a3cc7381c4c840dd944d61f9b2, type: 3}
   - {fileID: 21300008, guid: 1718c1a3cc7381c4c840dd944d61f9b2, type: 3}
   - {fileID: 21300010, guid: 1718c1a3cc7381c4c840dd944d61f9b2, type: 3}
-  huds:
-  - {fileID: 2037848670}
-  - {fileID: 372914730}
 --- !u!1 &1818265211 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 176220, guid: a3d45e70c6850b048b83df63292c402d, type: 2}
@@ -2621,6 +2618,10 @@ Prefab:
     - target: {fileID: 22496940, guid: 0adc3e6374518cb4a80a866b58bbd3ef, type: 2}
       propertyPath: m_Pivot.y
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 152392, guid: 0adc3e6374518cb4a80a866b58bbd3ef, type: 2}
+      propertyPath: m_TagString
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 0adc3e6374518cb4a80a866b58bbd3ef, type: 2}
@@ -2983,7 +2984,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 166526, guid: f32fc57114aea914984210468fed9e96, type: 2}
       propertyPath: m_Name
-      value: Player1
+      value: RightPlayer
       objectReference: {fileID: 0}
     - target: {fileID: 443442, guid: f32fc57114aea914984210468fed9e96, type: 2}
       propertyPath: m_LocalScale.x
