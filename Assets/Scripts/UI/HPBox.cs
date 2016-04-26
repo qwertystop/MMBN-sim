@@ -54,11 +54,13 @@ public class HPBox : MonoBehaviour {
         sprites = Controller.UI.getSprite(displayedHP, curHP - displayedHP);
         for(int i = 0; i < sprites.Length; ++i)
         {
+            HPDisplay[i].enabled = true;
             HPDisplay[i].sprite = sprites[i];
         }
         // anything past that is a blank space
         for (int i = sprites.Length; i < 4; ++i)
         {
+            HPDisplay[i].enabled = false;
             HPDisplay[i].sprite = null;
         }
     }
