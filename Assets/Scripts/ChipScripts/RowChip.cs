@@ -1,6 +1,9 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+// class for chips that damage a rectangular area in front of the user evenly (one damage value)
+// technically could be implemented with RelativeAOEChip, but this is easier to set in the editor
 public class RowChip : AChip {
 
     public int length = 0; //The depth of the attack
@@ -11,7 +14,6 @@ public class RowChip : AChip {
     {
         decorateRelative(user);
         yield return StartCoroutine(base.use(user));
-        // calculate misc values ahead of time to avoid delaying the complicated bit
         // determine direction
         bool isRed = user.isRed;
         // determine row - int is the end condition for off the red end, math to convert to blue end is simple
@@ -24,7 +26,6 @@ public class RowChip : AChip {
 
         for (int i = 0; i < width; i++)
         {
-            bool didBreak = false;
             // now check each panel until a hit, starting directly in front of the player
             while (target != end)
             { // do this all in one frame, no yield until end

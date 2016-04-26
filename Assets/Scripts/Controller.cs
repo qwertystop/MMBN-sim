@@ -5,9 +5,9 @@ using System.Collections;
 public class Controller : MonoBehaviour {
     // static object to allow accessing the parts of this from anywhere
     public static Controller gameCore;
-    public GameObject[] players;
-    public GameObject[] panels = new GameObject[18];
-    public Text[] playerHP = new Text[2];
+    public GameObject[] players;// left, then right
+    public GameObject[] panels = new GameObject[18];//starting from top-left, counting horizontal before vertical
+    public static UIManager UI;// set in UIManager's Awake()
 
     // all Awake methods are called on scene load for extant objects, before any Start methods (which are called before the first frame).
     void Awake() {
@@ -28,24 +28,22 @@ public class Controller : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        for (int i = 0; i < 2; ++i) {
-            playerHP[i].text = "" + players[i].GetComponent<Player>().hp;
-        }
+
 	}
 
     // is the first element super-effective against the second?
     public static bool isSuper(Element e1, Element e2) {
-        return (e1 == Element.Aqua && e2 == Element.Fire) ||
-            (e1 == Element.Fire && e2 == Element.Wood) ||
+        return (e1 == Element.Aqua && e2 == Element.Heat) ||
+            (e1 == Element.Heat && e2 == Element.Wood) ||
             (e1 == Element.Wood && e2 == Element.Elec) ||
             (e1 == Element.Elec && e2 == Element.Aqua);
     }
 
     public enum Element {
-        Null,
-        Fire,
-        Aqua,
-        Wood,
-        Elec
+        Null = 0,
+        Heat = 1,
+        Aqua = 2,
+        Elec = 3,
+        Wood = 4
     };
 }
