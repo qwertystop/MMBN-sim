@@ -35,8 +35,8 @@ public class HPBox : MonoBehaviour {
         {// changing, so update
             changing = true;
             //TODO adjust rate to that of actual game
-            if (curHP < displayedHP) { displayedHP = Mathf.Max(displayedHP - 1, curHP); }
-            else { displayedHP = Mathf.Min(displayedHP - 1, curHP); }
+            if (curHP < displayedHP) { displayedHP = Mathf.Max(displayedHP - 5, curHP); }
+            else { displayedHP = Mathf.Min(displayedHP + 5, curHP); }
             UpdateSprites();
         } else
         {
