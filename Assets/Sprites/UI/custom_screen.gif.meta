@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 4688b9b9dc589d34c965ab1d24c38667
-timeCreated: 1461627891
+guid: a0d7e2272fbcf504e9c71755ac6e04de
+timeCreated: 1461631695
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
@@ -58,15 +58,15 @@ TextureImporter:
         x: 0
         y: 0
         width: 119
-        height: 150
+        height: 156
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 0, y: 0}
-        - {x: 0, y: -150}
-        - {x: 118, y: -150}
-        - {x: 119, y: -148}
+        - {x: 0, y: -156}
+        - {x: 118, y: -156}
+        - {x: 119, y: -154}
         - {x: 119, y: 0}
     - name: custom_screen_1
       rect:
@@ -74,15 +74,15 @@ TextureImporter:
         x: 121
         y: 0
         width: 119
-        height: 150
+        height: 156
       alignment: 1
       pivot: {x: 0, y: 1}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline:
       - - {x: 0, y: 0}
-        - {x: 0, y: -148}
-        - {x: 1, y: -150}
-        - {x: 119, y: -150}
+        - {x: 0, y: -154}
+        - {x: 1, y: -156}
+        - {x: 119, y: -156}
         - {x: 119, y: 0}
     outline: []
   spritePackingTag: 

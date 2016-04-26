@@ -1,9 +1,215 @@
 fileFormatVersion: 2
 guid: 9d22c5d6c3f5d8f409dddfd9ecd1aa0f
-timeCreated: 1461608172
+timeCreated: 1461633017
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: Chip_icons_exe2_0
+    21300002: Chip_icons_exe2_1
+    21300004: Chip_icons_exe2_2
+    21300006: Chip_icons_exe2_3
+    21300008: Chip_icons_exe2_4
+    21300010: Chip_icons_exe2_5
+    21300012: Chip_icons_exe2_6
+    21300014: Chip_icons_exe2_7
+    21300016: Chip_icons_exe2_8
+    21300018: Chip_icons_exe2_9
+    21300020: Chip_icons_exe2_10
+    21300022: Chip_icons_exe2_11
+    21300024: Chip_icons_exe2_12
+    21300026: Chip_icons_exe2_13
+    21300028: Chip_icons_exe2_14
+    21300030: Chip_icons_exe2_15
+    21300032: Chip_icons_exe2_16
+    21300034: Chip_icons_exe2_17
+    21300036: Chip_icons_exe2_18
+    21300038: Chip_icons_exe2_19
+    21300040: Chip_icons_exe2_20
+    21300042: Chip_icons_exe2_21
+    21300044: Chip_icons_exe2_22
+    21300046: Chip_icons_exe2_23
+    21300048: Chip_icons_exe2_24
+    21300050: Chip_icons_exe2_25
+    21300052: Chip_icons_exe2_26
+    21300054: Chip_icons_exe2_27
+    21300056: Chip_icons_exe2_28
+    21300058: Chip_icons_exe2_29
+    21300060: Chip_icons_exe2_30
+    21300062: Chip_icons_exe2_31
+    21300064: Chip_icons_exe2_32
+    21300066: Chip_icons_exe2_33
+    21300068: Chip_icons_exe2_34
+    21300070: Chip_icons_exe2_35
+    21300072: Chip_icons_exe2_36
+    21300074: Chip_icons_exe2_37
+    21300076: Chip_icons_exe2_38
+    21300078: Chip_icons_exe2_39
+    21300080: Chip_icons_exe2_40
+    21300082: Chip_icons_exe2_41
+    21300084: Chip_icons_exe2_42
+    21300086: Chip_icons_exe2_43
+    21300088: Chip_icons_exe2_44
+    21300090: Chip_icons_exe2_45
+    21300092: Chip_icons_exe2_46
+    21300094: Chip_icons_exe2_47
+    21300096: Chip_icons_exe2_48
+    21300098: Chip_icons_exe2_49
+    21300100: Chip_icons_exe2_50
+    21300102: Chip_icons_exe2_51
+    21300104: Chip_icons_exe2_52
+    21300106: Chip_icons_exe2_53
+    21300108: Chip_icons_exe2_54
+    21300110: Chip_icons_exe2_55
+    21300112: Chip_icons_exe2_56
+    21300114: Chip_icons_exe2_57
+    21300116: Chip_icons_exe2_58
+    21300118: Chip_icons_exe2_59
+    21300120: Chip_icons_exe2_60
+    21300122: Chip_icons_exe2_61
+    21300124: Chip_icons_exe2_62
+    21300126: Chip_icons_exe2_63
+    21300128: Chip_icons_exe2_64
+    21300130: Chip_icons_exe2_65
+    21300132: Chip_icons_exe2_66
+    21300134: Chip_icons_exe2_67
+    21300136: Chip_icons_exe2_68
+    21300138: Chip_icons_exe2_69
+    21300140: Chip_icons_exe2_70
+    21300142: Chip_icons_exe2_71
+    21300144: Chip_icons_exe2_72
+    21300146: Chip_icons_exe2_73
+    21300148: Chip_icons_exe2_74
+    21300150: Chip_icons_exe2_75
+    21300152: Chip_icons_exe2_76
+    21300154: Chip_icons_exe2_77
+    21300156: Chip_icons_exe2_78
+    21300158: Chip_icons_exe2_79
+    21300160: Chip_icons_exe2_80
+    21300162: Chip_icons_exe2_81
+    21300164: Chip_icons_exe2_82
+    21300166: Chip_icons_exe2_83
+    21300168: Chip_icons_exe2_84
+    21300170: Chip_icons_exe2_85
+    21300172: Chip_icons_exe2_86
+    21300174: Chip_icons_exe2_87
+    21300176: Chip_icons_exe2_88
+    21300178: Chip_icons_exe2_89
+    21300180: Chip_icons_exe2_90
+    21300182: Chip_icons_exe2_91
+    21300184: Chip_icons_exe2_92
+    21300186: Chip_icons_exe2_93
+    21300188: Chip_icons_exe2_94
+    21300190: Chip_icons_exe2_95
+    21300192: Chip_icons_exe2_96
+    21300194: Chip_icons_exe2_97
+    21300196: Chip_icons_exe2_98
+    21300198: Chip_icons_exe2_99
+    21300200: Chip_icons_exe2_100
+    21300202: Chip_icons_exe2_101
+    21300204: Chip_icons_exe2_102
+    21300206: Chip_icons_exe2_103
+    21300208: Chip_icons_exe2_104
+    21300210: Chip_icons_exe2_105
+    21300212: Chip_icons_exe2_106
+    21300214: Chip_icons_exe2_107
+    21300216: Chip_icons_exe2_108
+    21300218: Chip_icons_exe2_109
+    21300220: Chip_icons_exe2_110
+    21300222: Chip_icons_exe2_111
+    21300224: Chip_icons_exe2_112
+    21300226: Chip_icons_exe2_113
+    21300228: Chip_icons_exe2_114
+    21300230: Chip_icons_exe2_115
+    21300232: Chip_icons_exe2_116
+    21300234: Chip_icons_exe2_117
+    21300236: Chip_icons_exe2_118
+    21300238: Chip_icons_exe2_119
+    21300240: Chip_icons_exe2_120
+    21300242: Chip_icons_exe2_121
+    21300244: Chip_icons_exe2_122
+    21300246: Chip_icons_exe2_123
+    21300248: Chip_icons_exe2_124
+    21300250: Chip_icons_exe2_125
+    21300252: Chip_icons_exe2_126
+    21300254: Chip_icons_exe2_127
+    21300256: Chip_icons_exe2_128
+    21300258: Chip_icons_exe2_129
+    21300260: Chip_icons_exe2_130
+    21300262: Chip_icons_exe2_131
+    21300264: Chip_icons_exe2_132
+    21300266: Chip_icons_exe2_133
+    21300268: Chip_icons_exe2_134
+    21300270: Chip_icons_exe2_135
+    21300272: Chip_icons_exe2_136
+    21300274: Chip_icons_exe2_137
+    21300276: Chip_icons_exe2_138
+    21300278: Chip_icons_exe2_139
+    21300280: Chip_icons_exe2_140
+    21300282: Chip_icons_exe2_141
+    21300284: Chip_icons_exe2_142
+    21300286: Chip_icons_exe2_143
+    21300288: Chip_icons_exe2_144
+    21300290: Chip_icons_exe2_145
+    21300292: Chip_icons_exe2_146
+    21300294: Chip_icons_exe2_147
+    21300296: Chip_icons_exe2_148
+    21300298: Chip_icons_exe2_149
+    21300300: Chip_icons_exe2_150
+    21300302: Chip_icons_exe2_151
+    21300304: Chip_icons_exe2_152
+    21300306: Chip_icons_exe2_153
+    21300308: Chip_icons_exe2_154
+    21300310: Chip_icons_exe2_155
+    21300312: Chip_icons_exe2_156
+    21300314: Chip_icons_exe2_157
+    21300316: Chip_icons_exe2_158
+    21300318: Chip_icons_exe2_159
+    21300320: Chip_icons_exe2_160
+    21300322: Chip_icons_exe2_161
+    21300324: Chip_icons_exe2_162
+    21300326: Chip_icons_exe2_163
+    21300328: Chip_icons_exe2_164
+    21300330: Chip_icons_exe2_165
+    21300332: Chip_icons_exe2_166
+    21300334: Chip_icons_exe2_167
+    21300336: Chip_icons_exe2_168
+    21300338: Chip_icons_exe2_169
+    21300340: Chip_icons_exe2_170
+    21300342: Chip_icons_exe2_171
+    21300344: Chip_icons_exe2_172
+    21300346: Chip_icons_exe2_173
+    21300348: Chip_icons_exe2_174
+    21300350: Chip_icons_exe2_175
+    21300352: Chip_icons_exe2_176
+    21300354: Chip_icons_exe2_177
+    21300356: Chip_icons_exe2_178
+    21300358: Chip_icons_exe2_179
+    21300360: Chip_icons_exe2_180
+    21300362: Chip_icons_exe2_181
+    21300364: Chip_icons_exe2_182
+    21300366: Chip_icons_exe2_183
+    21300368: Chip_icons_exe2_184
+    21300370: Chip_icons_exe2_185
+    21300372: Chip_icons_exe2_186
+    21300374: Chip_icons_exe2_187
+    21300376: Chip_icons_exe2_188
+    21300378: Chip_icons_exe2_189
+    21300380: Chip_icons_exe2_190
+    21300382: Chip_icons_exe2_191
+    21300384: Chip_icons_exe2_192
+    21300386: Chip_icons_exe2_193
+    21300388: Chip_icons_exe2_194
+    21300390: Chip_icons_exe2_195
+    21300392: Chip_icons_exe2_196
+    21300394: Chip_icons_exe2_197
+    21300396: Chip_icons_exe2_198
+    21300398: Chip_icons_exe2_199
+    21300400: Chip_icons_exe2_200
+    21300402: Chip_icons_exe2_201
+    21300404: Chip_icons_exe2_202
+    21300406: Chip_icons_exe2_203
+    21300408: Chip_icons_exe2_204
+    21300410: Chip_icons_exe2_205
   serializedVersion: 2
   mipmaps:
     mipMapMode: 0
@@ -30,7 +236,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     filterMode: -1
-    aniso: -1
+    aniso: 16
     mipBias: -1
     wrapMode: 1
   nPOTScale: 0
@@ -38,7 +244,7 @@ TextureImporter:
   rGBM: 0
   compressionQuality: 50
   allowsAlphaSplitting: 0
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -49,7 +255,2273 @@ TextureImporter:
   textureType: 8
   buildTargetSettings: []
   spriteSheet:
-    sprites: []
+    sprites:
+    - name: Chip_icons_exe2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_1
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_2
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_3
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_5
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_6
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_7
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_8
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_9
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_10
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_11
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_13
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_14
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_15
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_16
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_17
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_18
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_19
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_20
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_21
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_22
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_23
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_25
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_26
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_27
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_28
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_29
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_31
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_32
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_33
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_34
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_35
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_36
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_37
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_38
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_39
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_40
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_41
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_43
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_44
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_45
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_46
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_47
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_48
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_49
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_50
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_51
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_52
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_53
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_54
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_55
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_56
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_57
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_58
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_59
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 81
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_61
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_62
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_63
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_64
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_65
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_66
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_67
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_68
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_69
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_70
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_71
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_73
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_74
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_75
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_76
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_77
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_78
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_79
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_81
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_82
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_83
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_84
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_85
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_86
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_87
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_88
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_89
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 65
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_91
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_92
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_93
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_94
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_95
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_96
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_97
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_98
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_99
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_101
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_102
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_103
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_104
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_105
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_107
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_108
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_109
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_110
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_111
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_112
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_113
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_114
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_115
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_116
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_117
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_118
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 49
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_119
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_120
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_121
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_122
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_123
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_124
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_125
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_126
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_127
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_128
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_129
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_130
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_131
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_132
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_133
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_134
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_136
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_137
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_138
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_139
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_140
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_141
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_142
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_143
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_144
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_145
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_146
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_147
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 33
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_148
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_149
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_150
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_151
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_152
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_153
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_154
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_155
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_156
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_157
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_158
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_159
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_160
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_161
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_162
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_163
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_164
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_165
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_166
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_167
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_168
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_169
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_170
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_171
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_172
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_173
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_174
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_175
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_176
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 17
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_177
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_178
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_179
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_180
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_181
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_182
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_183
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_184
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_185
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_186
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_187
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_188
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_189
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_190
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_191
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_192
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_193
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_194
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_195
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_196
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_197
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_198
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_199
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_200
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_201
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_202
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_203
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_204
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Chip_icons_exe2_205
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
     outline: []
   spritePackingTag: 
   userData: 
