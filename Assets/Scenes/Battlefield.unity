@@ -563,6 +563,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557aaa799624bab45bc8083d3c921c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1 &386623248 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 176220, guid: a3d45e70c6850b048b83df63292c402d, type: 2}
@@ -724,10 +725,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: f32fc57114aea914984210468fed9e96, type: 2}
   m_IsPrefabParent: 0
---- !u!1 &628846700 stripped
-GameObject:
-  m_PrefabParentObject: {fileID: 166526, guid: f32fc57114aea914984210468fed9e96, type: 2}
-  m_PrefabInternal: {fileID: 628846699}
 --- !u!1 &725179923
 GameObject:
   m_ObjectHideFlags: 0
@@ -1673,9 +1670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ae2e857f342d07419e9253babc03b14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  players:
-  - {fileID: 628846700}
-  - {fileID: 2133598682}
   panels:
   - {fileID: 326752736}
   - {fileID: 1547992597}
@@ -2765,6 +2759,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 557aaa799624bab45bc8083d3c921c7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 0}
 --- !u!1001 &2100079682
 Prefab:
   m_ObjectHideFlags: 0

@@ -73,7 +73,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Idle
-  FPS: 0.33
+  FPS: 20
   isLooping: 1
   frames:
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
@@ -83,7 +83,27 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
-  playOnStartup: 0
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
 --- !u!114 &11412844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -128,7 +148,6 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300012, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300014, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
-  playOnStartup: 0
 --- !u!114 &11484522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -156,7 +175,6 @@ MonoBehaviour:
   - {fileID: 21300034, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300036, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300040, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
-  playOnStartup: 0
 --- !u!212 &21239936
 SpriteRenderer:
   m_ObjectHideFlags: 1
