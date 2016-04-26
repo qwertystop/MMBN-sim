@@ -40,6 +40,15 @@ public class CustomWindow : MonoBehaviour {
     // Initialization after all Awake() methods have run
     void Start () {
         // connect to graphic output objects
+
+        // organizational empty object for hand
+        GameObject hand = gameObject.FindChild("Hand");
+        for (int i = 0; i < 10; ++i)
+        {
+            handRenderers[i] = hand.FindChild(i.ToString()).GetComponent<Image>();
+        }
+
+        //TODO other graphic output
     }
 
     // Update is called once per frame
