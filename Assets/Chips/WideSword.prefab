@@ -8,7 +8,7 @@ GameObject:
   serializedVersion: 4
   m_Component:
   - 4: {fileID: 450370}
-  - 114: {fileID: 11499182}
+  - 114: {fileID: 11499664}
   - 114: {fileID: 11445114}
   - 114: {fileID: 11488646}
   - 114: {fileID: 11413548}
@@ -95,7 +95,7 @@ MonoBehaviour:
   - {fileID: 21300004, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
   - {fileID: 21300006, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
   - {fileID: 21300008, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
---- !u!114 &11499182
+--- !u!114 &11499664
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -103,7 +103,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 122784}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9d60fc85357414f99e0dddfbe08ab8, type: 3}
+  m_Script: {fileID: 11500000, guid: 7fac3946916cf684898cc6c40e54bc91, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
@@ -122,8 +122,13 @@ MonoBehaviour:
   largeImg: {fileID: 0}
   windup: 4
   winddown: 24
-  length: 1
-  width: 3
+  locationsAndDamages:
+  - index: -4
+    value: 80
+  - index: 1
+    value: 80
+  - index: 7
+    value: 80
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

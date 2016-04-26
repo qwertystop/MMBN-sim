@@ -4,6 +4,7 @@ using System.Collections;
 
 // class for chips that damage a rectangular area in front of the user evenly (one damage value)
 // technically could be implemented with RelativeAOEChip, but this is easier to set in the editor
+// DO NOT USE: Infinite-loops on chip use. File remains not-deleted for grading purposes only.
 public class RowChip : AChip {
 
     public int length = 0; //The depth of the attack
