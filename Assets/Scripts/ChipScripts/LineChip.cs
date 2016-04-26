@@ -34,7 +34,7 @@ public class LineChip : AChip {
         { // do this all in one frame, no yield until end
             if(Controller.gameCore.panels[target].GetComponent<Panel>().isOccupied)
             {
-                Controller.gameCore.panels[target].GetComponent<Panel>().occupant.hit(this);
+                Controller.gameCore.panels[target].GetComponent<Panel>().occupant.hit(damageBase+damagePlus, damageMultiplier, element);
                 break; // stop after hit
             } else
             {// if no hit keep looking

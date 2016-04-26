@@ -36,8 +36,8 @@ public class RelativeAOEChip : AChip {
                 // don't hurt the user
                 // TODO when summons are implemented make sure this doesn't hit allies
                 if (user != p)
-                {// TODO currently does not properly use all damages, just the one main value
-                    p.hit(this);
+                {
+                    p.hit(locationsAndDamages[i].value+damagePlus, damageMultiplier, element);
                 }
             }
         }
