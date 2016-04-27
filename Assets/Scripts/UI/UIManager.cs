@@ -4,11 +4,16 @@ using System;
 using Util;
 
 public class UIManager : MonoBehaviour {
-    public Sprite[] numbersTan = new Sprite[10]; // 0-9
-    public Sprite[] numbersGrn = new Sprite[10]; // 0-9
-    public Sprite[] numbersRed = new Sprite[10]; // 0-9
-    public Sprite[] codes = new Sprite[27]; // *, then A-Z
-    public Sprite[] elements = new Sprite[5];// null, fire, aqua, wood, elec, same as order in Controller.Element enum.
+    [SerializeField]
+    private Sprite[] numbersTan = new Sprite[10]; // 0-9
+    [SerializeField]
+    private Sprite[] numbersGrn = new Sprite[10]; // 0-9
+    [SerializeField]
+    private Sprite[] numbersRed = new Sprite[10]; // 0-9
+    [SerializeField]
+    private Sprite[] codes = new Sprite[27]; // *, then A-Z
+    [SerializeField]
+    private Sprite[] elements = new Sprite[5];// null, fire, aqua, wood, elec, same as order in Controller.Element enum.
     private HUD[] huds = new HUD[2];// left, then right
 
     // Initialization not requiring other objects (except those set in editor)
@@ -21,12 +26,12 @@ public class UIManager : MonoBehaviour {
     }
 
     // Initialization that depends on specific external things having initialized
-    // requires Controller.players to contain non-null values, which cannot be guaranteed until after Controller.Start()
-    public void Init() {
+    // requires player references passed in from Controller
+    public void Init(Player p0, Player p1) {
         huds[0] = gameObject.FindChild("LeftHUD").GetComponent<HUD>();
-        huds[0].Init(Controller.players[0]);
+        huds[0].Init(p0);
         huds[1] = gameObject.FindChild("RightHUD").GetComponent<HUD>();
-        huds[1].Init(Controller.players[1]);
+        huds[1].Init(p1);
     }
 
     // Update is called once per frame
