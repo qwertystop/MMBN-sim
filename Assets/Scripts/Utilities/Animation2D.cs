@@ -54,6 +54,7 @@ public class Animation2D : MonoBehaviour {
     private bool stopped = false;
     // property for external read-only access while allowing internal modification
     public bool isStopped { get { return stopped; } }
+    public bool paused = false;
 
     public void Awake() {
         stopped = false;
@@ -100,7 +101,8 @@ public class Animation2D : MonoBehaviour {
 
         if (frames.Length > 1)
         {
-            Animate();
+            paused = false;
+            StartCoroutine(Animate());
         } else if (frames.Length > 0)
         {
             if (is_sprite)
@@ -113,8 +115,15 @@ public class Animation2D : MonoBehaviour {
         }
     }
 
-    private void Animate() {
-        CancelInvoke("Animate");
+    private IEnumerator Animate() {
+        StopCoroutine(Animate());
+        int framesToWait = (int)(secondsToWait * 60);
+        while(framesToWait > 0)
+        {// count down only while this is not paused
+            if (!paused) { yield return --framesToWait; }
+            else { yield return 0; }
+        }
+
         if (currentFrame >= frames.Length || currentFrame < 0)
         {
             if (!isLooping)
@@ -138,7 +147,7 @@ public class Animation2D : MonoBehaviour {
             ++currentFrame;
             if (secondsToWait > 0)
             {
-                Invoke("Animate", secondsToWait);
+                StartCoroutine(Animate());
             }
         } else
         {
@@ -153,7 +162,7 @@ public class Animation2D : MonoBehaviour {
     }
 
     public void Stop() {
-        CancelInvoke("Animate");
+        StopCoroutine(Animate());
         stopped = true;
         if (is_sprite)
         {
@@ -163,5 +172,4 @@ public class Animation2D : MonoBehaviour {
             _img_ren.enabled = false;
         }
     }
-
 }

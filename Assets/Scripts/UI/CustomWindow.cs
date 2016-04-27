@@ -6,7 +6,8 @@ using UnityEngine.UI;
 // The CustomWindow: code for chip-selection and for rendering the chips drawn/selected
 public class CustomWindow : MonoBehaviour {
     // assorted collections of Chips
-    public AChip[] folder = new AChip[30];// all chips for the player
+    [SerializeField]
+    private AChip[] folder = new AChip[30];// all chips for the player
     private List<AChip> unused = new List<AChip>(30);// the chips not yet used
     private List<AChip> used = new List<AChip>(30);// the chips that have been used - need to be kept for NavRcycl, FoldrBak, etc.
     private List<AChip> hand = new List<AChip>(10);// current hand
@@ -96,10 +97,13 @@ public class CustomWindow : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        moveCursor();
-        if (cursorLoc < handSize)
-        {// active index matches cursor location while cursor is over a chip
-            activeIndex = cursorLoc;
+        if (Controller.paused)
+        {
+            moveCursor();
+            if (cursorLoc < handSize)
+            {// active index matches cursor location while cursor is over a chip
+                activeIndex = cursorLoc;
+            }
         }
 	}
 

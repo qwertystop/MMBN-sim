@@ -69,6 +69,16 @@ public class Panel : MonoBehaviour {
             dec.transform.localScale = new Vector3(5, 5, 1);
         }
         anim.Play(true);
+        StartCoroutine(pauseCheck(anim));
+    }
+
+    // While the animation is still running, pauses and unpauses it as necessary
+    private IEnumerator pauseCheck(Animation2D anim) {
+        while (!anim.isStopped)
+        {
+            anim.paused = Controller.paused;
+            yield return 0;
+        }
     }
     
 }

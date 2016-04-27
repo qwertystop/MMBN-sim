@@ -91,10 +91,17 @@ public class Player : MonoBehaviour {
     }
 
     void Update() {
-        Movement();
-        Move();
-        Buster();
-        Chip();
+        if (!Controller.paused)
+        {
+            curAnimation.paused = false;
+            Movement();
+            Move();
+            Buster();
+            Chip();
+        } else
+        {
+            curAnimation.paused = true;
+        }
     }
 
     // determine direction of movement if moving is possible

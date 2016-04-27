@@ -6,9 +6,11 @@ using Util;
 public class Controller : MonoBehaviour {
     // static object to allow accessing the parts of this from anywhere
     public static Controller gameCore;
+    public static UIManager UI;// Static reference to UI manager, set in UIManager's Awake()
     public static Player[] players;// left, then right
     public GameObject[] panels = new GameObject[18];//starting from top-left, counting horizontal before vertical
-    public static UIManager UI;// Static reference to UI manager, set in UIManager's Awake()
+    private static bool _paused = true;// game starts with custom screens up
+    public static bool paused { get { return _paused; } }// externally readonly
 
     // Initialization not requiring other objects (except those set in editor)
     void Awake() {
@@ -31,7 +33,7 @@ public class Controller : MonoBehaviour {
             panels[i].GetComponent<Panel>().index = i;
         }
         // UI
-        UI.Init();
+        UI.Init(players[0], players[1]);
     }
 	
 	// Update is called once per frame
