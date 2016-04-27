@@ -160,8 +160,9 @@ public class CustomWindow : MonoBehaviour {
             }
         }
         for (int i = handSize; i < 10; ++i)
-        {// for each empty space in hand, blank it
+        {// beyond end of hand, all blank
             handRenderers[i].enabled = false;
+            handCodes[i].enabled = false;
         }
     }
 
