@@ -24,11 +24,9 @@ public class UIManager : MonoBehaviour {
     // requires Controller.players to contain non-null values, which cannot be guaranteed until after Controller.Start()
     public void Init() {
         huds[0] = gameObject.FindChild("LeftHUD").GetComponent<HUD>();
-        huds[0].player = Controller.players[0];
-        huds[0].Init();
+        huds[0].Init(Controller.players[0]);
         huds[1] = gameObject.FindChild("RightHUD").GetComponent<HUD>();
-        huds[1].player = Controller.players[1];
-        huds[1].Init();
+        huds[1].Init(Controller.players[1]);
     }
 
     // Update is called once per frame

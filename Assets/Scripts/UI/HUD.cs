@@ -7,7 +7,7 @@ using Util;
 public class HUD : MonoBehaviour {
     private HPBox hpbox;
     private CustomWindow customwindow;
-    public Player player;
+    private Player player;
 
     // Initialization not requiring other objects (except those set in editor)
     void Awake() {
@@ -20,9 +20,11 @@ public class HUD : MonoBehaviour {
     }
 
     // Initialization that depends on specific external things having initialized
-    // this cannot be run until UIManager.Start() has been run, so that calls this method
-    public void Init() {
+    // this needs a Player reference from the UIManager (which knows which player goes with which HUD).
+    public void Init(Player p) {
+        player = p;
         hpbox.Init(player.maxHP);
+        customwindow.Init(p);
     }
 	
 	// Update is called once per frame

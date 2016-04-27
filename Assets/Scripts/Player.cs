@@ -31,8 +31,7 @@ public class Player : MonoBehaviour {
     // Chips currently loaded
     public Queue<AChip> chipsPicked = new Queue<AChip>(5);
     // all actual chip-selection code is done in the CustomWindow class, with the results passed to here
-
-
+    
     // Animation
     private Animation2D curAnimation;
     // the idle animation

@@ -1,10 +1,10 @@
 fileFormatVersion: 2
 guid: 1718c1a3cc7381c4c840dd944d61f9b2
-timeCreated: 1461627849
+timeCreated: 1461724410
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: UI_exe2_0
+    21300000: UI_exe2_ok
     21300002: UI_exe2_heat
     21300004: UI_exe2_aqua
     21300006: UI_exe2_star
@@ -890,6 +890,17 @@ TextureImporter:
         y: 93
         width: 7
         height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UI_exe2_ok
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 22
+        width: 22
+        height: 18
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
