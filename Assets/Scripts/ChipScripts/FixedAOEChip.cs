@@ -12,7 +12,7 @@ public class FixedAOEChip : AChip {
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
-        decorateFixed(user);
+        decorateFixed(user.isRed);
         yield return StartCoroutine(base.use(user));
 
         // now damage each panel on the list with the given amount of damage

@@ -13,7 +13,7 @@ public class RowChip : AChip {
     // coroutine to run when using this chip
     public override IEnumerator use(Player user)
     {
-        decorateRelative(user);
+        decorateRelative(user.currentPanelIndex, user.isRed);
         yield return StartCoroutine(base.use(user));
         // determine direction
         bool isRed = user.isRed;

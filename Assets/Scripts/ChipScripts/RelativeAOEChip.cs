@@ -13,16 +13,15 @@ public class RelativeAOEChip : AChip {
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
-        decorateRelative(user);
+        decorateRelative(user.currentPanelIndex, user.isRed);
         // prevent acting, animate user, wait through windup
         yield return StartCoroutine(base.use(user));
         
         bool isRed = user.isRed;
         for (int i = 0; i < locationsAndDamages.Length; ++i)
         {// modify each location to be relative to player
-            indexedInt tmp = new indexedInt();
-            tmp.index = makeRelative(user, locationsAndDamages[i].index);
-            tmp.value = locationsAndDamages[i].value;
+            indexedInt tmp = new indexedInt(makeRelative(user.currentPanelIndex,
+                                            locationsAndDamages[i].index, user.isRed), locationsAndDamages[i].value);
             locationsAndDamages[i] = tmp;
         }
 

@@ -9,14 +9,23 @@ namespace mDimLists {
     // this one needs to exist to get around the multidimensional list prohibition
     [Serializable]
     public abstract class indexed<T> {
+        public indexed(int ind, T val) {
+            index = ind;
+            value = val;
+        }
+
         public int index;
         public T value;
     }
 
     // all below need to exist because Unity does not support serializing generics in the editor other than List<T>
     [Serializable]
-    public class indexedInt : indexed<int> { }
+    public class indexedInt : indexed<int> {
+        public indexedInt(int ind, int val) : base(ind, val) { }
+    }
 
     [Serializable]
-    public class indexedAnimation2D : indexed<Animation2D> { }
+    public class indexedAnimation2D : indexed<Animation2D> {
+        public indexedAnimation2D(int ind, Animation2D val) : base(ind, val) { }
+    }
 }

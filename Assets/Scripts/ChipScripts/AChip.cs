@@ -57,26 +57,28 @@ public abstract class AChip : MonoBehaviour {
         user.status = Player.Status.FREE;
     }
 
-    // Decorates panels with animations in this.decorations, flipped by the player's side but otherwise not relative
-    public virtual void decorateFixed(Player user) {
+    // Decorates panels with animations in given list (defaults to using this.decorations), flipped by the player's side but otherwise not relative
+    public void decorateFixed(bool userIsRed, indexedAnimation2D[] dec = null) {
+        if (null == dec) { dec = decorations; }
         foreach (indexed<Animation2D> anim in decorations)
         {// for each animation
             // if the panel it's for exists, decorate that panel with it
             if (anim.index > -1 && anim.index < 18)
             {
-                Controller.gameCore.panels[anim.index].GetComponent<Panel>().Decorate(anim.value, !user.isRed);
+                Controller.gameCore.panels[anim.index].GetComponent<Panel>().Decorate(anim.value, !userIsRed);
             }
         }
     }
 
-    // Decorates panels with sprites in this.decorations, position relative to the player
-    public virtual void decorateRelative(Player user) {
-        foreach (indexed<Animation2D> anim in decorations)
+    // Decorates panels with animations in given list (defaults to using this.decorations), position relative to given index (and whether user is red)
+    public void decorateRelative(int start, bool userIsRed, indexedAnimation2D[] dec = null) {
+        if (null == dec) { dec = decorations; }
+        foreach (indexed<Animation2D> anim in dec)
         {// make each one relative
-            int rel = makeRelative(user, anim.index);
+            int rel = makeRelative(start, anim.index, userIsRed);
             if (rel > -1 && rel < 18)
             {// then, if panel exists, decorate it
-                Controller.gameCore.panels[rel].GetComponent<Panel>().Decorate(anim.value, !user.isRed);
+                Controller.gameCore.panels[rel].GetComponent<Panel>().Decorate(anim.value, !userIsRed);
             }
         }
     }
@@ -91,14 +93,14 @@ public abstract class AChip : MonoBehaviour {
         return user.isRed ? vert + horiz : vert - horiz;
     }
 
-    // given an int for a panel index and a player, treat the index as a modifier on the player's location
-    // and return the modified location
-    protected int makeRelative(Player user, int index) {
+    // given a starting panel, the displacement number, and whether the user is red
+    // return the displaced location, inverting horizontal component if the user is red
+    protected int makeRelative(int start, int modifier, bool userIsRed) {
         // vertical and horizontal displacement
-        int vert = (index / 6) * 6;
-        int horiz = index % 6; // % is actually remainder, not mod, even if it's called mod - negatives are kept properly
+        int vert = (modifier / 6) * 6;
+        int horiz = modifier % 6; // % is actually remainder, not mod, even if it's called mod - negatives are kept properly
 
-        return user.isRed ? vert + horiz + user.currentPanelIndex : vert - horiz + user.currentPanelIndex;
+        return userIsRed ? vert + horiz + start : vert - horiz + start;
     }
 
     public enum Type {

@@ -4,13 +4,16 @@ using System.Collections.Generic;
 using mDimLists;
 
 // class for non-piercing linear hitscan chips
-// Example: Cannon, the default MegaBuster
-// Close-but-not-quite nonexample: Shockwave, ZapRing, DollThunder, Spreader
+// may have AOE centered around hit. Same damage to all hit locations.
+// Example: Cannon, the default MegaBuster, Spreader
+// Close-but-not-quite nonexample: Shockwave, ZapRing, DollThunder
 public class LineChip : AChip {
+    [SerializeField] private int[] aoe = new int[1];// locations relative to target
+    [SerializeField] private Animation2D hitBurst;// animation to play on each square of aoe
 
     // coroutine to run when using this chip
     public override IEnumerator use(Player user) {
-        decorateRelative(user);
+        decorateRelative(user.currentPanelIndex, user.isRed);
         yield return StartCoroutine(base.use(user));
         // calculate misc values ahead of time to avoid delaying the complicated bit
         // determine direction
@@ -34,8 +37,27 @@ public class LineChip : AChip {
         { // do this all in one frame, no yield until end
             if(Controller.gameCore.panels[target].GetComponent<Panel>().isOccupied)
             {
-                Controller.gameCore.panels[target].GetComponent<Panel>().occupant.hit(damageBase+damagePlus, damageMultiplier, element);
-                break; // stop after hit
+                // hit and decorate all panels around target
+                indexedAnimation2D[] splash = new indexedAnimation2D[aoe.Length];
+                for(int i = 0; i < aoe.Length; ++i)
+                {// panel number
+                    int t = makeRelative(target, aoe[i], isRed);
+                    // check that panel exists
+                    if (t > -1 && t < 18)
+                    {
+                        // ready decoration for it
+                        splash[i] = new indexedAnimation2D(t, hitBurst);
+                        // cache panel
+                        Panel p = Controller.gameCore.panels[t].GetComponent<Panel>();
+                        if (p.isOccupied)
+                        {// hit panel
+                            p.occupant.hit(damageBase + damagePlus, damageMultiplier, element);
+                        }
+                    }
+                }
+                // decorate all panels - make sure it doesn't flip, because that calculation was already done above
+                decorateFixed(true, splash);
+                break; // stop after hitscan finds something
             } else
             {// if no hit keep looking
                 target = isRed ? target + 1 : target - 1;
