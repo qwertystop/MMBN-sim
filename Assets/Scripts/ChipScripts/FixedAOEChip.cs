@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using mDimLists;
 
 // class for chips and other attacks that damage fixed positions on the battlefield (user location irrelevant)
-// TODO flip according to player's team - nothing ignores the player completely 
 // Example: Lance
 // does not hurt user or user-allies
 public class FixedAOEChip : AChip {

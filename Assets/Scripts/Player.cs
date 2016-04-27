@@ -40,6 +40,11 @@ public class Player : MonoBehaviour {
     private Animation2D chargingAnim;
     private Animation2D chargedAnim;
 
+    /* TODO
+     Modify Chip() for chip-charging abilities
+    */
+
+
     // Initialization not requiring other objects (except those set in editor)
     void Awake() {
         // HP
@@ -209,7 +214,6 @@ public class Player : MonoBehaviour {
     }
 
     // Handles Chip use
-    // TODO will need to be modified when chip-charging abilities are added
     private void Chip() {
         if (canAct() && InputHandler.buttonDown(playerNo, InputHandler.button.A))
         {
