@@ -1,0 +1,526 @@
+fileFormatVersion: 2
+guid: 7164f2c354befb64085ae4fd1bcc60c5
+timeCreated: 1461792400
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Impacteffects_shot_exe1_white0
+    21300002: Impacteffects_shot_exe1_white1
+    21300004: Impacteffects_shot_exe1_white3
+    21300006: Impacteffects_shot_exe1_green0
+    21300008: Impacteffects_shot_exe1_green1
+    21300010: Impacteffects_shot_exe1_green2
+    21300012: Impacteffects_shot_exe1_green3
+    21300014: Impacteffects_shot_exe1_green4
+    21300016: Impacteffects_shot_exe1_green5
+    21300018: Impacteffects_shot_exe1_purp0
+    21300020: Impacteffects_shot_exe1_purp1
+    21300022: Impacteffects_shot_exe1_purp2
+    21300024: Impacteffects_shot_exe1_purp3
+    21300026: Impacteffects_shot_exe1_purp4
+    21300028: Impacteffects_shot_exe1_ping4
+    21300030: Impacteffects_shot_exe1_purp5
+    21300032: Impacteffects_shot_exe1_ping0
+    21300034: Impacteffects_shot_exe1_ping1
+    21300036: Impacteffects_shot_exe1_ping2
+    21300038: Impacteffects_shot_exe1_ping3
+    21300040: Impacteffects_shot_exe1_white2
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 7
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Impacteffects_shot_exe1_white0
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 168
+        width: 22
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Impacteffects_shot_exe1_white1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 169
+        width: 28
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Impacteffects_shot_exe1_white3
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 168
+        width: 30
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Impacteffects_shot_exe1_green0
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 125
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -10, y: 32}
+        - {x: -16, y: 26}
+        - {x: -16, y: 5}
+        - {x: -14, y: 0}
+        - {x: 12, y: 0}
+        - {x: 16, y: 1}
+        - {x: 16, y: 25}
+        - {x: 10, y: 32}
+    - name: Impacteffects_shot_exe1_green1
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 131
+        width: 24
+        height: 20
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Impacteffects_shot_exe1_green2
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 127
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Impacteffects_shot_exe1_green3
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 123
+        width: 40
+        height: 36
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 36}
+        - {x: -20, y: 3}
+        - {x: -17, y: 0}
+        - {x: 20, y: 0}
+        - {x: 20, y: 35}
+        - {x: 17, y: 36}
+    - name: Impacteffects_shot_exe1_green4
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 122
+        width: 42
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 38}
+        - {x: -21, y: 0}
+        - {x: 21, y: 0}
+        - {x: 21, y: 38}
+    - name: Impacteffects_shot_exe1_green5
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 122
+        width: 40
+        height: 38
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20, y: 38}
+        - {x: -20, y: 2}
+        - {x: -15, y: 0}
+        - {x: 20, y: 0}
+        - {x: 20, y: 36}
+        - {x: 15, y: 38}
+      - - {x: -7, y: 9}
+        - {x: -8, y: 20}
+        - {x: 6, y: 27}
+        - {x: 1, y: 14}
+    - name: Impacteffects_shot_exe1_purp0
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 59
+        width: 48
+        height: 48
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 14, y: 48}
+        - {x: -15, y: 48}
+        - {x: -24, y: 39}
+        - {x: -24, y: 5}
+        - {x: -20, y: 0}
+        - {x: 16, y: 0}
+        - {x: 24, y: 3}
+        - {x: 24, y: 36}
+        - {x: 16, y: 47}
+    - name: Impacteffects_shot_exe1_purp1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 67
+        width: 32
+        height: 28
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Impacteffects_shot_exe1_purp2
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 62
+        width: 46
+        height: 44
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -23, y: 44}
+        - {x: -23, y: 0}
+        - {x: 23, y: 0}
+        - {x: 23, y: 43}
+        - {x: 22, y: 44}
+    - name: Impacteffects_shot_exe1_purp3
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 59
+        width: 54
+        height: 50
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -27, y: 50}
+        - {x: -27, y: 2}
+        - {x: -22, y: 0}
+        - {x: 27, y: 0}
+        - {x: 27, y: 50}
+    - name: Impacteffects_shot_exe1_purp4
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 58
+        width: 56
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 52}
+        - {x: -28, y: 5}
+        - {x: -19, y: 0}
+        - {x: 28, y: 0}
+        - {x: 28, y: 51}
+        - {x: 25, y: 52}
+    - name: Impacteffects_shot_exe1_ping4
+      rect:
+        serializedVersion: 2
+        x: 262
+        y: 6
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -21, y: 16}
+        - {x: -21, y: 11}
+        - {x: -19, y: 7}
+        - {x: -13, y: 0}
+        - {x: -5, y: 0}
+        - {x: -5, y: 4}
+        - {x: -18, y: 16}
+      - - {x: 0, y: 0}
+        - {x: 0, y: 2}
+        - {x: -3, y: 3}
+        - {x: -5, y: 0}
+      - - {x: 5, y: 0}
+        - {x: 5, y: 2}
+        - {x: 2, y: 3}
+        - {x: 0, y: 0}
+      - - {x: 17, y: 16}
+        - {x: 5, y: 2}
+        - {x: 6, y: 0}
+        - {x: 17, y: 0}
+        - {x: 21, y: 9}
+        - {x: 21, y: 16}
+      - - {x: -18, y: 17}
+        - {x: -18, y: 20}
+        - {x: -21, y: 21}
+        - {x: -21, y: 16}
+      - - {x: 18, y: 18}
+        - {x: 20, y: 16}
+        - {x: 21, y: 16}
+        - {x: 21, y: 21}
+        - {x: 19, y: 21}
+      - - {x: -1, y: 25}
+        - {x: -4, y: 22}
+        - {x: -4, y: 20}
+        - {x: -1, y: 17}
+        - {x: 1, y: 17}
+        - {x: 4, y: 20}
+        - {x: 4, y: 22}
+        - {x: 1, y: 25}
+      - - {x: -18, y: 22}
+        - {x: -18, y: 25}
+        - {x: -21, y: 26}
+        - {x: -21, y: 21}
+      - - {x: 18, y: 23}
+        - {x: 20, y: 21}
+        - {x: 21, y: 21}
+        - {x: 21, y: 26}
+        - {x: 19, y: 26}
+      - - {x: -11, y: 42}
+        - {x: -21, y: 34}
+        - {x: -21, y: 27}
+        - {x: -20, y: 26}
+        - {x: -15, y: 27}
+        - {x: -5, y: 39}
+        - {x: -5, y: 42}
+      - - {x: 5, y: 42}
+        - {x: 5, y: 38}
+        - {x: 19, y: 26}
+        - {x: 21, y: 26}
+        - {x: 21, y: 32}
+        - {x: 20, y: 36}
+        - {x: 12, y: 42}
+      - - {x: 0, y: 40}
+        - {x: 0, y: 42}
+        - {x: -5, y: 42}
+        - {x: -3, y: 39}
+      - - {x: 5, y: 40}
+        - {x: 5, y: 42}
+        - {x: 0, y: 42}
+        - {x: 2, y: 39}
+    - name: Impacteffects_shot_exe1_purp5
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 57
+        width: 56
+        height: 52
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -28, y: 52}
+        - {x: -28, y: 4}
+        - {x: -21, y: 0}
+        - {x: 28, y: 0}
+        - {x: 28, y: 46}
+        - {x: 14, y: 52}
+      - - {x: -5, y: 9}
+        - {x: -8, y: 12}
+        - {x: -11, y: 23}
+        - {x: -3, y: 36}
+        - {x: -1, y: 41}
+        - {x: -1, y: 42}
+        - {x: -2, y: 42}
+        - {x: -1, y: 41}
+        - {x: 4, y: 41}
+        - {x: 7, y: 46}
+        - {x: 5, y: 43}
+        - {x: 8, y: 40}
+        - {x: 6, y: 33}
+        - {x: 9, y: 27}
+        - {x: 1, y: 11}
+        - {x: 1, y: 10}
+        - {x: 2, y: 10}
+        - {x: 1, y: 11}
+        - {x: -4, y: 11}
+        - {x: -9, y: 4}
+        - {x: -6, y: 5}
+    - name: Impacteffects_shot_exe1_ping0
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 6
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 42}
+        - {x: -21, y: 35}
+        - {x: -21, y: 8}
+        - {x: -14, y: 0}
+        - {x: 11, y: 0}
+        - {x: 21, y: 7}
+        - {x: 21, y: 33}
+        - {x: 12, y: 42}
+    - name: Impacteffects_shot_exe1_ping1
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 6
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 42}
+        - {x: -21, y: 35}
+        - {x: -21, y: 8}
+        - {x: -14, y: 0}
+        - {x: 11, y: 0}
+        - {x: 21, y: 7}
+        - {x: 21, y: 33}
+        - {x: 12, y: 42}
+      - - {x: -9, y: 9}
+        - {x: -12, y: 30}
+        - {x: 9, y: 33}
+        - {x: 12, y: 12}
+      - - {x: -5, y: 31}
+        - {x: -10, y: 30}
+        - {x: -10, y: 13}
+        - {x: -5, y: 11}
+        - {x: 6, y: 11}
+        - {x: 10, y: 16}
+        - {x: 10, y: 27}
+        - {x: 6, y: 31}
+    - name: Impacteffects_shot_exe1_ping2
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 7
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 42}
+        - {x: -21, y: 35}
+        - {x: -21, y: 8}
+        - {x: -14, y: 0}
+        - {x: 11, y: 0}
+        - {x: 21, y: 7}
+        - {x: 21, y: 33}
+        - {x: 12, y: 42}
+      - - {x: -10, y: 8}
+        - {x: -13, y: 31}
+        - {x: 10, y: 34}
+        - {x: 13, y: 11}
+      - - {x: -3, y: 29}
+        - {x: -8, y: 24}
+        - {x: -8, y: 18}
+        - {x: -3, y: 13}
+        - {x: 3, y: 13}
+        - {x: 8, y: 18}
+        - {x: 8, y: 24}
+        - {x: 3, y: 29}
+    - name: Impacteffects_shot_exe1_ping3
+      rect:
+        serializedVersion: 2
+        x: 213
+        y: 6
+        width: 42
+        height: 42
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -14, y: 42}
+        - {x: -21, y: 35}
+        - {x: -21, y: 8}
+        - {x: -14, y: 0}
+        - {x: 11, y: 0}
+        - {x: 21, y: 7}
+        - {x: 21, y: 33}
+        - {x: 12, y: 42}
+      - - {x: -10, y: 7}
+        - {x: -14, y: 31}
+        - {x: 10, y: 35}
+        - {x: 14, y: 11}
+      - - {x: -2, y: 26}
+        - {x: -5, y: 23}
+        - {x: -5, y: 19}
+        - {x: -2, y: 16}
+        - {x: 2, y: 16}
+        - {x: 5, y: 19}
+        - {x: 5, y: 23}
+        - {x: 2, y: 26}
+    - name: Impacteffects_shot_exe1_white2
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 168
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,7 +13,7 @@ GameObject:
   - 114: {fileID: 11471790}
   - 114: {fileID: 11462638}
   m_Layer: 0
-  m_Name: Longsword
+  m_Name: LongSwrd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,6 +43,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
+  codes: 410049004c004f0059002a00
+  codeIndex: 0
   playerAnimation: {fileID: 11446742}
   decorations:
   - index: 0
@@ -54,8 +56,8 @@ MonoBehaviour:
   damagePlus: 0
   chipType: 0
   chipName: LongSwrd
-  icon: {fileID: 0}
-  largeImg: {fileID: 0}
+  icon: {fileID: 21300186, guid: 9d22c5d6c3f5d8f409dddfd9ecd1aa0f, type: 3}
+  largeImg: {fileID: 21300048, guid: e190be20a8ed9c1428aae445da6c9270, type: 3}
   windup: 4
   winddown: 24
   locationsAndDamages:
@@ -77,6 +79,7 @@ MonoBehaviour:
   name: SwordSwing
   FPS: 15
   isLooping: 0
+  playOnStartup: 0
   frames:
   - {fileID: 21300032, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300034, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
@@ -99,6 +102,7 @@ MonoBehaviour:
   name: SwordSlash
   FPS: 15
   isLooping: 0
+  playOnStartup: 0
   frames:
   - {fileID: 0}
   - {fileID: 21300008, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
@@ -119,6 +123,7 @@ MonoBehaviour:
   name: SwordBlade
   FPS: 15
   isLooping: 0
+  playOnStartup: 0
   frames:
   - {fileID: 0}
   - {fileID: 21300010, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
