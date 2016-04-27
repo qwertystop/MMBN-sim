@@ -61,7 +61,6 @@ public class HPBox : MonoBehaviour {
         for (int i = sprites.Length; i < 4; ++i)
         {
             HPDisplay[i].enabled = false;
-            HPDisplay[i].sprite = null;
         }
     }
 }

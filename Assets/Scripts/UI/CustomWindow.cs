@@ -6,7 +6,7 @@ using UnityEngine.UI;
 // The CustomWindow: code for chip-selection and for rendering the chips drawn/selected
 public class CustomWindow : MonoBehaviour {
     // assorted collections of Chips
-    public readonly AChip[] folder = new AChip[30];// all chips for the player - TODO currently must be set in editor, no folder-setup stuff yet.
+    public readonly AChip[] folder = new AChip[30];// all chips for the player
     private List<AChip> unused = new List<AChip>(30);// the chips not yet used
     private List<AChip> used = new List<AChip>(30);// the chips that have been used - need to be kept for NavRcycl, FoldrBak, etc.
     private AChip[] hand = new AChip[10];// current hand
@@ -21,6 +21,8 @@ public class CustomWindow : MonoBehaviour {
     // hand
     private Image[] handRenderers = new Image[10];
     private Text[] handCodes = new Text[10];
+    private Color starCodeColor = new Color(0xCE / 255f, 0x71 / 255f, 0x00 / 255f);
+    private Color letterCodeColor = new Color(0xF6 / 255f, 0xEE / 255f, 0x28 / 255f);
     // selected
     private Image[] selectedRenderers = new Image[5];
     // active
@@ -39,7 +41,12 @@ public class CustomWindow : MonoBehaviour {
     // reference to Player
     private Player player;
 
-    // TODO have not implemented Regular or Tag chips
+    /* TODO:
+    Folder setup by user (outside editor)
+    Regular chips
+    Tag chips
+    graying chips in hand of wrong code
+    */ 
 
     // Initialization not requiring other objects (except those set in editor)
     void Awake() {
@@ -90,10 +97,17 @@ public class CustomWindow : MonoBehaviour {
     // Update is called once per frame
     void Update () {
         moveCursor();
+        if (cursorLoc < handSize)
+        {// active index matches cursor location while cursor is over a chip
+            activeIndex = cursorLoc;
+        }
 	}
 
     // Runs after Update once per frame - ensures that changes here don't get overwritten by UI system
     void LateUpdate() {
+        updateHandRenderers();
+        updateSelectedRenderers();
+        updateActiveRenderers();
         updateCursorRenderer();
     }
 
@@ -120,10 +134,60 @@ public class CustomWindow : MonoBehaviour {
             else { cursorLoc += 1; }// somewhere in row other than right end, move right
         }
     }
+    
+    private void updateHandRenderers() {
+        for(int i = 0; i < handSize; ++i)
+        {// for each chip in hand
+            if (selected.Contains(i))
+            {// if selected blank it
+                handRenderers[i].enabled = false;
+            } else
+            {// else draw the small icon
+                handRenderers[i].enabled = true;
+                handRenderers[i].sprite = hand[i].icon;
+            }
+            // either way draw the code
+            char code = hand[i].code;
+            if (code == '*' || code == '\u2731')
+            {// star is diff. color, and uses Unicode 2731 (HEAVY ASTERISK) for visibility at small size
+                // allow data to be regular asterisk for the sake of convenience
+                handCodes[i].text = "\u2731";
+                handCodes[i].color = starCodeColor;
+            } else
+            {
+                handCodes[i].text = code.ToString();
+                handCodes[i].color = letterCodeColor;
+            }
+        }
+        for (int i = handSize; i < 10; ++i)
+        {// for each empty space in hand, blank it
+            handRenderers[i].enabled = false;
+        }
+    }
 
-    private void updateCursorRenderer()
-    {// update drawn cursor locaction if it changed
+    private void updateSelectedRenderers() {
         //TODO
+    }
+
+    private void updateActiveRenderers() {
+        AChip active = hand[activeIndex];
+        activeName.text = active.chipName;
+        activeCard.sprite = active.largeImg;
+        activeCode.sprite = Controller.UI.getSprite(active.code);
+        activeElement.sprite = Controller.UI.getSprite(active.element);
+        Sprite[] dmg = Controller.UI.getSprite(active.damageBase);
+        for (int i = 0; i < dmg.Length; ++i)
+        {
+            activeDamage[i].sprite = dmg[i];
+            activeDamage[i].enabled = true;
+        }// anything past that is a blank space
+        for (int i = dmg.Length; i < 3; ++i)
+        {
+            activeDamage[i].enabled = false;
+        }
+    }
+
+    private void updateCursorRenderer() {// update drawn cursor locaction if it changed
         if (cursorLoc > 9)
         {// on either Add or OK, resize to button size and move to that button
             cursor.rectTransform.sizeDelta = cursorSizeOnButton;
