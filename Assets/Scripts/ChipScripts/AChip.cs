@@ -9,7 +9,11 @@ public abstract class AChip : MonoBehaviour {
     // chip element
     public Controller.Element element;
     // chip code
-    public char code = '*';
+    [SerializeField]// editor access
+    private char[] codes;// all possible codes
+    [SerializeField]// editor access
+    public int codeIndex = 0;// which one
+    public char code { get { return codes[codeIndex]; } }// easy accessor
     // animation for the player, one per frame
     public Animation2D playerAnimation;
     // All of the animations to place at other panels, paired with the panel indices at which to place them

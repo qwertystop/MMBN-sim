@@ -6,10 +6,10 @@ using UnityEngine.UI;
 // The CustomWindow: code for chip-selection and for rendering the chips drawn/selected
 public class CustomWindow : MonoBehaviour {
     // assorted collections of Chips
-    public readonly AChip[] folder = new AChip[30];// all chips for the player
+    public AChip[] folder = new AChip[30];// all chips for the player
     private List<AChip> unused = new List<AChip>(30);// the chips not yet used
     private List<AChip> used = new List<AChip>(30);// the chips that have been used - need to be kept for NavRcycl, FoldrBak, etc.
-    private AChip[] hand = new AChip[10];// current hand
+    private List<AChip> hand = new List<AChip>(10);// current hand
     private List<int> selected = new List<int>(5);// indices in hand of selected chips
 
     // parameters of chip selection
@@ -87,7 +87,7 @@ public class CustomWindow : MonoBehaviour {
         cursor = gameObject.FindChild("Cursor").GetComponent<Image>();
 
         // and draw the first hand
-        hand = Draw(handSize);
+        hand.AddRange(Draw(handSize));
     }
 
     public void Init(Player p) {
@@ -166,7 +166,15 @@ public class CustomWindow : MonoBehaviour {
     }
 
     private void updateSelectedRenderers() {
-        //TODO
+        for (int i = 0; i < selected.Count; ++i)
+        {
+            selectedRenderers[i].enabled = true;
+            selectedRenderers[i].sprite = hand[selected[i]].icon;
+        }
+        for (int i = selected.Count; i < 5; ++i)
+        {
+            selectedRenderers[i].enabled = false;
+        }
     }
 
     private void updateActiveRenderers() {
