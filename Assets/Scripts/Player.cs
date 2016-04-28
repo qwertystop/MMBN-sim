@@ -90,6 +90,7 @@ public class Player : MonoBehaviour {
     }
 
     void Update() {
+        curHP = Math.Max(Math.Min(curHP, maxHP), 0);
         if (!Controller.paused)
         {
             curAnimation.paused = false;

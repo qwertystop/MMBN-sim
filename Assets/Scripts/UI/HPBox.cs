@@ -30,7 +30,8 @@ public class HPBox : MonoBehaviour {
     }
 	
 	// Update is called once per frame
-	void Update () {
+    // called after Update to ensure validity
+	void LateUpdate () {
         if (curHP != displayedHP)
         {// changing, so update
             changing = true;

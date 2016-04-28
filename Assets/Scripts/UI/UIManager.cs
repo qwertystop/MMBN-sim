@@ -48,7 +48,8 @@ public class UIManager : MonoBehaviour {
     }
 
     // Update is called once per frame
-    void Update() {
+    // called after main Update to ensure validity
+    void LateUpdate() {
         if (Controller.paused)
         {
             custGauge.enabled = false;
