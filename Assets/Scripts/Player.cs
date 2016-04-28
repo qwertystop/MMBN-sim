@@ -212,7 +212,7 @@ public class Player : MonoBehaviour {
                     StartCoroutine(b_charge.use(this));
                 } else
                 {// not charged
-                    chargingAnim.Stop();
+                    if (chargeCounter > 0) { chargingAnim.Stop(); }
                     StartCoroutine(b_nocharge.use(this));
                 }
                 chargeCounter = 0;
