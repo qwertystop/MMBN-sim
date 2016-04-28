@@ -72,17 +72,19 @@ public class Animation2D : MonoBehaviour {
     }
 
     public void Play(bool reset = false) {
-        // get the SpriteRenderer or Image component on this object
-        // preference to the SpriteRenderer if both are present (they shouldn't be)
-        SpriteRenderer sr_check = GetComponent<SpriteRenderer>();
-        if (null == sr_check)
+        // if this does not yet have a renderer
+        if (null == outputRenderer)
         {
-            is_sprite = false;
-            outputRenderer = GetComponent<Image>();
-        } else
-        {
-            is_sprite = true;
-            outputRenderer = sr_check;
+            // get the SpriteRenderer or Image component on this object
+            // preference to the SpriteRenderer if both are present (they shouldn't be)
+            SpriteRenderer sr_check = GetComponent<SpriteRenderer>();
+            if (null == sr_check)
+            {
+                outputRenderer = GetComponent<Image>();
+            } else
+            {
+                outputRenderer = sr_check;
+            }
         }
 
         if (reset)
@@ -102,7 +104,7 @@ public class Animation2D : MonoBehaviour {
         if (frames.Length > 1)
         {
             paused = false;
-            StartCoroutine(Animate());
+            Animate();
         } else if (frames.Length > 0)
         {
             if (is_sprite)
@@ -115,13 +117,12 @@ public class Animation2D : MonoBehaviour {
         }
     }
 
-    private IEnumerator Animate() {
-        StopCoroutine(Animate());
-        int framesToWait = (int)(secondsToWait * 60);
-        while(framesToWait > 0)
-        {// count down only while this is not paused
-            if (!paused) { yield return --framesToWait; }
-            else { yield return 0; }
+    private void Animate() {
+        CancelInvoke("Animate");
+        if (paused)
+        {// wait until not paused
+            Invoke("Animate", 0.0167f);
+            return;
         }
 
         if (currentFrame >= frames.Length || currentFrame < 0)
@@ -147,7 +148,7 @@ public class Animation2D : MonoBehaviour {
             ++currentFrame;
             if (secondsToWait > 0)
             {
-                StartCoroutine(Animate());
+                Invoke("Animate", secondsToWait);
             }
         } else
         {
@@ -162,7 +163,7 @@ public class Animation2D : MonoBehaviour {
     }
 
     public void Stop() {
-        StopCoroutine(Animate());
+        CancelInvoke("Animate");
         stopped = true;
         if (is_sprite)
         {

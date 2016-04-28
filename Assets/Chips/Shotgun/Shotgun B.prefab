@@ -86,7 +86,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
-  _code: 0
+  _code: 66
   playerAnimation: {fileID: 11460318}
   decorations: []
   damageMultiplier: 1

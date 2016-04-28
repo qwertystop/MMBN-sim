@@ -75,6 +75,7 @@ MonoBehaviour:
   name: Idle
   FPS: 20
   isLooping: 1
+  playOnStartup: 1
   frames:
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300002, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
@@ -104,6 +105,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300000, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  paused: 0
 --- !u!114 &11412844
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -120,11 +122,11 @@ MonoBehaviour:
   moveTimer: -1
   moveCoolDownTime: 9
   status: 0
-  hp: 1000
+  maxHP: 1000
+  curHP: 0
   element: 0
   busterUncharged: {fileID: 122784, guid: af9c65ec14600894b9a7e41a20b96e8d, type: 2}
   busterCharged: {fileID: 155280, guid: c2f11f7e2dec97c44b5f25f0b8ec1bb0, type: 2}
-  chipsSelected: []
 --- !u!114 &11456134
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -139,6 +141,7 @@ MonoBehaviour:
   name: BusterCharging
   FPS: 20
   isLooping: 1
+  playOnStartup: 0
   frames:
   - {fileID: 21300000, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300002, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
@@ -148,6 +151,7 @@ MonoBehaviour:
   - {fileID: 21300010, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300012, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300014, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
+  paused: 0
 --- !u!114 &11484522
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -162,6 +166,7 @@ MonoBehaviour:
   name: BusterCharged
   FPS: 20
   isLooping: 1
+  playOnStartup: 0
   frames:
   - {fileID: 21300016, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300018, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
@@ -175,6 +180,7 @@ MonoBehaviour:
   - {fileID: 21300034, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300036, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
   - {fileID: 21300040, guid: 81f1bc94c2b662b48a1849e436c11be7, type: 3}
+  paused: 0
 --- !u!212 &21239936
 SpriteRenderer:
   m_ObjectHideFlags: 1

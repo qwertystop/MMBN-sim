@@ -60,6 +60,7 @@ public class Panel : MonoBehaviour {
     private void Decorator(Animation2D anim, int i, bool flip) {
         GameObject dec = decorations[i];
         dec.transform.position = this.transform.position;
+        
         anim.outputRenderer = dec.GetComponent<SpriteRenderer>();
         if (flip)
         {

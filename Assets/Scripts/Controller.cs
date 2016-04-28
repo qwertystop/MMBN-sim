@@ -50,11 +50,13 @@ public class Controller : MonoBehaviour {
         if (paused && UI.ready)
         {// resume it
             _paused = false;
+            UI.gaugeAnim(false);
         } else if (!paused)
         {// while not paused, custom gauge fills up over time
-            if (cust < 200) { cust += custSpeed; }
-            else if (cust >= 200) {
-                cust = 200;// cap the gauge
+            if (cust < 1200) { cust += custSpeed; }
+            else if (cust >= 1200) {
+                if ((cust - custSpeed) < 1200) { UI.gaugeAnim(true); }
+                cust = 1300;// cap the gauge at overflow to distinguish just-filled from has-been-for-a-while
                 // if either player is pressing L or R and the gauge is full
                 if (InputHandler.buttonDown(0, InputHandler.button.L) || InputHandler.buttonDown(0, InputHandler.button.R) ||
                     InputHandler.buttonDown(1, InputHandler.button.L) || InputHandler.buttonDown(1, InputHandler.button.R))

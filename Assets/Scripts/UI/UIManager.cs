@@ -17,6 +17,8 @@ public class UIManager : MonoBehaviour {
     private Sprite[] elements = new Sprite[5];// null, fire, aqua, wood, elec, same as order in Controller.Element enum.
     private HUD[] huds = new HUD[2];// left, then right
     private Image custGauge;
+    private Sprite custGaugeBlank;
+    private Image custFill;
     private Transform custFillTransform;
     
     // game ready to resume?
@@ -30,7 +32,10 @@ public class UIManager : MonoBehaviour {
     // Initialization after all Awake() methods have run
     void Start() {
         custGauge = gameObject.FindChild("CustomGauge").GetComponent<Image>();
-        custFillTransform = gameObject.FindChild("CustomGauge/Fill").transform;
+        custGauge.GetComponent<Animation2D>().outputRenderer = custGauge;
+        custGaugeBlank = custGauge.sprite;
+        custFill = gameObject.FindChild("CustomGauge/Fill").GetComponent<Image>();
+        custFillTransform = custFill.transform;
     }
 
     // Initialization that depends on specific external things having initialized
@@ -50,7 +55,25 @@ public class UIManager : MonoBehaviour {
         } else
         {
             custGauge.enabled = true;
-            custFillTransform.localScale = new Vector3(Controller.custFill, 1);
+            if (Controller.custFill >= 1)// to allow for float imprecision
+            {
+                custFill.enabled = false;
+            } else
+            {
+                custFill.enabled = true;
+                custFillTransform.localScale = new Vector3(Controller.custFill, 1);
+            }
+        }
+    }
+
+    public void gaugeAnim(bool on) {
+        if (on)
+        {
+            custGauge.GetComponent<Animation2D>().Play();
+        } else
+        {
+            custGauge.GetComponent<Animation2D>().Stop();
+            custGauge.sprite = custGaugeBlank;
         }
     }
 

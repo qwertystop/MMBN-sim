@@ -137,10 +137,18 @@ public class CustomWindow : MonoBehaviour {
         {// ADD
             // hand size increases for future turns by number discarded
             handSize = Mathf.Min(10, selected.Count + handSize);
-            foreach (int i in selected)
-            {// discard them
-                // not added to used
+            // can't use for or for-each loop because hand has to be modified
+            while (selected.Count != 0)
+            {
+                int i = selected[0];
+                // remove from hand and selected
                 hand.RemoveAt(i);
+                selected.RemoveAt(0);
+                // adjust indices to account for removal
+                for (int n = 0; n < selected.Count; ++n)
+                {
+                    if (selected[n] > i) { selected[n] -= 1; }
+                }
             }
             // clear leftovers from prev. turn
             player.chipsPicked.Clear();
@@ -151,7 +159,6 @@ public class CustomWindow : MonoBehaviour {
             if (selected.Count != 0)
             {// clear old loaded chips
                 player.chipsPicked.Clear();
-                // keep count of number moved to allow index adjustment
                 // can't use for or for-each loop because hand has to be modified
                 while (selected.Count != 0)
                 {
@@ -207,9 +214,9 @@ public class CustomWindow : MonoBehaviour {
             {// if on OK or ADD goto confirmTurn()
                 confirmTurn();
             } else
-            {// if on a chip
-                if (cursorLoc < hand.Count && canSelect(hand[cursorLoc]))
-                {// see if it's valid
+            {// if on a chip, see if it's valid
+                if (cursorLoc < hand.Count && canSelect(hand[cursorLoc]) && !selected.Contains(cursorLoc))
+                {// add it
                     selected.Add(cursorLoc);
                     // and update the select conditions
                     updateSelectConditions();
@@ -273,7 +280,7 @@ public class CustomWindow : MonoBehaviour {
             if (selected.Contains(i))
             {// if selected blank it
                 handRenderers[i].enabled = false;
-            } else
+            } else if (null != hand[i])// just to be safe
             {// else draw the small icon
                 handRenderers[i].enabled = true;
                 handRenderers[i].sprite = hand[i].icon;
@@ -363,6 +370,7 @@ public class CustomWindow : MonoBehaviour {
     // draw n new chips from the front of unused into new array, after shuffling unused
     // chips are removed from unused
     AChip[] Draw(int n) {
+        n = Math.Min(n, unused.Count);
         AChip[] c = new AChip[n];
         if (0 == n) { return c; }
         unused.Shuffle();
@@ -370,6 +378,7 @@ public class CustomWindow : MonoBehaviour {
         {
             c[i] = unused[i];
             unused.RemoveAt(i);
+            n = Math.Min(n, unused.Count);
         }
         return c;
     }
