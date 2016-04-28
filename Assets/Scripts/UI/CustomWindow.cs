@@ -275,12 +275,13 @@ public class CustomWindow : MonoBehaviour {
     }
 
     private void updateHandRenderers() {
-        for(int i = 0; i < handSize; ++i)
+        for(int i = 0; i < hand.Count; ++i)
         {// for each chip in hand
+            if (null == hand[i]) { continue; }// first frame of turn sometimes renders before all chips are non-null
             if (selected.Contains(i))
             {// if selected blank it
                 handRenderers[i].enabled = false;
-            } else if (null != hand[i])// just to be safe
+            } else
             {// else draw the small icon
                 handRenderers[i].enabled = true;
                 handRenderers[i].sprite = hand[i].icon;
@@ -300,7 +301,7 @@ public class CustomWindow : MonoBehaviour {
                 handCodes[i].color = letterCodeColor;
             }
         }
-        for (int i = handSize; i < 10; ++i)
+        for (int i = hand.Count; i < 10; ++i)
         {// beyond end of hand, all blank
             handRenderers[i].enabled = false;
             handCodes[i].enabled = false;
@@ -320,7 +321,7 @@ public class CustomWindow : MonoBehaviour {
     }
 
     private void updateActiveRenderers() {
-        if (activeIndex < hand.Count)
+        if (activeIndex < hand.Count && hand[activeIndex] != null)// first frame of turn sometimes renders before all chips are non-null
         {// if active chip is an actual chip, all the displays show it
             AChip active = hand[activeIndex];
             activeName.text = active.chipName;
