@@ -94,6 +94,7 @@ public class UIManager : MonoBehaviour {
     // if which > 0, green. If which == 0, tan. If which < 0, red. Defaults to tan.
     // increasing index is increasing significance of bit
     public Sprite[] getSprite(int target, int which = 0) {
+        if (0 == target) { return new Sprite[0]; }
         int count = (int)Mathf.Log10(target) + 1;// number of digits
         Sprite[] s = new Sprite[count];// array length equal to number of digits
         int ind;// index in array of all digits at which correct digit is located
