@@ -17,13 +17,17 @@ public class CustomWindow : MonoBehaviour {
     private int handSize = 5;// current Custom
     private int cursorLoc = 0;// current cursor location. 0-9: chip in hand with matching index. 10: ADD button. 11: OK button.
     private int activeIndex = 0;// the index in hand of the chip the cursor is on, or the last one it was on if currently on a button
+    // to select a chip, it must have either the same code or same name as all currently selected chips.
+    // * is valid with any one other code (not multiple codes: Cannon A and Cannon B selected means only more Cannons can be selected)
+    private char selectedCode = '*';// Letter code of all selected chips. '\0' for no common code.
+    private string selectedName = string.Empty;// Name of all selected chips. Empty for no name yet (chips not selected). null for no common name.
 
     // parameters of Image and Text renderers for graphical output
     // hand
     private Image[] handRenderers = new Image[10];
     private Text[] handCodes = new Text[10];
-    private Color starCodeColor = new Color(0xCE / 255f, 0x71 / 255f, 0x00 / 255f);
-    private Color letterCodeColor = new Color(0xF6 / 255f, 0xEE / 255f, 0x28 / 255f);
+    private Color starCodeColor = new Color(0xCE / 255f, 0x71 / 255f, 0x00 / 255f);// a sort of dull orange
+    private Color letterCodeColor = new Color(0xF6 / 255f, 0xEE / 255f, 0x28 / 255f);// the correct shade of yellow
     // selected
     private Image[] selectedRenderers = new Image[5];
     // active
@@ -45,7 +49,6 @@ public class CustomWindow : MonoBehaviour {
 
     /* TODO:
     actual chip selection/passing to player
-    graying chips in hand of wrong code
     Folder setup by user (outside editor)
     Regular chips
     Tag chips
@@ -97,19 +100,17 @@ public class CustomWindow : MonoBehaviour {
 
     // Update is called once per frame
     void Update () {
-        if (Controller.paused)
+        if (Controller.paused && !hud.ready)
         {
             moveCursor();
-            if (cursorLoc < handSize)
-            {// active index matches cursor location while cursor is over a chip
-                activeIndex = cursorLoc;
-            }
+            select();
+            deselect();
         }
 	}
 
     // Runs after Update once per frame - ensures that changes here don't get overwritten by UI system
     void LateUpdate() {
-        if (Controller.paused)
+        if (Controller.paused && !hud.ready)
         {
             updateHandRenderers();
             updateSelectedRenderers();
@@ -125,6 +126,8 @@ public class CustomWindow : MonoBehaviour {
             cursorLoc = 0;
             // draw hand back up to capacity
             hand.AddRange(Draw(handSize - hand.Count));
+            // reset selection conditions
+            updateSelectConditions();
         } else { throw new Exception("Called out of order"); }
     }
 
@@ -180,8 +183,77 @@ public class CustomWindow : MonoBehaviour {
             else if (4 == cursorLoc % 5) { cursorLoc = (0 == player.playerNo) ? 10 : cursorLoc - 4; }// p0 moves to ADD, p1 moves to opp. end of row
             else { cursorLoc += 1; }// somewhere in row other than right end, move right
         }
+        if (cursorLoc < 9)
+        {// active index matches cursor location while cursor is over the hand
+            activeIndex = cursorLoc;
+        }
     }
     
+    // handles A presses in custom screen
+    private void select() {
+        if (InputHandler.buttonDown(player.playerNo, InputHandler.button.A)) {
+            if (cursorLoc > 9)
+            {// if on OK or ADD goto confirmTurn()
+                confirmTurn();
+            } else
+            {// if on a chip
+                if (cursorLoc < hand.Count && canSelect(hand[cursorLoc]))
+                {// see if it's valid
+                    selected.Add(cursorLoc);
+                    // and update the select conditions
+                    updateSelectConditions();
+                }
+            }
+        }
+    }
+
+    // handles B button presses in custom screen
+    private void deselect() {
+        if (InputHandler.buttonDown(player.playerNo, InputHandler.button.B))
+        {
+            if (0 != selected.Count)
+            {// if there are chips selected deselect the last one
+                selected.RemoveAt(selected.Count - 1);
+                // and update the selection conditions
+                updateSelectConditions();
+            }
+        }
+    }
+
+    // updates selectedCode and selectedName
+    private void updateSelectConditions() {
+        // accumulate common properties (code, name) of chips
+        // first reset them
+        selectedCode = '*';
+        selectedName = string.Empty;
+        foreach (int i in selected)
+        {// accumulate code 
+            if ('*' == selectedCode)
+            {// update code to the next selected chip
+                selectedCode = hand[i].code;
+            } else if (hand[i].code != selectedCode && hand[i].code != '*')
+            {// codes not equal, new code not star, no valid code (condition must be name)
+                selectedCode = '\0';
+            }// else same code, no change to code
+            // accumulate name
+            if (string.Empty == selectedName)
+            {// no name yet, get name of current chip
+                selectedName = hand[i].chipName;
+            } else if (hand[i].chipName != selectedName)
+            {// names not the same, no valid name
+                selectedName = null;
+            }// else name is the same, leave unchanged
+        }
+    }
+
+    // Can a given chip be selected?
+    private bool canSelect(AChip c) {
+        return// check code
+            c.code == selectedCode || '*' == selectedCode || ('*' == c.code && selectedCode != '\0') ||
+            // code did not pass, check name
+            c.chipName == selectedName;
+    }
+
     private void updateHandRenderers() {
         for(int i = 0; i < handSize; ++i)
         {// for each chip in hand
@@ -192,12 +264,14 @@ public class CustomWindow : MonoBehaviour {
             {// else draw the small icon
                 handRenderers[i].enabled = true;
                 handRenderers[i].sprite = hand[i].icon;
+                // color depending on whether it can be selected
+                handRenderers[i].color = canSelect(hand[i]) ? Color.white : Color.gray;
             }
             // either way draw the code
             char code = hand[i].code;
-            if (code == '*' || code == '\u2731')
+            if (code == '*')
             {// star is diff. color, and uses Unicode 2731 (HEAVY ASTERISK) for visibility at small size
-                // allow data to be regular asterisk for the sake of convenience
+                // actual data should be regular asterisk for the sake of convenience
                 handCodes[i].text = "\u2731";
                 handCodes[i].color = starCodeColor;
             } else
@@ -226,21 +300,39 @@ public class CustomWindow : MonoBehaviour {
     }
 
     private void updateActiveRenderers() {
-        AChip active = hand[activeIndex];
-        activeName.text = active.chipName;
-        activeCard.sprite = active.largeImg;
-        activeCode.sprite = Controller.UI.getSprite(active.code);
-        activeElement.sprite = Controller.UI.getSprite(active.element);
-        Sprite[] dmg = Controller.UI.getSprite(active.damageBase);
-        for (int i = 0; i < dmg.Length; ++i)
-        {
-            activeDamage[i].sprite = dmg[i];
-            activeDamage[i].enabled = true;
-        }// anything past that is a blank space
-        for (int i = dmg.Length; i < 3; ++i)
-        {
-            activeDamage[i].enabled = false;
+        if (activeIndex < hand.Count)
+        {// if active chip is an actual chip, all the displays show it
+            AChip active = hand[activeIndex];
+            activeName.text = active.chipName;
+            activeName.enabled = true;
+            activeCard.sprite = active.largeImg;
+            activeCard.enabled = true;
+            activeCode.sprite = Controller.UI.getSprite(active.code);
+            activeCode.enabled = true;
+            activeElement.sprite = Controller.UI.getSprite(active.element);
+            activeElement.enabled = true;
+            Sprite[] dmg = Controller.UI.getSprite(active.damageBase);
+            for (int i = 0; i < dmg.Length; ++i)
+            {
+                activeDamage[i].sprite = dmg[i];
+                activeDamage[i].enabled = true;
+            }// anything past that is a blank space
+            for (int i = dmg.Length; i < 3; ++i)
+            {
+                activeDamage[i].enabled = false;
+            }
+        } else
+        {// if not, all the displays are blanked
+            activeName.enabled = false;
+            activeCard.enabled = false;
+            activeCode.enabled = false;
+            activeElement.enabled = false;
+            for (int i = 0; i < activeDamage.Length; ++i)
+            {
+                activeDamage[i].enabled = false;
+            }
         }
+
     }
 
     private void updateCursorRenderer() {// update drawn cursor locaction if it changed
