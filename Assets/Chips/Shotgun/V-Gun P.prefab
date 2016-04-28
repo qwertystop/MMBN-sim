@@ -89,7 +89,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: GreenHit
-  FPS: 15
+  FPS: 30
   isLooping: 0
   playOnStartup: 0
   frames:
