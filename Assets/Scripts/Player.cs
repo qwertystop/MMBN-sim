@@ -126,20 +126,17 @@ public class Player : MonoBehaviour {
         // all the stuff to do to move is exactly the same except for the edge-of-area check and the int
         Util.intVoid mover = x =>
         {
-            GameObject target = Controller.gameCore.panels[currentPanelIndex + x];
+            Panel target = Controller.gameCore.panels[currentPanelIndex + x].GetComponent<Panel>();
             if (target.GetComponent<Panel>().isRed == this.isRed // only move onto proper color
             && !target.GetComponent<Panel>().isOccupied) // can't move onto occupied panel
             {
                 MovingNow(true);
                 // remove this from current panel
-                int prevPanelIndex = int.Parse(currentPanelIndex.ToString());
                 Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = null;
                 // move to new panel
                 currentPanelIndex = currentPanelIndex + x;
-                GetComponentInParent<Transform>().transform.position = target.transform.position;
-                //target.GetComponent<Panel>().occupant = this;
-                Controller.gameCore.panels[currentPanelIndex].GetComponent<Panel>().occupant = this;
-                Controller.gameCore.panels[prevPanelIndex].GetComponent<Panel>().occupant = null;
+                transform.position = target.transform.position;
+                target.occupant = this;
             }
         };
 
