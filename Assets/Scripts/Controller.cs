@@ -13,7 +13,7 @@ public class Controller : MonoBehaviour {
 
     private static int cust = 0;// fill level of custom gauge
     public static int custSpeed = 2;// to allow halving from SloGauge
-    public static float custFill { get { return cust / 200f; } }// percentage of fill of custom gauge
+    public static float custFill { get { return cust / 1200f; } }// percentage of fill of custom gauge
 
     // Must be non-static to be set in editor
     public GameObject[] panels = new GameObject[18];//starting from top-left, counting horizontal before vertical

@@ -151,10 +151,21 @@ public class CustomWindow : MonoBehaviour {
             if (selected.Count != 0)
             {// clear old loaded chips
                 player.chipsPicked.Clear();
-                foreach (int i in selected)
-                {// add the new ones
+                // keep count of number moved to allow index adjustment
+                // can't use for or for-each loop because hand has to be modified
+                while (selected.Count != 0)
+                {
+                    int i = selected[0];
+                    // send chip to player
+                    hand[i] = Instantiate(hand[i].gameObject).GetComponent<AChip>();
                     player.chipsPicked.Enqueue(hand[i]);
+                    // remove from hand and selected
                     hand.RemoveAt(i);
+                    selected.RemoveAt(0);
+                    // adjust indices to account for removal
+                    for (int n = 0; n < selected.Count; ++n) {
+                        if (selected[n] > i) { selected[n] -= 1; }
+                    }
                 }
             }// but don't overwrite something with nothing
         }
@@ -248,10 +259,12 @@ public class CustomWindow : MonoBehaviour {
 
     // Can a given chip be selected?
     private bool canSelect(AChip c) {
-        return// check code
-            c.code == selectedCode || '*' == selectedCode || ('*' == c.code && selectedCode != '\0') ||
-            // code did not pass, check name
-            c.chipName == selectedName;
+        return// check quantity
+        selected.Count < 5 && 
+        // check code
+        (c.code == selectedCode || '*' == selectedCode || ('*' == c.code && selectedCode != '\0') ||
+        // code did not pass, check name
+        c.chipName == selectedName);
     }
 
     private void updateHandRenderers() {

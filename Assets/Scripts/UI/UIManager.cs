@@ -50,8 +50,7 @@ public class UIManager : MonoBehaviour {
         } else
         {
             custGauge.enabled = true;
-            print(Controller.custFill);
-            custFillTransform.localScale = new Vector3(Controller.custFill, 2);
+            custFillTransform.localScale = new Vector3(Controller.custFill, 1);
         }
     }
 

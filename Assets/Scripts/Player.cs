@@ -55,7 +55,6 @@ public class Player : MonoBehaviour {
         // animation
         animationSetup();
         StartCoroutine(animateReset());
-        // instantiate starting chips
     }
 
     // Initialization after all Awake() methods have run
