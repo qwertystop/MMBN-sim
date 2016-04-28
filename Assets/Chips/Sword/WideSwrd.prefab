@@ -52,6 +52,7 @@ MonoBehaviour:
   - {fileID: 21300016, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
   - {fileID: 21300018, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
   - {fileID: 21300020, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  paused: 0
 --- !u!114 &11445114
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -75,6 +76,7 @@ MonoBehaviour:
   - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
   - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  paused: 0
 --- !u!114 &11488646
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -98,6 +100,7 @@ MonoBehaviour:
   - {fileID: 21300004, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
   - {fileID: 21300006, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
   - {fileID: 21300008, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  paused: 0
 --- !u!114 &11499664
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -110,8 +113,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   element: 0
-  codes: 410043004c00510059002a00
-  codeIndex: 0
+  _code: 42
   playerAnimation: {fileID: 11445114}
   decorations:
   - index: 0

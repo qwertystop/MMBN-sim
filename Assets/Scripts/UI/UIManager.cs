@@ -1,4 +1,5 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using System;
 using Util;
@@ -15,6 +16,11 @@ public class UIManager : MonoBehaviour {
     [SerializeField]
     private Sprite[] elements = new Sprite[5];// null, fire, aqua, wood, elec, same as order in Controller.Element enum.
     private HUD[] huds = new HUD[2];// left, then right
+    private Image custGauge;
+    private Transform custFillTransform;
+    
+    // game ready to resume?
+    public bool ready { get { return huds[0].ready && huds[1].ready; } }
 
     // Initialization not requiring other objects (except those set in editor)
     void Awake() {
@@ -23,6 +29,8 @@ public class UIManager : MonoBehaviour {
 
     // Initialization after all Awake() methods have run
     void Start() {
+        custGauge = gameObject.FindChild("CustomGauge").GetComponent<Image>();
+        custFillTransform = gameObject.FindChild("CustomGauge/Fill").transform;
     }
 
     // Initialization that depends on specific external things having initialized
@@ -36,8 +44,26 @@ public class UIManager : MonoBehaviour {
 
     // Update is called once per frame
     void Update() {
-
+        if (Controller.paused)
+        {
+            custGauge.enabled = false;
+        } else
+        {
+            custGauge.enabled = true;
+            print(Controller.custFill);
+            custFillTransform.localScale = new Vector3(Controller.custFill, 2);
+        }
     }
+
+    // Only to be called by Controller.startTurn(). Unfortunately, must be public to allow this.
+    // Opens both Custom Screens by delegation to HUD
+    public void continueStartTurn() {
+        if (Controller.paused)
+        {
+            foreach (HUD h in huds) { h.openCustom(); }
+        } else { throw new Exception("Called out of order"); }
+    }
+
 
     // Overloaded methods to convert data of various types into the icon to display
     

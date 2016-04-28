@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using Util;
 using UnityEngine.UI;
+using System;
 
 // The CustomWindow: code for chip-selection and for rendering the chips drawn/selected
 public class CustomWindow : MonoBehaviour {
     // assorted collections of Chips
     [SerializeField]
-    private AChip[] folder = new AChip[30];// all chips for the player
+    private AChip[] folder;// all chips for the player
     private List<AChip> unused = new List<AChip>(30);// the chips not yet used
-    private List<AChip> used = new List<AChip>(30);// the chips that have been used - need to be kept for NavRcycl, FoldrBak, etc.
     private List<AChip> hand = new List<AChip>(10);// current hand
     private List<int> selected = new List<int>(5);// indices in hand of selected chips
 
@@ -39,15 +39,17 @@ public class CustomWindow : MonoBehaviour {
     private readonly Vector2 cursorSizeOnButton = new Vector2(26, 17);
     private readonly Vector2 cursorSizeOnChip = new Vector2(18, 18);
 
-    // reference to Player
+    // reference to Player and HUD
     private Player player;
+    private HUD hud;
 
     /* TODO:
+    actual chip selection/passing to player
+    graying chips in hand of wrong code
     Folder setup by user (outside editor)
     Regular chips
     Tag chips
-    graying chips in hand of wrong code
-    */ 
+    */
 
     // Initialization not requiring other objects (except those set in editor)
     void Awake() {
@@ -86,13 +88,11 @@ public class CustomWindow : MonoBehaviour {
         ok = gameObject.FindChild("OK").GetComponent<Image>();
         add = gameObject.FindChild("Add").GetComponent<Image>();
         cursor = gameObject.FindChild("Cursor").GetComponent<Image>();
-
-        // and draw the first hand
-        hand.AddRange(Draw(handSize));
     }
 
-    public void Init(Player p) {
+    public void Init(Player p, HUD h) {
         player = p;
+        hud = h;
     }
 
     // Update is called once per frame
@@ -109,10 +109,53 @@ public class CustomWindow : MonoBehaviour {
 
     // Runs after Update once per frame - ensures that changes here don't get overwritten by UI system
     void LateUpdate() {
-        updateHandRenderers();
-        updateSelectedRenderers();
-        updateActiveRenderers();
-        updateCursorRenderer();
+        if (Controller.paused)
+        {
+            updateHandRenderers();
+            updateSelectedRenderers();
+            updateActiveRenderers();
+            updateCursorRenderer();
+        }
+    }
+
+    // last step of starting turn - attempts to check gamestate and throws exception if called at wrong time
+    public void finalStartTurn() {
+        if (Controller.paused)
+        {// reset cursor location
+            cursorLoc = 0;
+            // draw hand back up to capacity
+            hand.AddRange(Draw(handSize - hand.Count));
+        } else { throw new Exception("Called out of order"); }
+    }
+
+    // confirm selection on either OK or ADD: Loads or discards chips as appropriate, then passes confirmation up to HUD
+    private void confirmTurn() {
+        if (10 == cursorLoc)
+        {// ADD
+            // hand size increases for future turns by number discarded
+            handSize = Mathf.Min(10, selected.Count + handSize);
+            foreach (int i in selected)
+            {// discard them
+                // not added to used
+                hand.RemoveAt(i);
+            }
+            // clear leftovers from prev. turn
+            player.chipsPicked.Clear();
+        }
+        else
+        {// OK
+            // send selected chips to player if there are any, overwriting whatever might be left over
+            if (selected.Count != 0)
+            {// clear old loaded chips
+                player.chipsPicked.Clear();
+                foreach (int i in selected)
+                {// add the new ones
+                    player.chipsPicked.Enqueue(hand[i]);
+                    hand.RemoveAt(i);
+                }
+            }// but don't overwrite something with nothing
+        }
+        hud.closeCustom();
     }
 
     // moves cursor as appropriate for button input and current position
@@ -215,8 +258,9 @@ public class CustomWindow : MonoBehaviour {
     // draw n new chips from the front of unused into new array, after shuffling unused
     // chips are removed from unused
     AChip[] Draw(int n) {
-        unused.Shuffle();
         AChip[] c = new AChip[n];
+        if (0 == n) { return c; }
+        unused.Shuffle();
         for (int i = 0; i < n; ++i)
         {
             c[i] = unused[i];

@@ -885,6 +885,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 78eda376689a8944a8cf848fb9a86e55, type: 3}
   - {fileID: 21300002, guid: 78eda376689a8944a8cf848fb9a86e55, type: 3}
   - {fileID: 21300004, guid: 78eda376689a8944a8cf848fb9a86e55, type: 3}
+  paused: 0
 --- !u!114 &11420890
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -897,36 +898,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   folder:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 11449770, guid: b373bc9ca08f9994f84ad2e2ce9f6206, type: 2}
+  - {fileID: 11449770, guid: b373bc9ca08f9994f84ad2e2ce9f6206, type: 2}
+  - {fileID: 11449770, guid: b373bc9ca08f9994f84ad2e2ce9f6206, type: 2}
+  - {fileID: 11474862, guid: e4ec2b3773689234582c4c2c2490acd8, type: 2}
+  - {fileID: 11474862, guid: e4ec2b3773689234582c4c2c2490acd8, type: 2}
+  - {fileID: 11474862, guid: e4ec2b3773689234582c4c2c2490acd8, type: 2}
+  - {fileID: 11423776, guid: 16888a53784aafa4caa950d84ece8477, type: 2}
+  - {fileID: 11423776, guid: 16888a53784aafa4caa950d84ece8477, type: 2}
+  - {fileID: 11436648, guid: 787bb20bb983b2a439b2aac5a5d447d6, type: 2}
+  - {fileID: 11436648, guid: 787bb20bb983b2a439b2aac5a5d447d6, type: 2}
 --- !u!114 &11421084
 MonoBehaviour:
   m_ObjectHideFlags: 1

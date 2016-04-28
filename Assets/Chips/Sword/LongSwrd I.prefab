@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &193238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 439560}
+  - 114: {fileID: 11411616}
+  - 114: {fileID: 11468222}
+  - 114: {fileID: 11408562}
+  - 114: {fileID: 11410038}
+  m_Layer: 0
+  m_Name: LongSwrd I
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &439560
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193238}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11408562
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: SwordBlade
+  FPS: 15
+  isLooping: 0
+  playOnStartup: 0
+  frames:
+  - {fileID: 0}
+  - {fileID: 21300010, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300000, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300002, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300004, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300006, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  - {fileID: 21300008, guid: f541d2d390db1e9459a4336ae40e04c8, type: 3}
+  paused: 0
+--- !u!114 &11410038
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: SwordSlash
+  FPS: 15
+  isLooping: 0
+  playOnStartup: 0
+  frames:
+  - {fileID: 0}
+  - {fileID: 21300008, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - {fileID: 21300010, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - {fileID: 21300012, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  - {fileID: 21300054, guid: 14a60364bc14aae44b96a9fe74d7df6c, type: 3}
+  paused: 0
+--- !u!114 &11411616
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7fac3946916cf684898cc6c40e54bc91, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  element: 0
+  _code: 73
+  playerAnimation: {fileID: 11468222}
+  decorations:
+  - index: 0
+    value: {fileID: 11408562}
+  - index: 1
+    value: {fileID: 11410038}
+  damageMultiplier: 1
+  damageBase: 80
+  damagePlus: 0
+  chipType: 0
+  chipName: LongSwrd
+  icon: {fileID: 21300186, guid: 9d22c5d6c3f5d8f409dddfd9ecd1aa0f, type: 3}
+  largeImg: {fileID: 21300048, guid: e190be20a8ed9c1428aae445da6c9270, type: 3}
+  windup: 4
+  winddown: 24
+  locationsAndDamages:
+  - index: 1
+    value: 80
+  - index: 2
+    value: 80
+--- !u!114 &11468222
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 193238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: efca08612e7ee0e40ac045542f56048a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: SwordSwing
+  FPS: 15
+  isLooping: 0
+  playOnStartup: 0
+  frames:
+  - {fileID: 21300032, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300034, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300036, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  - {fileID: 21300038, guid: f8c0b342cf3314d459f8b24f858c7bf9, type: 3}
+  paused: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 193238}
+  m_IsPrefabParent: 1

@@ -63,4 +63,14 @@ public class HPBox : MonoBehaviour {
             HPDisplay[i].enabled = false;
         }
     }
+
+    // update the transparency of this
+    public void setTransp(float f) {
+        Image img = GetComponent<Image>();
+        img.color = new Color(img.color.r, img.color.g, img.color.b, f);
+        foreach (Image i in HPDisplay)
+        {
+            i.color = new Color(i.color.r, i.color.g, i.color.b, f);
+        }
+    }
 }
