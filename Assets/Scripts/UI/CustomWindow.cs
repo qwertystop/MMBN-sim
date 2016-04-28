@@ -277,7 +277,14 @@ public class CustomWindow : MonoBehaviour {
     private void updateHandRenderers() {
         for(int i = 0; i < hand.Count; ++i)
         {// for each chip in hand
-            if (null == hand[i]) { continue; }// first frame of turn sometimes renders before all chips are non-null
+            if (null == hand[i])
+            {// first frame of turn sometimes renders before all chips are non-null
+                handRenderers[i].enabled = false;
+                handCodes[i].enabled = false;
+                continue;
+            }
+
+
             if (selected.Contains(i))
             {// if selected blank it
                 handRenderers[i].enabled = false;
@@ -290,6 +297,7 @@ public class CustomWindow : MonoBehaviour {
             }
             // either way draw the code
             char code = hand[i].code;
+            handCodes[i].enabled = true;
             if (code == '*')
             {// star is diff. color, and uses Unicode 2731 (HEAVY ASTERISK) for visibility at small size
                 // actual data should be regular asterisk for the sake of convenience

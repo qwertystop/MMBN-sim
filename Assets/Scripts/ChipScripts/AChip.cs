@@ -58,7 +58,7 @@ public abstract class AChip : MonoBehaviour {
     // Decorates panels with animations in given list (defaults to using this.decorations), flipped by the player's side but otherwise not relative
     public void decorateFixed(bool userIsRed, indexedAnimation2D[] dec = null) {
         if (null == dec) { dec = decorations; }
-        foreach (indexed<Animation2D> anim in decorations)
+        foreach (indexed<Animation2D> anim in dec)
         {// for each animation
             // if the panel it's for exists, decorate that panel with it
             if (anim.index > -1 && anim.index < 18)
