@@ -23,11 +23,12 @@ Descriptions of implemented chips:
 WideSwrd: Deal 80 damage to enemies in column directly ahead of user.
 LongSwrd: Deal 80 damage to enemies in two panels in front of user.
 ShotGun: Deal 30 damage to first enemy in row ahead of user, and enemies immediately behind them.
-V-Gun: Deal 30 damage to first enemy in row aheadof user, and targets in V-shape behind them.
+V-Gun: Deal 30 damage to first enemy in row ahead of user, and enemies in V-shape behind them.
 
 ------------------------
 
-Known bug:
+Known bugs:
+-Rarely, firing the uncharged buster causes an exception. Source is unknown beyond that it's thrown from Animation2D.Stop(), bug is difficult to replicate reliably - cannot discern consistent situation to cause it. If exception is swallowed without pausing the game, game functions normally from that point on, other than that the single attempt to fire the buster does not work (bug remains just as inconsistently-appearing from then on).
 -Certain sprite-animation-based effects will remain frozen after completing, instead of disappearing, but not always. Cause is uncertain, but seems related to starting more than one of them very close together in time (within a few frames). I have been able to replicate it by rapid-firing an uncharged buster, or by firing the Shotgun or V-Gun chips (which produce several such effects simultaneously). However, other things which start several sprites at once (the LongSwrd and WideSwrd chips, or both players firing busters at each other on the same frame) do not.
 
 Necessary change:
@@ -46,7 +47,7 @@ Not yet implemented (with descriptions):
 -Styles (alternate forms), which would be chosen immediately prior to folder customization. Each style gives the character a non-null element (meaning some chips do double-damage), changes their charged buster shot to a different attack with range and effects depending on the element (Aqua styles hit as an Aqua-element Shotgun and have a faster charge time, for example). Also, as a second parameter independent of element, a style adds some other effect (Shield styles start with a barrier that blocks all attacks until it has taken 10 damage; Custom styles start off drawing 6 chips per turn, etc).
 -Sound
 -Hitstun and other status effects
--Some sprites for effects have poorly-placed pivots and need adjusting
+-Some sprites for various effects have poorly-placed pivots and need adjusting - most visibly obvious on the two Sword chips.
 
 
 Work split:

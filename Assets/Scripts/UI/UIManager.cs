@@ -75,6 +75,7 @@ public class UIManager : MonoBehaviour {
         {
             custGauge.GetComponent<Animation2D>().Stop();
             custGauge.sprite = custGaugeBlank;
+            custFill.enabled = true;
         }
     }
 
