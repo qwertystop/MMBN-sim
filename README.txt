@@ -1,3 +1,6 @@
+Video link:
+https://youtu.be/guRGONokrGg
+
 Controls:
 Emulates controls of GBA, not including Start and Select
 ____________________________
@@ -72,4 +75,4 @@ Animation2D.cs is modified from code taken originally from http://gamasutra.com/
 
 Custom-screens redesigned by Maya Heyman (sister of David Heyman). Goal of redesign was to re-organize things to allow the HP box to overlap it without covering anything of note, since the original graphics were not designed for two players to share a screen.
 
-All other code by David Heyman.
+Remainder (most of the project) by David Heyman.
