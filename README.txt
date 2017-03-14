@@ -69,7 +69,7 @@ Megaman Battle Network is owned by Capcom (more's the pity...)
 
 Original game's sprite-sheets taken from http://www.sprites-inc.co.uk/sprite.php?local=/EXE/
 
-Parts of some scripts are based on code provided by HeatPhoenix (of mmbn3d.tumblr.com), who is making a similar game as a hobby. The original code which he provided for reference is contained in the folder MMBN3D.
+Parts of some scripts are based on code provided by HeatPhoenix (of mmbn3d.tumblr.com), who is making a similar game as a hobby. The original code which he provided for reference is not a part of this repository, since I don't have his permission to make it public.
 
 Animation2D.cs is modified from code taken originally from http://gamasutra.com/blogs/DonaldKooiker/20150821/251260/Luckslinger_tech_1__How_to_make_2D_Sprite_Animations_in_Unity.php
 
